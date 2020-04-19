@@ -1,0 +1,1001 @@
+"unique_id","poll_id","poll_name","group_id","freqgrp_grp","extgrp_grp","freqdis_grp","extdis_grp"
+"2201ukhealth.t1payhlt",2,"UK Health",2201,FALSE,-0.121212121212121,FALSE,0
+"2204ukhealth.t1payhlt",2,"UK Health",2204,FALSE,-0.0773809523809524,FALSE,-0.25
+"2205ukhealth.t1payhlt",2,"UK Health",2205,FALSE,-0.092948717948718,FALSE,0
+"2206ukhealth.t1payhlt",2,"UK Health",2206,FALSE,-0.0247252747252747,FALSE,-0.25
+"2207ukhealth.t1payhlt",2,"UK Health",2207,TRUE,0.1,TRUE,1
+"2208ukhealth.t1payhlt",2,"UK Health",2208,TRUE,0.0738095238095238,TRUE,0.333333333333333
+"2209ukhealth.t1payhlt",2,"UK Health",2209,TRUE,0.120879120879121,TRUE,0.2
+"2210ukhealth.t1payhlt",2,"UK Health",2210,TRUE,0.0252525252525252,FALSE,0
+"2211ukhealth.t1payhlt",2,"UK Health",2211,FALSE,-0.0357142857142857,TRUE,0.125
+"2212ukhealth.t1payhlt",2,"UK Health",2212,FALSE,-0.104166666666667,FALSE,0
+"2213ukhealth.t1payhlt",2,"UK Health",2213,FALSE,-0.071969696969697,FALSE,0
+"2214ukhealth.t1payhlt",2,"UK Health",2214,TRUE,0.125,TRUE,0.5
+"2201ukhealth.t1poora",2,"UK Health",2201,TRUE,0.00480769230769229,FALSE,0
+"2204ukhealth.t1poora",2,"UK Health",2204,NA,NA,TRUE,0.75
+"2205ukhealth.t1poora",2,"UK Health",2205,FALSE,-0.0769230769230769,FALSE,0
+"2206ukhealth.t1poora",2,"UK Health",2206,TRUE,0.00769230769230766,FALSE,0
+"2207ukhealth.t1poora",2,"UK Health",2207,FALSE,-0.22979797979798,TRUE,0.75
+"2208ukhealth.t1poora",2,"UK Health",2208,FALSE,-0.132291666666667,FALSE,-0.0833333333333334
+"2209ukhealth.t1poora",2,"UK Health",2209,TRUE,0.196428571428571,TRUE,0.35
+"2210ukhealth.t1poora",2,"UK Health",2210,FALSE,0,FALSE,0
+"2211ukhealth.t1poora",2,"UK Health",2211,FALSE,-0.0178571428571428,TRUE,0.125
+"2212ukhealth.t1poora",2,"UK Health",2212,TRUE,0.0643382352941176,TRUE,1
+"2213ukhealth.t1poora",2,"UK Health",2213,FALSE,-0.0192307692307692,FALSE,-0.5
+"2214ukhealth.t1poora",2,"UK Health",2214,TRUE,0.15625,TRUE,0.75
+"2201ukhealth.t1option",2,"UK Health",2201,NA,NA,TRUE,0.5
+"2204ukhealth.t1option",2,"UK Health",2204,TRUE,0.0714285714285714,FALSE,0
+"2205ukhealth.t1option",2,"UK Health",2205,FALSE,-0.0608974358974359,FALSE,0
+"2206ukhealth.t1option",2,"UK Health",2206,FALSE,-0.0333333333333333,FALSE,0
+"2207ukhealth.t1option",2,"UK Health",2207,FALSE,0,FALSE,0
+"2208ukhealth.t1option",2,"UK Health",2208,TRUE,0.0583333333333333,TRUE,0.166666666666667
+"2209ukhealth.t1option",2,"UK Health",2209,FALSE,-0.0247252747252747,TRUE,0.2
+"2210ukhealth.t1option",2,"UK Health",2210,FALSE,-0.136363636363636,FALSE,0
+"2211ukhealth.t1option",2,"UK Health",2211,NA,NA,FALSE,0
+"2212ukhealth.t1option",2,"UK Health",2212,FALSE,-0.0955882352941176,FALSE,0
+"2213ukhealth.t1option",2,"UK Health",2213,FALSE,-0.0160256410256411,TRUE,0.5
+"2214ukhealth.t1option",2,"UK Health",2214,FALSE,-0.00416666666666665,FALSE,0
+"2201ukhealth.t1hlthfu",2,"UK Health",2201,TRUE,0.0569444444444444,FALSE,-0.05
+"2204ukhealth.t1hlthfu",2,"UK Health",2204,TRUE,0.0345238095238095,FALSE,-0.075
+"2205ukhealth.t1hlthfu",2,"UK Health",2205,TRUE,0.129166666666667,TRUE,0.15
+"2206ukhealth.t1hlthfu",2,"UK Health",2206,TRUE,0.0705555555555555,TRUE,0.05
+"2207ukhealth.t1hlthfu",2,"UK Health",2207,FALSE,-0.0318181818181818,FALSE,0
+"2208ukhealth.t1hlthfu",2,"UK Health",2208,TRUE,0.0922916666666667,TRUE,0.0833333333333333
+"2209ukhealth.t1hlthfu",2,"UK Health",2209,TRUE,0.171428571428571,TRUE,0.25
+"2210ukhealth.t1hlthfu",2,"UK Health",2210,FALSE,-0.0708333333333333,TRUE,0.133333333333333
+"2211ukhealth.t1hlthfu",2,"UK Health",2211,FALSE,-0.116826923076923,FALSE,-0.075
+"2212ukhealth.t1hlthfu",2,"UK Health",2212,FALSE,-0.0267156862745099,FALSE,-0.25
+"2213ukhealth.t1hlthfu",2,"UK Health",2213,FALSE,-0.199679487179487,FALSE,-0.1
+"2214ukhealth.t1hlthfu",2,"UK Health",2214,TRUE,0.01171875,FALSE,-0.3
+"2201ukhealth.t1ctexpt",2,"UK Health",2201,FALSE,-0.102964743589744,FALSE,-0.0625
+"2204ukhealth.t1ctexpt",2,"UK Health",2204,TRUE,0.0997023809523809,TRUE,0.145833333333333
+"2205ukhealth.t1ctexpt",2,"UK Health",2205,TRUE,0.0044642857142857,TRUE,0.0625
+"2206ukhealth.t1ctexpt",2,"UK Health",2206,FALSE,-0.00277777777777777,FALSE,0
+"2207ukhealth.t1ctexpt",2,"UK Health",2207,FALSE,-0.0164772727272727,FALSE,0
+"2208ukhealth.t1ctexpt",2,"UK Health",2208,FALSE,-0.0231770833333333,TRUE,0.0833333333333333
+"2209ukhealth.t1ctexpt",2,"UK Health",2209,TRUE,0.0124771062271062,TRUE,0.0833333333333334
+"2210ukhealth.t1ctexpt",2,"UK Health",2210,FALSE,-0.0989583333333334,TRUE,0.0416666666666667
+"2211ukhealth.t1ctexpt",2,"UK Health",2211,TRUE,0.0982142857142857,TRUE,0.109375
+"2212ukhealth.t1ctexpt",2,"UK Health",2212,FALSE,-0.0638020833333333,FALSE,-0.333333333333333
+"2213ukhealth.t1ctexpt",2,"UK Health",2213,FALSE,-0.032051282051282,FALSE,-0.125
+"2214ukhealth.t1ctexpt",2,"UK Health",2214,TRUE,0.114583333333333,TRUE,0.0625
+"2201ukhealth.t1pritre",2,"UK Health",2201,TRUE,0.149305555555556,TRUE,0.166666666666667
+"2204ukhealth.t1pritre",2,"UK Health",2204,FALSE,-0.119047619047619,FALSE,-0.125
+"2205ukhealth.t1pritre",2,"UK Health",2205,FALSE,-0.161255411255411,FALSE,-0.25
+"2206ukhealth.t1pritre",2,"UK Health",2206,TRUE,0.140476190476191,TRUE,0.166666666666667
+"2207ukhealth.t1pritre",2,"UK Health",2207,TRUE,0.106060606060606,FALSE,0
+"2208ukhealth.t1pritre",2,"UK Health",2208,TRUE,0.0180555555555555,FALSE,-0.0277777777777777
+"2209ukhealth.t1pritre",2,"UK Health",2209,FALSE,-0.0645604395604396,FALSE,-0.1
+"2210ukhealth.t1pritre",2,"UK Health",2210,FALSE,-0.0868055555555554,TRUE,0.013888888888889
+"2211ukhealth.t1pritre",2,"UK Health",2211,TRUE,0.0293040293040293,TRUE,0.0624999999999999
+"2212ukhealth.t1pritre",2,"UK Health",2212,FALSE,-0.104166666666666,FALSE,-0.333333333333333
+"2213ukhealth.t1pritre",2,"UK Health",2213,FALSE,-0.0769230769230769,FALSE,0
+"2214ukhealth.t1pritre",2,"UK Health",2214,TRUE,0.0565972222222223,FALSE,-0.25
+"2201ukhealth.t1severi",2,"UK Health",2201,TRUE,0.274305555555556,TRUE,0.083333333333333
+"2204ukhealth.t1severi",2,"UK Health",2204,TRUE,0.147916666666667,TRUE,0.145833333333333
+"2205ukhealth.t1severi",2,"UK Health",2205,FALSE,-0.14957264957265,FALSE,-0.166666666666667
+"2206ukhealth.t1severi",2,"UK Health",2206,FALSE,-0.117673992673993,TRUE,0.166666666666667
+"2207ukhealth.t1severi",2,"UK Health",2207,TRUE,0.0795454545454548,FALSE,-0.083333333333333
+"2208ukhealth.t1severi",2,"UK Health",2208,TRUE,0.0621794871794873,NA,NA
+"2209ukhealth.t1severi",2,"UK Health",2209,TRUE,0.0494505494505495,TRUE,0.108333333333333
+"2210ukhealth.t1severi",2,"UK Health",2210,TRUE,0.119444444444444,FALSE,-0.0555555555555553
+"2211ukhealth.t1severi",2,"UK Health",2211,TRUE,0.159340659340659,TRUE,0.46875
+"2212ukhealth.t1severi",2,"UK Health",2212,TRUE,0.00653594771241844,FALSE,-0.25
+"2213ukhealth.t1severi",2,"UK Health",2213,TRUE,0.0833333333333334,FALSE,-0.166666666666667
+"2214ukhealth.t1severi",2,"UK Health",2214,TRUE,0.151785714285715,TRUE,0.041666666666667
+"2201ukhealth.t1preven",2,"UK Health",2201,TRUE,0.0721153846153846,FALSE,0
+"2204ukhealth.t1preven",2,"UK Health",2204,TRUE,0.101648351648352,FALSE,0
+"2205ukhealth.t1preven",2,"UK Health",2205,FALSE,-0.030448717948718,FALSE,0
+"2206ukhealth.t1preven",2,"UK Health",2206,FALSE,-0.0880952380952381,TRUE,0.125
+"2207ukhealth.t1preven",2,"UK Health",2207,FALSE,-0.0732323232323232,FALSE,0
+"2208ukhealth.t1preven",2,"UK Health",2208,FALSE,-0.0535714285714285,TRUE,0.0833333333333334
+"2209ukhealth.t1preven",2,"UK Health",2209,FALSE,-0.0714285714285714,FALSE,-0.2
+"2210ukhealth.t1preven",2,"UK Health",2210,TRUE,0.0681818181818182,TRUE,0.333333333333333
+"2211ukhealth.t1preven",2,"UK Health",2211,TRUE,0.342948717948718,TRUE,0.6875
+"2212ukhealth.t1preven",2,"UK Health",2212,NA,NA,TRUE,0.75
+"2213ukhealth.t1preven",2,"UK Health",2213,TRUE,0.157342657342657,TRUE,0.25
+"2214ukhealth.t1preven",2,"UK Health",2214,TRUE,0.0333333333333333,TRUE,0.75
+"2201ukhealth.t1dispub",2,"UK Health",2201,FALSE,-0.00699300699300698,TRUE,0.5
+"2204ukhealth.t1dispub",2,"UK Health",2204,TRUE,0.0178571428571429,TRUE,0.25
+"2205ukhealth.t1dispub",2,"UK Health",2205,TRUE,0.0615384615384615,FALSE,0
+"2206ukhealth.t1dispub",2,"UK Health",2206,TRUE,0.115384615384615,FALSE,0
+"2207ukhealth.t1dispub",2,"UK Health",2207,TRUE,0.0454545454545454,FALSE,0
+"2208ukhealth.t1dispub",2,"UK Health",2208,FALSE,0,FALSE,0
+"2209ukhealth.t1dispub",2,"UK Health",2209,TRUE,0.0714285714285715,TRUE,0.15
+"2210ukhealth.t1dispub",2,"UK Health",2210,TRUE,0.166666666666667,NA,NA
+"2211ukhealth.t1dispub",2,"UK Health",2211,FALSE,-0.107142857142857,FALSE,-0.1875
+"2212ukhealth.t1dispub",2,"UK Health",2212,FALSE,-0.122549019607843,FALSE,0
+"2213ukhealth.t1dispub",2,"UK Health",2213,TRUE,0.0625,TRUE,0.25
+"2214ukhealth.t1dispub",2,"UK Health",2214,TRUE,0.0958333333333333,TRUE,0.5
+"2501ukbge.t1redist",4,"UK General Election",2501,TRUE,0.0993333319822947,TRUE,0.0533333222071327
+"2502ukbge.t1redist",4,"UK General Election",2502,FALSE,-0.055238093648638,FALSE,-0.056666672229767
+"2503ukbge.t1redist",4,"UK General Election",2503,TRUE,0.0237916696816683,TRUE,0.33500000834465
+"2504ukbge.t1redist",4,"UK General Election",2504,TRUE,0.0697619098992577,TRUE,0.116666684548061
+"2505ukbge.t1redist",4,"UK General Election",2505,FALSE,-0.0336842034992417,TRUE,0.084999993443489
+"2506ukbge.t1redist",4,"UK General Election",2506,TRUE,0.0219999988873799,TRUE,0.5
+"2507ukbge.t1redist",4,"UK General Election",2507,FALSE,-0.156250002793968,FALSE,0
+"2508ukbge.t1redist",4,"UK General Election",2508,TRUE,0.0439999987681707,TRUE,0.164999976754188
+"2509ukbge.t1redist",4,"UK General Election",2509,TRUE,0.043529408326482,FALSE,-0.0320000022649767
+"2511ukbge.t1redist",4,"UK General Election",2511,FALSE,-0.0702205904047279,TRUE,0.329999983310699
+"2512ukbge.t1redist",4,"UK General Election",2512,TRUE,0.0483333377374545,TRUE,0.170000016689301
+"2513ukbge.t1redist",4,"UK General Election",2513,TRUE,0.167385618476307,TRUE,0.16499999165535
+"2514ukbge.t1redist",4,"UK General Election",2514,FALSE,-0.0431578920075767,FALSE,-0.170000011722247
+"2515ukbge.t1redist",4,"UK General Election",2515,TRUE,0.153846153846154,TRUE,0.22333333392938
+"2501ukbge.t1tax",4,"UK General Election",2501,FALSE,-0.110666666428248,TRUE,0.0833333333333334
+"2502ukbge.t1tax",4,"UK General Election",2502,FALSE,-0.0276190468243189,TRUE,0.0833333333333333
+"2503ukbge.t1tax",4,"UK General Election",2503,FALSE,-0.0579166645805042,TRUE,0.21000000834465
+"2504ukbge.t1tax",4,"UK General Election",2504,FALSE,-0.126238097463335,NA,NA
+"2505ukbge.t1tax",4,"UK General Election",2505,FALSE,-0.141666662274745,FALSE,-0.125
+"2506ukbge.t1tax",4,"UK General Election",2506,FALSE,-0.0268333375453951,TRUE,0.169999986886978
+"2507ukbge.t1tax",4,"UK General Election",2507,TRUE,0.139999996870756,TRUE,0.25
+"2508ukbge.t1tax",4,"UK General Election",2508,TRUE,0.0922380931320644,FALSE,-0.045000016689301
+"2509ukbge.t1tax",4,"UK General Election",2509,TRUE,0.249669119715691,TRUE,0.25
+"2511ukbge.t1tax",4,"UK General Election",2511,TRUE,0.0672058804946787,TRUE,0.25
+"2512ukbge.t1tax",4,"UK General Election",2512,TRUE,0.00888888703452206,TRUE,0.079999983310699
+"2513ukbge.t1tax",4,"UK General Election",2513,TRUE,0.131805549065272,TRUE,0.28999999165535
+"2514ukbge.t1tax",4,"UK General Election",2514,TRUE,0.13879256702429,TRUE,0.276666661103566
+"2515ukbge.t1tax",4,"UK General Election",2515,FALSE,-0.13326923434551,TRUE,0.0566666622956593
+"2501ukbge.t1wage",4,"UK General Election",2501,TRUE,0.00609523696558811,TRUE,0.0533333321412403
+"2502ukbge.t1wage",4,"UK General Election",2502,TRUE,0.158095236335482,TRUE,0.27666666607062
+"2503ukbge.t1wage",4,"UK General Election",2503,FALSE,-0.104642856200891,FALSE,-1.49011615269146e-08
+"2504ukbge.t1wage",4,"UK General Election",2504,FALSE,-0.0886666675408682,FALSE,-9.93410764760227e-09
+"2505ukbge.t1wage",4,"UK General Election",2505,FALSE,-0.125526319557463,FALSE,-0.16499999165535
+"2506ukbge.t1wage",4,"UK General Election",2506,FALSE,-0.0993333299954732,FALSE,0
+"2507ukbge.t1wage",4,"UK General Election",2507,FALSE,-0.00250000115483995,TRUE,0.329999983310699
+"2508ukbge.t1wage",4,"UK General Election",2508,TRUE,0.0986190546126594,TRUE,0.0850000083446505
+"2509ukbge.t1wage",4,"UK General Election",2509,FALSE,-0.0569411720130957,FALSE,-0.131999984383583
+"2511ukbge.t1wage",4,"UK General Election",2511,FALSE,-0.0616862757533204,TRUE,0.170000016689301
+"2512ukbge.t1wage",4,"UK General Election",2512,FALSE,-0.000588239992366235,FALSE,-0.170000016689301
+"2513ukbge.t1wage",4,"UK General Election",2513,TRUE,0.0263071879257563,TRUE,0.244999974966049
+"2514ukbge.t1wage",4,"UK General Election",2514,FALSE,-0.0578070166166763,FALSE,-0.0533333222071327
+"2515ukbge.t1wage",4,"UK General Election",2515,TRUE,0.0297802252756371,FALSE,-0.059999997417132
+"2501ukbge.t1eu",4,"UK General Election",2501,TRUE,0.0124999980131784,TRUE,0.18999999264876
+"2502ukbge.t1eu",4,"UK General Election",2502,FALSE,-0.116552632968677,FALSE,-0.0600000172853473
+"2503ukbge.t1eu",4,"UK General Election",2503,FALSE,-0.0905769244791606,FALSE,-0.0850000008940694
+"2504ukbge.t1eu",4,"UK General Election",2504,FALSE,-0.239487184622349,FALSE,-0.223333338896434
+"2505ukbge.t1eu",4,"UK General Election",2505,FALSE,-0.184179566270058,FALSE,-0.079999983310699
+"2506ukbge.t1eu",4,"UK General Election",2506,FALSE,-0.112000000476837,TRUE,0.170000016689301
+"2507ukbge.t1eu",4,"UK General Election",2507,FALSE,-0.199333330988884,FALSE,-0.329999983310699
+"2508ukbge.t1eu",4,"UK General Election",2508,FALSE,-0.188901097564907,FALSE,0
+"2509ukbge.t1eu",4,"UK General Election",2509,FALSE,-0.201333325166328,FALSE,-0.0979999899864195
+"2511ukbge.t1eu",4,"UK General Election",2511,FALSE,-0.092820514089022,FALSE,0
+"2512ukbge.t1eu",4,"UK General Election",2512,TRUE,0.0670588165521621,TRUE,0.170000016689301
+"2513ukbge.t1eu",4,"UK General Election",2513,TRUE,0.21000000461936,TRUE,0.165000006556511
+"2514ukbge.t1eu",4,"UK General Election",2514,TRUE,0.258699686580767,TRUE,0.276666661103566
+"2515ukbge.t1eu",4,"UK General Election",2515,FALSE,-0.0162878845903007,TRUE,0.109999999403954
+"2602aus.republican1",5,"Australia Republic Referendum",2602,FALSE,-1.11022302462516e-16,TRUE,0.083333333333333
+"2603aus.republican1",5,"Australia Republic Referendum",2603,FALSE,-0.141025641025641,FALSE,-0.291666666666667
+"2604aus.republican1",5,"Australia Republic Referendum",2604,FALSE,-0.0222222222222221,TRUE,0.0500000000000002
+"2605aus.republican1",5,"Australia Republic Referendum",2605,FALSE,-0.25,TRUE,0.041666666666667
+"2606aus.republican1",5,"Australia Republic Referendum",2606,FALSE,-0.105769230769231,FALSE,-0.166666666666667
+"2607aus.republican1",5,"Australia Republic Referendum",2607,TRUE,0.0833333333333334,TRUE,0.416666666666667
+"2608aus.republican1",5,"Australia Republic Referendum",2608,NA,NA,FALSE,0
+"2609aus.republican1",5,"Australia Republic Referendum",2609,TRUE,0.0833333333333333,TRUE,0.194444444444445
+"2610aus.republican1",5,"Australia Republic Referendum",2610,TRUE,0.00595238095238115,FALSE,-0.0138888888888888
+"2611aus.republican1",5,"Australia Republic Referendum",2611,FALSE,-0.0378787878787876,FALSE,-0.0666666666666664
+"2612aus.republican1",5,"Australia Republic Referendum",2612,FALSE,-0.0902777777777777,FALSE,0
+"2613aus.republican1",5,"Australia Republic Referendum",2613,TRUE,0.109375,TRUE,0.708333333333333
+"2614aus.republican1",5,"Australia Republic Referendum",2614,FALSE,-0.0714285714285716,FALSE,-0.041666666666667
+"2615aus.republican1",5,"Australia Republic Referendum",2615,TRUE,0.0288461538461539,TRUE,0.0833333333333334
+"2616aus.republican1",5,"Australia Republic Referendum",2616,FALSE,-0.166666666666667,TRUE,0.0499999999999999
+"2617aus.republican1",5,"Australia Republic Referendum",2617,TRUE,0.013888888888889,FALSE,-0.0208333333333333
+"2618aus.republican1",5,"Australia Republic Referendum",2618,FALSE,-0.15,FALSE,-0.145833333333333
+"2619aus.republican1",5,"Australia Republic Referendum",2619,TRUE,0.0833333333333334,TRUE,0.354166666666667
+"2620aus.republican1",5,"Australia Republic Referendum",2620,TRUE,0.0611111111111112,FALSE,0
+"2621aus.republican1",5,"Australia Republic Referendum",2621,TRUE,0.147435897435897,TRUE,0.25
+"2622aus.republican1",5,"Australia Republic Referendum",2622,FALSE,-0.147435897435898,FALSE,-0.0625
+"2623aus.republican1",5,"Australia Republic Referendum",2623,FALSE,-0.121794871794872,FALSE,-0.333333333333333
+"2624aus.republican1",5,"Australia Republic Referendum",2624,FALSE,-0.0576923076923076,FALSE,-0.083333333333333
+"2602aus.popparl1",5,"Australia Republic Referendum",2602,FALSE,-0.485714285714286,FALSE,0
+"2603aus.popparl1",5,"Australia Republic Referendum",2603,FALSE,-0.236263736263736,FALSE,0
+"2604aus.popparl1",5,"Australia Republic Referendum",2604,FALSE,-0.28030303030303,FALSE,-0.35
+"2605aus.popparl1",5,"Australia Republic Referendum",2605,FALSE,-0.441666666666667,FALSE,-0.25
+"2606aus.popparl1",5,"Australia Republic Referendum",2606,FALSE,-0.163461538461538,TRUE,0.25
+"2607aus.popparl1",5,"Australia Republic Referendum",2607,TRUE,0.255952380952381,TRUE,0.333333333333333
+"2608aus.popparl1",5,"Australia Republic Referendum",2608,FALSE,-0.25,FALSE,-0.25
+"2609aus.popparl1",5,"Australia Republic Referendum",2609,TRUE,0.358974358974359,TRUE,0.5
+"2610aus.popparl1",5,"Australia Republic Referendum",2610,TRUE,0.0446428571428572,TRUE,0.2
+"2611aus.popparl1",5,"Australia Republic Referendum",2611,TRUE,0.443181818181818,TRUE,0.45
+"2612aus.popparl1",5,"Australia Republic Referendum",2612,TRUE,0.284722222222222,TRUE,1
+"2613aus.popparl1",5,"Australia Republic Referendum",2613,TRUE,0.301136363636364,TRUE,0.25
+"2614aus.popparl1",5,"Australia Republic Referendum",2614,FALSE,-0.339285714285714,TRUE,0.125
+"2615aus.popparl1",5,"Australia Republic Referendum",2615,FALSE,-0.251602564102564,FALSE,-0.541666666666667
+"2616aus.popparl1",5,"Australia Republic Referendum",2616,FALSE,-0.516666666666667,FALSE,-0.5
+"2617aus.popparl1",5,"Australia Republic Referendum",2617,FALSE,-0.270833333333333,FALSE,-0.1875
+"2618aus.popparl1",5,"Australia Republic Referendum",2618,FALSE,-0.435714285714286,FALSE,-0.375
+"2619aus.popparl1",5,"Australia Republic Referendum",2619,FALSE,-0.23489010989011,FALSE,-0.125
+"2620aus.popparl1",5,"Australia Republic Referendum",2620,FALSE,-0.1,FALSE,0
+"2621aus.popparl1",5,"Australia Republic Referendum",2621,FALSE,0,FALSE,0
+"2622aus.popparl1",5,"Australia Republic Referendum",2622,FALSE,-0.217948717948718,TRUE,0.0625
+"2623aus.popparl1",5,"Australia Republic Referendum",2623,FALSE,-0.495192307692308,FALSE,-0.5
+"2624aus.popparl1",5,"Australia Republic Referendum",2624,FALSE,-0.217948717948718,FALSE,0
+"29102cpl.t1res",8,"Central Power & Light",29102,TRUE,0.0458333333333333,TRUE,0.0833333333333334
+"29103cpl.t1res",8,"Central Power & Light",29103,TRUE,0.171969696969697,TRUE,0.05
+"29104cpl.t1res",8,"Central Power & Light",29104,FALSE,-0.1,TRUE,0.05
+"29105cpl.t1res",8,"Central Power & Light",29105,FALSE,-0.172222222222222,FALSE,-0.125
+"29106cpl.t1res",8,"Central Power & Light",29106,TRUE,0.0333333333333333,FALSE,-0.116666666666667
+"29107cpl.t1res",8,"Central Power & Light",29107,TRUE,0.0727272727272728,TRUE,0.0750000000000001
+"29108cpl.t1res",8,"Central Power & Light",29108,FALSE,-0.103333333333333,FALSE,-0.216666666666667
+"29109cpl.t1res",8,"Central Power & Light",29109,FALSE,-0.0409090909090909,TRUE,0.0666666666666667
+"29110cpl.t1res",8,"Central Power & Light",29110,TRUE,0.0333333333333333,TRUE,0.0166666666666666
+"29111cpl.t1res",8,"Central Power & Light",29111,TRUE,0.1125,TRUE,0.0125
+"29112cpl.t1res",8,"Central Power & Light",29112,FALSE,-0.261538461538461,FALSE,-0.2
+"29113cpl.t1res",8,"Central Power & Light",29113,TRUE,0.167857142857143,TRUE,0.3
+"29114cpl.t1res",8,"Central Power & Light",29114,TRUE,0.0538461538461538,TRUE,0.125
+"29115cpl.t1res",8,"Central Power & Light",29115,FALSE,-0.049047619047619,TRUE,0.075
+"29116cpl.t1res",8,"Central Power & Light",29116,FALSE,-0.181818181818182,FALSE,-0.166666666666667
+"29102cpl.t1cons",8,"Central Power & Light",29102,FALSE,-0.00229266347687407,FALSE,-0.108771929824561
+"29103cpl.t1cons",8,"Central Power & Light",29103,TRUE,0.100657894736842,TRUE,0.210526315789474
+"29104cpl.t1cons",8,"Central Power & Light",29104,FALSE,-0.0626794258373206,TRUE,0.089473684210526
+"29105cpl.t1cons",8,"Central Power & Light",29105,FALSE,-0.12953216374269,FALSE,-0.105263157894737
+"29106cpl.t1cons",8,"Central Power & Light",29106,FALSE,-0.0221491228070176,FALSE,-0.0219298245614036
+"29107cpl.t1cons",8,"Central Power & Light",29107,FALSE,-0.0320574162679427,TRUE,0.118421052631579
+"29108cpl.t1cons",8,"Central Power & Light",29108,FALSE,-0.0128070175438596,FALSE,-0.025438596491228
+"29109cpl.t1cons",8,"Central Power & Light",29109,TRUE,0.0629186602870813,TRUE,0.179824561403509
+"29110cpl.t1cons",8,"Central Power & Light",29110,TRUE,0.0214912280701754,TRUE,0.0929824561403506
+"29111cpl.t1cons",8,"Central Power & Light",29111,TRUE,0.133552631578947,TRUE,0.207894736842105
+"29112cpl.t1cons",8,"Central Power & Light",29112,TRUE,0.0593117408906882,TRUE,0.163157894736842
+"29113cpl.t1cons",8,"Central Power & Light",29113,FALSE,-0.0157027183342973,TRUE,0.271052631578947
+"29114cpl.t1cons",8,"Central Power & Light",29114,FALSE,-0.0141700404858299,TRUE,0.0407894736842105
+"29115cpl.t1cons",8,"Central Power & Light",29115,FALSE,-0.0589473684210526,FALSE,-0.00263157894736843
+"29116cpl.t1cons",8,"Central Power & Light",29116,FALSE,-0.050956937799043,FALSE,-0.00701754385964903
+"29102cpl.t1poor",8,"Central Power & Light",29102,TRUE,0.137689393939394,TRUE,0.241666666666667
+"29103cpl.t1poor",8,"Central Power & Light",29103,TRUE,0.0958333333333333,TRUE,0.3
+"29104cpl.t1poor",8,"Central Power & Light",29104,FALSE,-0.0431818181818181,FALSE,-0.125
+"29105cpl.t1poor",8,"Central Power & Light",29105,FALSE,-0.0166666666666667,TRUE,0.1875
+"29106cpl.t1poor",8,"Central Power & Light",29106,FALSE,-0.0375000000000001,TRUE,0.0499999999999999
+"29107cpl.t1poor",8,"Central Power & Light",29107,TRUE,0.0454545454545454,TRUE,0.225
+"29108cpl.t1poor",8,"Central Power & Light",29108,FALSE,-0.0633333333333334,TRUE,0.175
+"29109cpl.t1poor",8,"Central Power & Light",29109,FALSE,-0.0159090909090909,TRUE,0.0416666666666667
+"29110cpl.t1poor",8,"Central Power & Light",29110,TRUE,0.0166666666666666,TRUE,0.0416666666666667
+"29111cpl.t1poor",8,"Central Power & Light",29111,FALSE,-0.122916666666667,FALSE,-0.05625
+"29112cpl.t1poor",8,"Central Power & Light",29112,FALSE,-0.0692307692307692,TRUE,0.275
+"29113cpl.t1poor",8,"Central Power & Light",29113,FALSE,-0.0230769230769231,TRUE,0.1
+"29114cpl.t1poor",8,"Central Power & Light",29114,FALSE,-0.0576923076923077,FALSE,-0.1125
+"29115cpl.t1poor",8,"Central Power & Light",29115,TRUE,0.0483333333333333,TRUE,0.275
+"29116cpl.t1poor",8,"Central Power & Light",29116,TRUE,0.0454545454545454,FALSE,-0.125
+"29102cpl.t1renew",8,"Central Power & Light",29102,FALSE,-0.0761363636363636,FALSE,-0.166666666666667
+"29103cpl.t1renew",8,"Central Power & Light",29103,TRUE,0.0125,TRUE,0.3
+"29104cpl.t1renew",8,"Central Power & Light",29104,NA,NA,FALSE,0
+"29105cpl.t1renew",8,"Central Power & Light",29105,TRUE,0.0611111111111111,TRUE,0.15
+"29106cpl.t1renew",8,"Central Power & Light",29106,FALSE,-0.125,FALSE,-0.166666666666667
+"29107cpl.t1renew",8,"Central Power & Light",29107,FALSE,-0.0363636363636364,TRUE,0.0375
+"29108cpl.t1renew",8,"Central Power & Light",29108,FALSE,-0.0266666666666666,FALSE,0
+"29109cpl.t1renew",8,"Central Power & Light",29109,TRUE,0.0181818181818182,TRUE,0.166666666666667
+"29110cpl.t1renew",8,"Central Power & Light",29110,TRUE,0.0166666666666667,FALSE,-0.0833333333333334
+"29111cpl.t1renew",8,"Central Power & Light",29111,FALSE,-0.00833333333333341,FALSE,-0.0125
+"29112cpl.t1renew",8,"Central Power & Light",29112,TRUE,0.0423076923076923,TRUE,0.35
+"29113cpl.t1renew",8,"Central Power & Light",29113,FALSE,-0.075,FALSE,0
+"29114cpl.t1renew",8,"Central Power & Light",29114,FALSE,-0.0269230769230769,TRUE,0.175
+"29115cpl.t1renew",8,"Central Power & Light",29115,TRUE,0.0399999999999999,TRUE,0.0499999999999999
+"29116cpl.t1renew",8,"Central Power & Light",29116,TRUE,0.0681818181818181,TRUE,0.05
+"29102cpl.t1fossil",8,"Central Power & Light",29102,FALSE,-0.157777777777778,FALSE,-0.218518518518519
+"29103cpl.t1fossil",8,"Central Power & Light",29103,FALSE,-0.148148148148148,FALSE,-0.0444444444444445
+"29104cpl.t1fossil",8,"Central Power & Light",29104,TRUE,0.078787878787879,TRUE,0.0111111111111111
+"29105cpl.t1fossil",8,"Central Power & Light",29105,TRUE,0.0333333333333333,TRUE,0.311111111111111
+"29106cpl.t1fossil",8,"Central Power & Light",29106,TRUE,0.24040404040404,TRUE,0.144444444444444
+"29107cpl.t1fossil",8,"Central Power & Light",29107,TRUE,0.0181818181818183,TRUE,0.0444444444444447
+"29108cpl.t1fossil",8,"Central Power & Light",29108,FALSE,-0.0162962962962963,TRUE,3.33066907387547e-16
+"29109cpl.t1fossil",8,"Central Power & Light",29109,FALSE,-0.18989898989899,FALSE,-0.174074074074074
+"29110cpl.t1fossil",8,"Central Power & Light",29110,TRUE,0.116666666666667,TRUE,0.255555555555556
+"29111cpl.t1fossil",8,"Central Power & Light",29111,TRUE,0.00370370370370365,FALSE,-0.0472222222222223
+"29112cpl.t1fossil",8,"Central Power & Light",29112,FALSE,-0.11965811965812,FALSE,-0.188888888888889
+"29113cpl.t1fossil",8,"Central Power & Light",29113,FALSE,-0.0537606837606838,TRUE,0.033333333333333
+"29114cpl.t1fossil",8,"Central Power & Light",29114,TRUE,0.140683760683761,TRUE,0.338888888888889
+"29115cpl.t1fossil",8,"Central Power & Light",29115,FALSE,-0.0925925925925926,TRUE,0.177777777777777
+"29116cpl.t1fossil",8,"Central Power & Light",29116,FALSE,-0.00303030303030294,TRUE,0.0740740740740741
+"29102cpl.t1buypwr",8,"Central Power & Light",29102,FALSE,-0.00530303030303025,TRUE,0.133333333333333
+"29103cpl.t1buypwr",8,"Central Power & Light",29103,TRUE,0.046969696969697,TRUE,0.5
+"29104cpl.t1buypwr",8,"Central Power & Light",29104,FALSE,-0.0254545454545455,TRUE,0.7
+"29105cpl.t1buypwr",8,"Central Power & Light",29105,FALSE,-0.144444444444444,TRUE,0.25
+"29106cpl.t1buypwr",8,"Central Power & Light",29106,FALSE,-0.290909090909091,FALSE,-0.316666666666667
+"29107cpl.t1buypwr",8,"Central Power & Light",29107,TRUE,0.0181818181818182,FALSE,-0.025
+"29108cpl.t1buypwr",8,"Central Power & Light",29108,TRUE,0.213333333333333,TRUE,0.5
+"29109cpl.t1buypwr",8,"Central Power & Light",29109,TRUE,0.2,TRUE,0.4
+"29110cpl.t1buypwr",8,"Central Power & Light",29110,FALSE,-0.0356060606060606,TRUE,0.0333333333333333
+"29111cpl.t1buypwr",8,"Central Power & Light",29111,FALSE,-0.0166666666666667,FALSE,-0.175
+"29112cpl.t1buypwr",8,"Central Power & Light",29112,FALSE,-0.00769230769230766,FALSE,0
+"29113cpl.t1buypwr",8,"Central Power & Light",29113,TRUE,0.166923076923077,TRUE,0.1
+"29114cpl.t1buypwr",8,"Central Power & Light",29114,FALSE,-0.130769230769231,FALSE,-0.275
+"29115cpl.t1buypwr",8,"Central Power & Light",29115,TRUE,0.147692307692308,TRUE,0.3
+"29116cpl.t1buypwr",8,"Central Power & Light",29116,FALSE,-0.0481818181818182,FALSE,-0.133333333333333
+"5303bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5303,TRUE,0.0441433566433567,TRUE,0.416666686534882
+"5304bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5304,FALSE,-0.115972220897675,TRUE,0.1875
+"5305bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5305,FALSE,-0.0208333345750967,FALSE,-0.125
+"5306bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5306,FALSE,-0.245098040384405,FALSE,-0.4375
+"5307bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5307,FALSE,-0.211111110448837,FALSE,-0.375
+"5310bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5310,FALSE,-0.12109375,FALSE,-0.3125
+"5311bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5311,FALSE,-0.263020831160247,FALSE,-0.25
+"5312bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5312,FALSE,-0.227777779102325,TRUE,0.125
+"5313bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5313,FALSE,-0.248842593696382,FALSE,-0.375
+"5314bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5314,FALSE,-0.0876736124356589,FALSE,-0.25
+"5317bulgaria.bulgaria.t1tghpc",10,"Bulgarian National",5317,FALSE,-0.209635416045785,FALSE,-0.09375
+"5303bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5303,TRUE,0.0301282013264986,TRUE,0.199999988079071
+"5304bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5304,TRUE,0.0689483998254652,TRUE,0.200000010430813
+"5305bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5305,TRUE,0.120312496554107,TRUE,0.049999997019768
+"5306bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5306,TRUE,0.0698529451208955,TRUE,0.200000017881393
+"5307bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5307,FALSE,-0.121944440652927,TRUE,0.150000005960464
+"5310bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5310,FALSE,-0.191666665611168,FALSE,-0.300000004470348
+"5311bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5311,FALSE,-0.0492187493946402,TRUE,0.0500000044703485
+"5312bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5312,FALSE,-0.0625000019868215,TRUE,0.049999989569187
+"5313bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5313,FALSE,-0.0583333329608042,FALSE,-0.049999982118607
+"5314bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5314,TRUE,0.0124999994877726,FALSE,-0.100000008940697
+"5317bulgaria.bulgaria.t1clibe",10,"Bulgarian National",5317,TRUE,0.0343750016763805,TRUE,0.275000013411045
+"5303bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5303,FALSE,-0.0708333333333334,TRUE,0.25
+"5304bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5304,TRUE,0.175641025641026,TRUE,0.25
+"5305bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5305,TRUE,0.0238095238095237,TRUE,0.25
+"5306bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5306,TRUE,0.143382352941177,TRUE,1
+"5307bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5307,FALSE,-0.125,NA,NA
+"5310bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5310,TRUE,0.0961538461538461,TRUE,1
+"5311bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5311,TRUE,0.111607142857143,FALSE,0
+"5312bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5312,TRUE,0.0404761904761904,TRUE,0.125
+"5313bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5313,FALSE,-0.073529411764706,FALSE,-0.25
+"5314bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5314,TRUE,0.0733173076923077,TRUE,0.25
+"5317bulgaria.bulgaria.t1q8_7",10,"Bulgarian National",5317,TRUE,0.230952380952381,TRUE,1
+"5303bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5303,FALSE,-0.00961538461538458,TRUE,0.25
+"5304bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5304,FALSE,-0.0273809523809524,FALSE,0
+"5305bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5305,FALSE,-0.0397435897435898,TRUE,0.25
+"5306bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5306,NA,NA,TRUE,0.25
+"5307bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5307,FALSE,0,FALSE,0
+"5310bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5310,TRUE,0.0385416666666667,TRUE,1
+"5311bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5311,TRUE,0.0927083333333333,TRUE,0.375
+"5312bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5312,FALSE,-0.0666666666666667,TRUE,0.125
+"5313bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5313,TRUE,0.0138888888888888,TRUE,0.25
+"5314bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5314,NA,NA,FALSE,-0.25
+"5317bulgaria.bulgaria.t1q8_1",10,"Bulgarian National",5317,TRUE,0.046875,FALSE,0
+"5303bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5303,NA,NA,TRUE,1
+"5304bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5304,TRUE,0.0422077922077922,FALSE,0
+"5305bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5305,FALSE,-0.116666666666667,TRUE,0.25
+"5306bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5306,TRUE,0.120833333333333,TRUE,0.25
+"5307bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5307,FALSE,-0.0178571428571429,FALSE,0
+"5310bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5310,TRUE,0.151098901098901,FALSE,0
+"5311bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5311,FALSE,-0.00714285714285712,FALSE,0
+"5312bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5312,FALSE,-0.214285714285714,TRUE,0.125
+"5313bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5313,FALSE,-0.015625,FALSE,-0.25
+"5314bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5314,TRUE,0.11025641025641,TRUE,0.25
+"5317bulgaria.bulgaria.t1q8_8",10,"Bulgarian National",5317,FALSE,-0.109375,FALSE,0
+"5303bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5303,TRUE,0.06993006993007,FALSE,0
+"5304bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5304,FALSE,-0.194805194805195,FALSE,0
+"5305bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5305,TRUE,0.0892857142857143,TRUE,0.25
+"5306bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5306,FALSE,-0.284926470588235,FALSE,-0.25
+"5307bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5307,FALSE,-0.267857142857143,FALSE,0
+"5310bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5310,FALSE,-0.00384615384615383,TRUE,0.25
+"5311bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5311,FALSE,-0.0125,FALSE,-0.125
+"5312bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5312,FALSE,-0.0988095238095238,FALSE,0
+"5313bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5313,FALSE,-0.136948529411765,FALSE,0
+"5314bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5314,TRUE,0.00238095238095237,TRUE,0.25
+"5317bulgaria.bulgaria.t1q8_11",10,"Bulgarian National",5317,TRUE,0.116666666666667,TRUE,0.25
+"5303bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5303,TRUE,0.151515151515152,FALSE,0
+"5304bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5304,TRUE,0.179761904761905,FALSE,0
+"5305bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5305,FALSE,-0.120192307692308,TRUE,0.25
+"5306bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5306,TRUE,0.269301470588235,TRUE,0.75
+"5307bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5307,TRUE,0.316666666666667,TRUE,0.75
+"5310bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5310,TRUE,0.09375,TRUE,0.75
+"5311bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5311,FALSE,-0.25,FALSE,-0.25
+"5312bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5312,FALSE,-0.0511904761904762,TRUE,0.25
+"5313bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5313,FALSE,-0.139705882352941,FALSE,-0.25
+"5314bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5314,TRUE,0.015625,FALSE,0
+"5317bulgaria.bulgaria.t1q10_3",10,"Bulgarian National",5317,TRUE,0.291666666666667,TRUE,1
+"5303bulgaria.bulgaria.t1q16",10,"Bulgarian National",5303,FALSE,-0.225961538461538,FALSE,0
+"5304bulgaria.bulgaria.t1q16",10,"Bulgarian National",5304,FALSE,-0.0863095238095237,TRUE,0.75
+"5305bulgaria.bulgaria.t1q16",10,"Bulgarian National",5305,TRUE,0.04375,FALSE,-0.25
+"5306bulgaria.bulgaria.t1q16",10,"Bulgarian National",5306,TRUE,0.145220588235294,TRUE,1
+"5307bulgaria.bulgaria.t1q16",10,"Bulgarian National",5307,TRUE,0.0892857142857143,FALSE,0
+"5310bulgaria.bulgaria.t1q16",10,"Bulgarian National",5310,FALSE,-0.091025641025641,FALSE,0
+"5311bulgaria.bulgaria.t1q16",10,"Bulgarian National",5311,FALSE,-0.00600961538461542,TRUE,0.25
+"5312bulgaria.bulgaria.t1q16",10,"Bulgarian National",5312,TRUE,0.2,TRUE,0.375
+"5313bulgaria.bulgaria.t1q16",10,"Bulgarian National",5313,FALSE,-0.0147058823529411,FALSE,-0.25
+"5314bulgaria.bulgaria.t1q16",10,"Bulgarian National",5314,FALSE,-0.0291666666666667,FALSE,0
+"5317bulgaria.bulgaria.t1q16",10,"Bulgarian National",5317,FALSE,-0.0491071428571429,TRUE,1
+"5303bulgaria.bulgaria.t1q21",10,"Bulgarian National",5303,FALSE,-0.272727272727273,FALSE,0
+"5304bulgaria.bulgaria.t1q21",10,"Bulgarian National",5304,NA,NA,TRUE,1
+"5305bulgaria.bulgaria.t1q21",10,"Bulgarian National",5305,FALSE,-0.25974025974026,FALSE,0
+"5306bulgaria.bulgaria.t1q21",10,"Bulgarian National",5306,FALSE,-0.266666666666667,FALSE,0
+"5307bulgaria.bulgaria.t1q21",10,"Bulgarian National",5307,FALSE,-0.157142857142857,FALSE,0
+"5310bulgaria.bulgaria.t1q21",10,"Bulgarian National",5310,FALSE,-0.142857142857143,TRUE,1
+"5311bulgaria.bulgaria.t1q21",10,"Bulgarian National",5311,FALSE,-0.428571428571429,FALSE,0
+"5312bulgaria.bulgaria.t1q21",10,"Bulgarian National",5312,FALSE,-0.15,FALSE,0
+"5313bulgaria.bulgaria.t1q21",10,"Bulgarian National",5313,FALSE,-0.1875,FALSE,0
+"5314bulgaria.bulgaria.t1q21",10,"Bulgarian National",5314,NA,NA,TRUE,1
+"5317bulgaria.bulgaria.t1q21",10,"Bulgarian National",5317,FALSE,-0.508928571428571,FALSE,-0.5
+"5303bulgaria.bulgaria.t1q22",10,"Bulgarian National",5303,FALSE,-0.28030303030303,FALSE,0
+"5304bulgaria.bulgaria.t1q22",10,"Bulgarian National",5304,FALSE,-0.307692307692308,FALSE,0
+"5305bulgaria.bulgaria.t1q22",10,"Bulgarian National",5305,TRUE,0.462121212121212,TRUE,1
+"5306bulgaria.bulgaria.t1q22",10,"Bulgarian National",5306,TRUE,0.39047619047619,TRUE,1
+"5307bulgaria.bulgaria.t1q22",10,"Bulgarian National",5307,FALSE,-0.133333333333333,FALSE,0
+"5310bulgaria.bulgaria.t1q22",10,"Bulgarian National",5310,TRUE,0.0892857142857143,FALSE,0
+"5311bulgaria.bulgaria.t1q22",10,"Bulgarian National",5311,FALSE,-0.134615384615385,TRUE,0.5
+"5312bulgaria.bulgaria.t1q22",10,"Bulgarian National",5312,TRUE,0.3,TRUE,1
+"5313bulgaria.bulgaria.t1q22",10,"Bulgarian National",5313,FALSE,-0.290196078431373,FALSE,0
+"5314bulgaria.bulgaria.t1q22",10,"Bulgarian National",5314,FALSE,-0.157142857142857,FALSE,0
+"5317bulgaria.bulgaria.t1q22",10,"Bulgarian National",5317,FALSE,-0.208333333333333,TRUE,0.5
+"5303bulgaria.bulgaria.t1q23",10,"Bulgarian National",5303,TRUE,0.0909090909090909,FALSE,0
+"5304bulgaria.bulgaria.t1q23",10,"Bulgarian National",5304,TRUE,0.0952380952380952,FALSE,0
+"5305bulgaria.bulgaria.t1q23",10,"Bulgarian National",5305,TRUE,0.0833333333333333,FALSE,0
+"5306bulgaria.bulgaria.t1q23",10,"Bulgarian National",5306,TRUE,0.0627450980392157,TRUE,1
+"5307bulgaria.bulgaria.t1q23",10,"Bulgarian National",5307,TRUE,0.482051282051282,TRUE,1
+"5310bulgaria.bulgaria.t1q23",10,"Bulgarian National",5310,FALSE,-0.25,FALSE,0
+"5311bulgaria.bulgaria.t1q23",10,"Bulgarian National",5311,FALSE,-0.0166666666666667,NA,NA
+"5312bulgaria.bulgaria.t1q23",10,"Bulgarian National",5312,TRUE,0.205128205128205,TRUE,0.5
+"5313bulgaria.bulgaria.t1q23",10,"Bulgarian National",5313,FALSE,-0.0833333333333333,FALSE,0
+"5314bulgaria.bulgaria.t1q23",10,"Bulgarian National",5314,TRUE,0.233333333333333,FALSE,0
+"5317bulgaria.bulgaria.t1q23",10,"Bulgarian National",5317,TRUE,0.0416666666666667,TRUE,0.5
+"5303bulgaria.bulgaria.t1q19",10,"Bulgarian National",5303,FALSE,-0.0833333333333334,TRUE,0.25
+"5304bulgaria.bulgaria.t1q19",10,"Bulgarian National",5304,TRUE,0.0357142857142857,FALSE,-0.25
+"5305bulgaria.bulgaria.t1q19",10,"Bulgarian National",5305,TRUE,0.00686813186813184,FALSE,-0.25
+"5306bulgaria.bulgaria.t1q19",10,"Bulgarian National",5306,FALSE,-0.315686274509804,TRUE,0.25
+"5307bulgaria.bulgaria.t1q19",10,"Bulgarian National",5307,NA,NA,TRUE,0.5
+"5310bulgaria.bulgaria.t1q19",10,"Bulgarian National",5310,FALSE,-0.260416666666667,FALSE,0
+"5311bulgaria.bulgaria.t1q19",10,"Bulgarian National",5311,FALSE,-0.361607142857143,FALSE,-0.125
+"5312bulgaria.bulgaria.t1q19",10,"Bulgarian National",5312,FALSE,-0.330357142857143,TRUE,0.125
+"5313bulgaria.bulgaria.t1q19",10,"Bulgarian National",5313,FALSE,-0.190359477124183,FALSE,-0.25
+"5314bulgaria.bulgaria.t1q19",10,"Bulgarian National",5314,FALSE,-0.0290178571428571,FALSE,0
+"5317bulgaria.bulgaria.t1q19",10,"Bulgarian National",5317,FALSE,-0.0357142857142857,TRUE,0.25
+"9101nh.t1manvol",12,"New Haven",9101,FALSE,-0.25,FALSE,-0.270833333333333
+"9103nh.t1manvol",12,"New Haven",9103,TRUE,0.229166666666667,TRUE,0.3125
+"9104nh.t1manvol",12,"New Haven",9104,FALSE,-0.104166666666667,FALSE,-0.104166666666667
+"9108nh.t1manvol",12,"New Haven",9108,TRUE,0.046875,TRUE,0.0625
+"9109nh.t1manvol",12,"New Haven",9109,FALSE,-0.0859375,TRUE,0.1875
+"9110nh.t1manvol",12,"New Haven",9110,FALSE,0,FALSE,0
+"9111nh.t1manvol",12,"New Haven",9111,FALSE,-0.14375,TRUE,0.0625
+"9112nh.t1manvol",12,"New Haven",9112,FALSE,-0.145833333333333,FALSE,-0.0625
+"9113nh.t1manvol",12,"New Haven",9113,FALSE,0,FALSE,0
+"9114nh.t1manvol",12,"New Haven",9114,TRUE,0.0089285714285714,TRUE,0.1875
+"9115nh.t1manvol",12,"New Haven",9115,FALSE,-0.0511363636363636,TRUE,0.125
+"9116nh.t1manvol",12,"New Haven",9116,FALSE,-0.0875,FALSE,-0.03125
+"9101nh.t1endexp",12,"New Haven",9101,FALSE,-0.0812499970197678,FALSE,-0.166666666666667
+"9103nh.t1endexp",12,"New Haven",9103,TRUE,0.0333333313465118,NA,NA
+"9104nh.t1endexp",12,"New Haven",9104,TRUE,0.0277777777777778,FALSE,-0.0833333333333333
+"9108nh.t1endexp",12,"New Haven",9108,FALSE,-0.146875001490116,FALSE,0
+"9109nh.t1endexp",12,"New Haven",9109,TRUE,0.015625,FALSE,-0.125
+"9110nh.t1endexp",12,"New Haven",9110,FALSE,-0.0249999999999999,TRUE,0.149999996026357
+"9111nh.t1endexp",12,"New Haven",9111,FALSE,-0.0324999988079071,FALSE,-0.0625
+"9112nh.t1endexp",12,"New Haven",9112,TRUE,0.0291666686534882,FALSE,0
+"9113nh.t1endexp",12,"New Haven",9113,FALSE,-0.0749999980131786,FALSE,0
+"9114nh.t1endexp",12,"New Haven",9114,TRUE,0.285714285714286,TRUE,0.9375
+"9115nh.t1endexp",12,"New Haven",9115,TRUE,0.125,FALSE,0
+"9116nh.t1endexp",12,"New Haven",9116,FALSE,-0.0649999976158142,FALSE,0
+"9201nic2.t1envir",13,"National Issues Convention 2",9201,TRUE,0.0618055512507756,TRUE,0.216666658719381
+"9202nic2.t1envir",13,"National Issues Convention 2",9202,FALSE,-0.0761111120382946,FALSE,-0.0250000059604645
+"9203nic2.t1envir",13,"National Issues Convention 2",9203,TRUE,0.00937499827705324,TRUE,0.0250000013038517
+"9204nic2.t1envir",13,"National Issues Convention 2",9204,TRUE,0.0461538502803216,TRUE,0.099999984105428
+"9205nic2.t1envir",13,"National Issues Convention 2",9205,TRUE,0.0166666651001344,TRUE,0.0458333231508735
+"9206nic2.t1envir",13,"National Issues Convention 2",9206,TRUE,0.0250000028560559,TRUE,0.200000010430813
+"9207nic2.t1envir",13,"National Issues Convention 2",9207,FALSE,-0.0505208317190409,FALSE,-0.112500011920929
+"9208nic2.t1envir",13,"National Issues Convention 2",9208,TRUE,0.0645833400388559,TRUE,0.225000023841858
+"9209nic2.t1envir",13,"National Issues Convention 2",9209,TRUE,0.0527777795990308,TRUE,0.0550000011920928
+"9211nic2.t1envir",13,"National Issues Convention 2",9211,FALSE,-0.0401515161449258,TRUE,0.100000008940696
+"9212nic2.t1envir",13,"National Issues Convention 2",9212,TRUE,0.0280303088101475,TRUE,0.25
+"9213nic2.t1envir",13,"National Issues Convention 2",9213,FALSE,-0.0113095194101334,TRUE,0.024999976158142
+"9214nic2.t1envir",13,"National Issues Convention 2",9214,FALSE,-0.00333333412806203,FALSE,-0.0625
+"9215nic2.t1envir",13,"National Issues Convention 2",9215,TRUE,0.0285714375121253,TRUE,0.00500000119209276
+"9216nic2.t1envir",13,"National Issues Convention 2",9216,TRUE,0.0130952319928578,TRUE,0.149999991059304
+"9217nic2.t1envir",13,"National Issues Convention 2",9217,TRUE,0.0250000009934106,TRUE,0.019444445768992
+"9218nic2.t1envir",13,"National Issues Convention 2",9218,FALSE,-0.00512820539566183,FALSE,-0.024999976158142
+"9219nic2.t1envir",13,"National Issues Convention 2",9219,TRUE,0.0211111128330231,TRUE,0.124999970197678
+"9220nic2.t1envir",13,"National Issues Convention 2",9220,TRUE,0.0738095236676081,FALSE,-0.0125000178813934
+"9221nic2.t1envir",13,"National Issues Convention 2",9221,FALSE,-0.0115384562657429,FALSE,-0.0333333412806193
+"9222nic2.t1envir",13,"National Issues Convention 2",9222,TRUE,0.025,TRUE,0.137499988079071
+"9223nic2.t1envir",13,"National Issues Convention 2",9223,TRUE,0.0148809467043195,TRUE,0.0333333015441893
+"9224nic2.t1envir",13,"National Issues Convention 2",9224,TRUE,0.118939390236681,TRUE,0.143749997019768
+"9201nic2.t1usseca",13,"National Issues Convention 2",9201,FALSE,-0.00291667381922411,TRUE,0.00833332538604759
+"9202nic2.t1usseca",13,"National Issues Convention 2",9202,FALSE,-0.0183333297570546,FALSE,-0.0599999874830246
+"9203nic2.t1usseca",13,"National Issues Convention 2",9203,FALSE,-0.0403124913573263,FALSE,-0.0524999797344204
+"9204nic2.t1usseca",13,"National Issues Convention 2",9204,FALSE,-0.00192307967406058,TRUE,0.0883333086967469
+"9205nic2.t1usseca",13,"National Issues Convention 2",9205,FALSE,-0.0688461546714489,TRUE,0.0274999737739565
+"9206nic2.t1usseca",13,"National Issues Convention 2",9206,TRUE,0.00416666766007745,FALSE,-0.00999999046325695
+"9207nic2.t1usseca",13,"National Issues Convention 2",9207,FALSE,-0.0300781223922968,FALSE,-0.0550000071525575
+"9208nic2.t1usseca",13,"National Issues Convention 2",9208,FALSE,-0.0370833314955233,TRUE,0.0650000274181369
+"9209nic2.t1usseca",13,"National Issues Convention 2",9209,FALSE,-0.00124999880790699,TRUE,0.081000006198883
+"9211nic2.t1usseca",13,"National Issues Convention 2",9211,TRUE,0.0481818101622842,TRUE,0.35249999165535
+"9212nic2.t1usseca",13,"National Issues Convention 2",9212,TRUE,0.0190909071402114,TRUE,0.159999966621399
+"9213nic2.t1usseca",13,"National Issues Convention 2",9213,TRUE,0.0360714282308306,FALSE,0
+"9214nic2.t1usseca",13,"National Issues Convention 2",9214,FALSE,-0.047333331902822,TRUE,0.00875000655651104
+"9215nic2.t1usseca",13,"National Issues Convention 2",9215,TRUE,0.0264285675116949,FALSE,-0.0270000100135804
+"9216nic2.t1usseca",13,"National Issues Convention 2",9216,FALSE,-0.00892857355730881,TRUE,0.0499999821186065
+"9217nic2.t1usseca",13,"National Issues Convention 2",9217,TRUE,0.0145833392937978,TRUE,0.0483333269755046
+"9218nic2.t1usseca",13,"National Issues Convention 2",9218,FALSE,-0.0165384595210737,FALSE,-0.030000030994415
+"9219nic2.t1usseca",13,"National Issues Convention 2",9219,FALSE,-0.0267777820428211,TRUE,0.0224999785423281
+"9220nic2.t1usseca",13,"National Issues Convention 2",9220,FALSE,-0.0407142894608632,FALSE,-0.0474999845027926
+"9221nic2.t1usseca",13,"National Issues Convention 2",9221,FALSE,-0.0628846104328447,FALSE,-0.0183333357175186
+"9222nic2.t1usseca",13,"National Issues Convention 2",9222,TRUE,0.0189999938011169,TRUE,0.0924999713897711
+"9223nic2.t1usseca",13,"National Issues Convention 2",9223,FALSE,-0.0505357044083732,TRUE,0.00333333015441872
+"9224nic2.t1usseca",13,"National Issues Convention 2",9224,FALSE,-0.00272728096355079,TRUE,0.0312499850988388
+"9201nic2.t1humrh2",13,"National Issues Convention 2",9201,TRUE,0.0333333412806194,TRUE,0.0666666626930237
+"9202nic2.t1humrh2",13,"National Issues Convention 2",9202,TRUE,1.98682148511153e-09,TRUE,0.125
+"9203nic2.t1humrh2",13,"National Issues Convention 2",9203,TRUE,0.0250000022351742,TRUE,0.0250000059604645
+"9204nic2.t1humrh2",13,"National Issues Convention 2",9204,TRUE,0.0153846213450799,FALSE,-0.0666666626930237
+"9205nic2.t1humrh2",13,"National Issues Convention 2",9205,TRUE,0.123076927203398,FALSE,-0.0499999821186066
+"9206nic2.t1humrh2",13,"National Issues Convention 2",9206,TRUE,0.0249999935428301,TRUE,0.199999988079071
+"9207nic2.t1humrh2",13,"National Issues Convention 2",9207,TRUE,4.65661287307739e-09,TRUE,0.199999988079071
+"9208nic2.t1humrh2",13,"National Issues Convention 2",9208,FALSE,-0.0833333302289248,TRUE,0.0499999821186066
+"9209nic2.t1humrh2",13,"National Issues Convention 2",9209,TRUE,1.24176358085037e-09,TRUE,0.0400000005960466
+"9211nic2.t1humrh2",13,"National Issues Convention 2",9211,FALSE,-2.70930200496622e-09,FALSE,-0.150000005960464
+"9212nic2.t1humrh2",13,"National Issues Convention 2",9212,TRUE,0.0636363503607837,TRUE,0.099999964237213
+"9213nic2.t1humrh2",13,"National Issues Convention 2",9213,TRUE,0.0214285765375409,FALSE,-0.099999994039536
+"9214nic2.t1humrh2",13,"National Issues Convention 2",9214,FALSE,-0.0933333237965901,TRUE,0.050000011920929
+"9215nic2.t1humrh2",13,"National Issues Convention 2",9215,TRUE,0.0857142901846342,TRUE,0.18000001013279
+"9216nic2.t1humrh2",13,"National Issues Convention 2",9216,TRUE,0.0714285799435208,TRUE,0.200000017881393
+"9217nic2.t1humrh2",13,"National Issues Convention 2",9217,FALSE,-0.0333333214124043,TRUE,0.0666666825612386
+"9218nic2.t1humrh2",13,"National Issues Convention 2",9218,TRUE,0.0769230746305906,FALSE,0
+"9219nic2.t1humrh2",13,"National Issues Convention 2",9219,TRUE,0.0199999988079071,FALSE,0
+"9220nic2.t1humrh2",13,"National Issues Convention 2",9220,TRUE,0.0714285671710968,TRUE,0.0999999940395355
+"9221nic2.t1humrh2",13,"National Issues Convention 2",9221,TRUE,0.0230769222745528,TRUE,0.133333325386047
+"9222nic2.t1humrh2",13,"National Issues Convention 2",9222,TRUE,0.129999992251396,TRUE,0.199999995529652
+"9223nic2.t1humrh2",13,"National Issues Convention 2",9223,FALSE,-0.0500000012772425,TRUE,0.0999999940395353
+"9224nic2.t1humrh2",13,"National Issues Convention 2",9224,TRUE,0.00909090313044469,FALSE,-0.0250000059604645
+"9201nic2.t1multi",13,"National Issues Convention 2",9201,TRUE,0.0761491507291797,TRUE,0.076041678587596
+"9202nic2.t1multi",13,"National Issues Convention 2",9202,TRUE,0.0536904851595564,TRUE,0.0225446522235876
+"9203nic2.t1multi",13,"National Issues Convention 2",9203,FALSE,-0.0871961805969477,FALSE,-0.045312501490116
+"9204nic2.t1multi",13,"National Issues Convention 2",9204,FALSE,-0.0628968362624828,FALSE,-0.0121527910232543
+"9205nic2.t1multi",13,"National Issues Convention 2",9205,TRUE,0.0479326890065118,FALSE,-0.0302083492279051
+"9206nic2.t1multi",13,"National Issues Convention 2",9206,TRUE,0.0321428577105207,TRUE,0.362053573131562
+"9207nic2.t1multi",13,"National Issues Convention 2",9207,FALSE,-0.0543433874845508,TRUE,0.0859374999999994
+"9208nic2.t1multi",13,"National Issues Convention 2",9208,TRUE,0.0696345989902816,TRUE,0.0203125178813934
+"9209nic2.t1multi",13,"National Issues Convention 2",9209,TRUE,0.0587177524964015,TRUE,0.120059514045715
+"9211nic2.t1multi",13,"National Issues Convention 2",9211,TRUE,0.0714556303891269,TRUE,0.137500017881394
+"9212nic2.t1multi",13,"National Issues Convention 2",9212,TRUE,0.0263861742886631,TRUE,0.0302083492279061
+"9213nic2.t1multi",13,"National Issues Convention 2",9213,FALSE,-0.0402423441410066,TRUE,0.09375
+"9214nic2.t1multi",13,"National Issues Convention 2",9214,FALSE,-0.0508961598078411,TRUE,0.0156249850988385
+"9215nic2.t1multi",13,"National Issues Convention 2",9215,TRUE,0.00592049317700516,TRUE,0.0339285612106321
+"9216nic2.t1multi",13,"National Issues Convention 2",9216,TRUE,0.0744154027530127,TRUE,0.190550595521927
+"9217nic2.t1multi",13,"National Issues Convention 2",9217,TRUE,0.0618179688851042,TRUE,0.08472224076589
+"9218nic2.t1multi",13,"National Issues Convention 2",9218,TRUE,0.0226381237690265,TRUE,0.153124988079071
+"9219nic2.t1multi",13,"National Issues Convention 2",9219,FALSE,-0.0446064929167432,TRUE,0.0276041626930235
+"9220nic2.t1multi",13,"National Issues Convention 2",9220,TRUE,0.0731753025736126,TRUE,0.145585298538208
+"9221nic2.t1multi",13,"National Issues Convention 2",9221,FALSE,-0.0736950653103683,FALSE,-0.0481150945027674
+"9222nic2.t1multi",13,"National Issues Convention 2",9222,FALSE,-0.0173115134239198,TRUE,0.0479166805744169
+"9223nic2.t1multi",13,"National Issues Convention 2",9223,FALSE,-0.0939944812229703,FALSE,-0.0864583253860469
+"9224nic2.t1multi",13,"National Issues Convention 2",9224,FALSE,-0.0626028153029355,FALSE,-0.0661458373069762
+"9201nic2.t1inter",13,"National Issues Convention 2",9201,FALSE,-0.208333333333333,FALSE,-0.166666666666667
+"9202nic2.t1inter",13,"National Issues Convention 2",9202,FALSE,-0.0845238095238096,FALSE,-0.0625
+"9203nic2.t1inter",13,"National Issues Convention 2",9203,FALSE,-0.046875,TRUE,0.0625
+"9204nic2.t1inter",13,"National Issues Convention 2",9204,FALSE,-0.107371794871795,TRUE,0.125
+"9205nic2.t1inter",13,"National Issues Convention 2",9205,TRUE,0.173076923076923,TRUE,0.25
+"9206nic2.t1inter",13,"National Issues Convention 2",9206,FALSE,-0.0208333333333334,TRUE,1
+"9207nic2.t1inter",13,"National Issues Convention 2",9207,FALSE,-0.171875,FALSE,-0.125
+"9208nic2.t1inter",13,"National Issues Convention 2",9208,FALSE,-0.0833333333333334,TRUE,0.125
+"9209nic2.t1inter",13,"National Issues Convention 2",9209,TRUE,0.0416666666666667,TRUE,0.2
+"9211nic2.t1inter",13,"National Issues Convention 2",9211,FALSE,-0.0227272727272727,TRUE,0.25
+"9212nic2.t1inter",13,"National Issues Convention 2",9212,TRUE,0.181818181818182,TRUE,0.5
+"9213nic2.t1inter",13,"National Issues Convention 2",9213,FALSE,-0.160714285714286,FALSE,0
+"9214nic2.t1inter",13,"National Issues Convention 2",9214,TRUE,0.108333333333333,TRUE,0.125
+"9215nic2.t1inter",13,"National Issues Convention 2",9215,FALSE,-0.0357142857142858,FALSE,0
+"9216nic2.t1inter",13,"National Issues Convention 2",9216,FALSE,-0.107142857142857,FALSE,-0.125
+"9217nic2.t1inter",13,"National Issues Convention 2",9217,FALSE,-0.166666666666667,FALSE,0
+"9218nic2.t1inter",13,"National Issues Convention 2",9218,NA,NA,FALSE,0
+"9219nic2.t1inter",13,"National Issues Convention 2",9219,FALSE,-0.0166666666666666,FALSE,0
+"9220nic2.t1inter",13,"National Issues Convention 2",9220,TRUE,0.0934065934065934,FALSE,0
+"9221nic2.t1inter",13,"National Issues Convention 2",9221,FALSE,-0.153846153846154,FALSE,-0.0833333333333334
+"9222nic2.t1inter",13,"National Issues Convention 2",9222,TRUE,0.1,TRUE,0.25
+"9223nic2.t1inter",13,"National Issues Convention 2",9223,FALSE,-0.125,FALSE,-0.166666666666667
+"9224nic2.t1inter",13,"National Issues Convention 2",9224,TRUE,0.0636363636363636,TRUE,0.0625
+"9201nic2.t1global",13,"National Issues Convention 2",9201,FALSE,-0.128703698515892,FALSE,-0.0472222169240314
+"9202nic2.t1global",13,"National Issues Convention 2",9202,TRUE,0.0479444364706675,TRUE,0.077361099421978
+"9203nic2.t1global",13,"National Issues Convention 2",9203,TRUE,0.0521527845412495,TRUE,0.0384027808904647
+"9204nic2.t1global",13,"National Issues Convention 2",9204,TRUE,0.070512817456172,TRUE,0.0879629850387573
+"9205nic2.t1global",13,"National Issues Convention 2",9205,TRUE,0.140064108830232,TRUE,0.0645833611488346
+"9206nic2.t1global",13,"National Issues Convention 2",9206,TRUE,0.143124997615814,TRUE,0.100833356380462
+"9207nic2.t1global",13,"National Issues Convention 2",9207,FALSE,-0.0966145759448408,FALSE,-0.122222200036048
+"9208nic2.t1global",13,"National Issues Convention 2",9208,TRUE,0.0831018437941868,TRUE,0.055555522441864
+"9209nic2.t1global",13,"National Issues Convention 2",9209,FALSE,-0.0797916663189728,FALSE,-0.109722200036049
+"9211nic2.t1global",13,"National Issues Convention 2",9211,TRUE,0.121590904214166,TRUE,0.133333340287209
+"9212nic2.t1global",13,"National Issues Convention 2",9212,FALSE,-0.10151516307484,FALSE,-0.011111140251159
+"9213nic2.t1global",13,"National Issues Convention 2",9213,FALSE,-0.158611099501806,FALSE,-0.111111104488373
+"9214nic2.t1global",13,"National Issues Convention 2",9214,FALSE,-0.148129634062449,FALSE,-0.0979166701436045
+"9215nic2.t1global",13,"National Issues Convention 2",9215,TRUE,0.0638888925313947,TRUE,0.0663888990879057
+"9216nic2.t1global",13,"National Issues Convention 2",9216,TRUE,0.0482142865657806,TRUE,0.0513888597488401
+"9217nic2.t1global",13,"National Issues Convention 2",9217,TRUE,0.0876851727565131,TRUE,0.13648146390915
+"9218nic2.t1global",13,"National Issues Convention 2",9218,FALSE,-0.0210042687562796,TRUE,0.0625
+"9219nic2.t1global",13,"National Issues Convention 2",9219,FALSE,-0.0474073966344196,FALSE,-0.0513888597488404
+"9220nic2.t1global",13,"National Issues Convention 2",9220,FALSE,-0.140476190618106,FALSE,-0.144444465637207
+"9221nic2.t1global",13,"National Issues Convention 2",9221,FALSE,-0.0843162479308935,FALSE,-0.010185201962789
+"9222nic2.t1global",13,"National Issues Convention 2",9222,TRUE,0.160583325475454,TRUE,0.277777768671512
+"9223nic2.t1global",13,"National Issues Convention 2",9223,TRUE,0.0702380921159471,TRUE,0.179444442192713
+"9224nic2.t1global",13,"National Issues Convention 2",9224,FALSE,-0.0164141465317117,TRUE,0.053472198545933
+"9201nic2.t1demo",13,"National Issues Convention 2",9201,FALSE,-0.0412037049730618,TRUE,0.0166666507720949
+"9202nic2.t1demo",13,"National Issues Convention 2",9202,FALSE,-0.0675925960143405,FALSE,-0.108333341777324
+"9203nic2.t1demo",13,"National Issues Convention 2",9203,FALSE,-0.0520138889551165,FALSE,-0.0236111134290697
+"9204nic2.t1demo",13,"National Issues Convention 2",9204,TRUE,0.0317094050920925,TRUE,0.0814814567565916
+"9205nic2.t1demo",13,"National Issues Convention 2",9205,TRUE,0.0435897432840786,FALSE,-0.038888901472092
+"9206nic2.t1demo",13,"National Issues Convention 2",9206,TRUE,0.046527775625388,TRUE,0.066666662693024
+"9207nic2.t1demo",13,"National Issues Convention 2",9207,FALSE,-0.115625001490116,FALSE,-0.086111113429069
+"9208nic2.t1demo",13,"National Issues Convention 2",9208,FALSE,-0.093981470912695,TRUE,0.0111111402511597
+"9209nic2.t1demo",13,"National Issues Convention 2",9209,TRUE,0.0217592616875967,TRUE,0.0477777838706972
+"9211nic2.t1demo",13,"National Issues Convention 2",9211,FALSE,-0.0138888873837212,FALSE,-0.0111111104488375
+"9212nic2.t1demo",13,"National Issues Convention 2",9212,TRUE,0.0290404016321356,TRUE,0.299999982118607
+"9213nic2.t1demo",13,"National Issues Convention 2",9213,FALSE,-0.0755952330572264,TRUE,0.083333313465119
+"9214nic2.t1demo",13,"National Issues Convention 2",9214,FALSE,-0.111481476823489,FALSE,-0.0833333358168605
+"9215nic2.t1demo",13,"National Issues Convention 2",9215,TRUE,0.0413888841867445,TRUE,0.157222217321396
+"9216nic2.t1demo",13,"National Issues Convention 2",9216,FALSE,-0.0158730106694358,TRUE,0.033333346247673
+"9217nic2.t1demo",13,"National Issues Convention 2",9217,FALSE,-0.0634259233872095,FALSE,-0.05092591047287
+"9218nic2.t1demo",13,"National Issues Convention 2",9218,FALSE,-0.0651709506144891,FALSE,-5.96046439982345e-08
+"9219nic2.t1demo",13,"National Issues Convention 2",9219,FALSE,-0.114592576026917,FALSE,-0.0569444298744204
+"9220nic2.t1demo",13,"National Issues Convention 2",9220,FALSE,-0.106746032834053,TRUE,0.0305555462837219
+"9221nic2.t1demo",13,"National Issues Convention 2",9221,FALSE,-0.0851282110581032,TRUE,0.0351851880550383
+"9222nic2.t1demo",13,"National Issues Convention 2",9222,TRUE,0.119388879835606,TRUE,0.177777774631977
+"9223nic2.t1demo",13,"National Issues Convention 2",9223,TRUE,0.0450992158481053,TRUE,0.138888895511627
+"9224nic2.t1demo",13,"National Issues Convention 2",9224,TRUE,0.00202020189978869,FALSE,-0.0763888880610466
+"9201nic2.t1forai1",13,"National Issues Convention 2",9201,FALSE,-0.375,FALSE,-0.5
+"9202nic2.t1forai1",13,"National Issues Convention 2",9202,TRUE,0.126190476190476,FALSE,0
+"9203nic2.t1forai1",13,"National Issues Convention 2",9203,TRUE,0.3125,TRUE,0.5
+"9204nic2.t1forai1",13,"National Issues Convention 2",9204,FALSE,-0.346153846153846,FALSE,-0.333333333333333
+"9205nic2.t1forai1",13,"National Issues Convention 2",9205,TRUE,0.373076923076923,TRUE,0.25
+"9206nic2.t1forai1",13,"National Issues Convention 2",9206,TRUE,0.390151515151515,TRUE,0.5
+"9207nic2.t1forai1",13,"National Issues Convention 2",9207,TRUE,0.15625,TRUE,0.25
+"9208nic2.t1forai1",13,"National Issues Convention 2",9208,FALSE,-0.291666666666667,FALSE,-0.25
+"9209nic2.t1forai1",13,"National Issues Convention 2",9209,FALSE,-0.170454545454545,FALSE,0
+"9211nic2.t1forai1",13,"National Issues Convention 2",9211,FALSE,-0.272727272727273,FALSE,-0.25
+"9212nic2.t1forai1",13,"National Issues Convention 2",9212,FALSE,-0.372727272727273,FALSE,-0.5
+"9213nic2.t1forai1",13,"National Issues Convention 2",9213,FALSE,-0.107142857142857,FALSE,0
+"9214nic2.t1forai1",13,"National Issues Convention 2",9214,FALSE,-0.282967032967033,FALSE,-0.25
+"9215nic2.t1forai1",13,"National Issues Convention 2",9215,TRUE,0.25,TRUE,0.4
+"9216nic2.t1forai1",13,"National Issues Convention 2",9216,TRUE,0.285714285714286,FALSE,0
+"9217nic2.t1forai1",13,"National Issues Convention 2",9217,FALSE,-0.15530303030303,FALSE,-0.166666666666667
+"9218nic2.t1forai1",13,"National Issues Convention 2",9218,TRUE,0.00769230769230766,FALSE,0
+"9219nic2.t1forai1",13,"National Issues Convention 2",9219,TRUE,0.161538461538462,TRUE,0.5
+"9220nic2.t1forai1",13,"National Issues Convention 2",9220,TRUE,0.211538461538462,TRUE,0.5
+"9221nic2.t1forai1",13,"National Issues Convention 2",9221,FALSE,-0.198717948717949,FALSE,-0.333333333333333
+"9222nic2.t1forai1",13,"National Issues Convention 2",9222,TRUE,0.2,NA,NA
+"9223nic2.t1forai1",13,"National Issues Convention 2",9223,FALSE,-0.307692307692308,FALSE,-0.5
+"9224nic2.t1forai1",13,"National Issues Convention 2",9224,FALSE,-0.236363636363636,FALSE,-0.25
+"9201nic2.t1trade_b",13,"National Issues Convention 2",9201,FALSE,-0.0625,FALSE,0
+"9202nic2.t1trade_b",13,"National Issues Convention 2",9202,TRUE,0.00714285714285712,FALSE,0
+"9203nic2.t1trade_b",13,"National Issues Convention 2",9203,FALSE,-0.116666666666667,FALSE,-0.25
+"9204nic2.t1trade_b",13,"National Issues Convention 2",9204,TRUE,0.115384615384615,TRUE,0.333333333333333
+"9205nic2.t1trade_b",13,"National Issues Convention 2",9205,FALSE,-0.0811965811965811,FALSE,0
+"9206nic2.t1trade_b",13,"National Issues Convention 2",9206,FALSE,-0.185606060606061,FALSE,0
+"9207nic2.t1trade_b",13,"National Issues Convention 2",9207,TRUE,0.177083333333333,TRUE,0.25
+"9208nic2.t1trade_b",13,"National Issues Convention 2",9208,FALSE,-0.106060606060606,FALSE,0
+"9209nic2.t1trade_b",13,"National Issues Convention 2",9209,FALSE,-0.104545454545455,FALSE,0
+"9211nic2.t1trade_b",13,"National Issues Convention 2",9211,TRUE,0.0555555555555556,NA,NA
+"9212nic2.t1trade_b",13,"National Issues Convention 2",9212,TRUE,0.267676767676768,FALSE,0
+"9213nic2.t1trade_b",13,"National Issues Convention 2",9213,TRUE,0.104895104895105,FALSE,0
+"9214nic2.t1trade_b",13,"National Issues Convention 2",9214,FALSE,-0.240384615384615,FALSE,-0.125
+"9215nic2.t1trade_b",13,"National Issues Convention 2",9215,TRUE,0.0209790209790209,TRUE,0.333333333333333
+"9216nic2.t1trade_b",13,"National Issues Convention 2",9216,TRUE,0.178030303030303,TRUE,0.25
+"9217nic2.t1trade_b",13,"National Issues Convention 2",9217,FALSE,-0.2,TRUE,0.166666666666667
+"9218nic2.t1trade_b",13,"National Issues Convention 2",9218,TRUE,0.0104895104895105,TRUE,1
+"9219nic2.t1trade_b",13,"National Issues Convention 2",9219,FALSE,-0.233333333333333,FALSE,0
+"9220nic2.t1trade_b",13,"National Issues Convention 2",9220,FALSE,-0.119047619047619,FALSE,-0.25
+"9221nic2.t1trade_b",13,"National Issues Convention 2",9221,TRUE,0.166666666666667,TRUE,0.0833333333333334
+"9222nic2.t1trade_b",13,"National Issues Convention 2",9222,TRUE,0.155555555555556,NA,NA
+"9223nic2.t1trade_b",13,"National Issues Convention 2",9223,FALSE,-0.0884615384615384,FALSE,-0.5
+"9224nic2.t1trade_b",13,"National Issues Convention 2",9224,TRUE,0.0858585858585859,TRUE,0.125
+"9301btp03.olt1usseca",14,"By the People: National",9301,FALSE,-0.0107142861400332,FALSE,-0.0219999909400944
+"9302btp03.olt1usseca",14,"By the People: National",9302,FALSE,-0.011125010251999,TRUE,0.0675000101327895
+"9303btp03.olt1usseca",14,"By the People: National",9303,FALSE,-0.0391176553333507,FALSE,-0.0860000014305113
+"9304btp03.olt1usseca",14,"By the People: National",9304,FALSE,-0.0245454528115011,FALSE,-0.0387499928474422
+"9305btp03.olt1usseca",14,"By the People: National",9305,FALSE,-0.0108333329359688,FALSE,-0.046250000596046
+"9306btp03.olt1usseca",14,"By the People: National",9306,TRUE,0.0265686266562519,TRUE,0.0272222260634104
+"9307btp03.olt1usseca",14,"By the People: National",9307,FALSE,-0.0189052264090457,FALSE,-0.0633333325386047
+"9308btp03.olt1usseca",14,"By the People: National",9308,FALSE,-0.0157142962728227,FALSE,-0.0837500095367429
+"9309btp03.olt1usseca",14,"By the People: National",9309,FALSE,-0.00499999026457476,FALSE,-0.056666652361552
+"9310btp03.olt1usseca",14,"By the People: National",9310,TRUE,0.0269444336493811,TRUE,0.0133333106835681
+"9312btp03.olt1usseca",14,"By the People: National",9312,TRUE,0.0271739117477249,TRUE,0.0299999713897701
+"9313btp03.olt1usseca",14,"By the People: National",9313,TRUE,0.0302380990414393,TRUE,0.0300000139645167
+"9314btp03.olt1usseca",14,"By the People: National",9314,TRUE,0.00899999886751179,TRUE,0.060000002384186
+"9315btp03.olt1usseca",14,"By the People: National",9315,TRUE,0.0255882371874415,FALSE,-0.030000001192093
+"9301btp03.olt1humrh2",14,"By the People: National",9301,TRUE,0.028571424207517,TRUE,4.47034820272307e-09
+"9302btp03.olt1humrh2",14,"By the People: National",9302,TRUE,0.0322222164935535,TRUE,0.124999988824129
+"9303btp03.olt1humrh2",14,"By the People: National",9303,FALSE,-3.9444250088394e-09,TRUE,0.179999989271164
+"9304btp03.olt1humrh2",14,"By the People: National",9304,TRUE,0.0181818225167014,TRUE,0.0500000007450579
+"9305btp03.olt1humrh2",14,"By the People: National",9305,FALSE,-0.116666667163372,FALSE,-0.0500000044703485
+"9306btp03.olt1humrh2",14,"By the People: National",9306,FALSE,-0.105882348821444,FALSE,-0.0166666607062022
+"9307btp03.olt1humrh2",14,"By the People: National",9307,TRUE,0.0614379029842763,TRUE,0.166666666666667
+"9308btp03.olt1humrh2",14,"By the People: National",9308,TRUE,0.0642857157758304,FALSE,-0.0250000022351741
+"9309btp03.olt1humrh2",14,"By the People: National",9309,TRUE,0.100000003973643,TRUE,0.100000013907751
+"9310btp03.olt1humrh2",14,"By the People: National",9310,FALSE,-0.0166666698124674,TRUE,0.0500000019868215
+"9312btp03.olt1humrh2",14,"By the People: National",9312,FALSE,-0.00434782323629967,TRUE,0.24999999254942
+"9313btp03.olt1humrh2",14,"By the People: National",9313,TRUE,0.0285714222561745,TRUE,0.0714285671710967
+"9314btp03.olt1humrh2",14,"By the People: National",9314,TRUE,0.0599999956786632,TRUE,0.0500000044703485
+"9315btp03.olt1humrh2",14,"By the People: National",9315,TRUE,0.0470588242306429,TRUE,0.25
+"9301btp03.olt1envir",14,"By the People: National",9301,FALSE,-0.048214286964919,TRUE,0.0349999953061342
+"9302btp03.olt1envir",14,"By the People: National",9302,FALSE,-0.0425000056624413,TRUE,0.106249988079071
+"9303btp03.olt1envir",14,"By the People: National",9303,TRUE,0.0196078406537281,TRUE,0.0450000002980234
+"9304btp03.olt1envir",14,"By the People: National",9304,TRUE,0.0310606103051794,FALSE,-0.0499999858438968
+"9305btp03.olt1envir",14,"By the People: National",9305,TRUE,0.0118055626129111,TRUE,0.03125
+"9306btp03.olt1envir",14,"By the People: National",9306,TRUE,0.0166666640297455,FALSE,-0.0361111164093018
+"9307btp03.olt1envir",14,"By the People: National",9307,FALSE,-0.0550381213767466,FALSE,-0.113888879617055
+"9308btp03.olt1envir",14,"By the People: National",9308,FALSE,-0.0261904756937708,TRUE,0.0208333358168602
+"9309btp03.olt1envir",14,"By the People: National",9309,FALSE,-0.0243055547277133,TRUE,0.0111111005147296
+"9310btp03.olt1envir",14,"By the People: National",9310,TRUE,0.0796296281947029,TRUE,0.166666666666667
+"9312btp03.olt1envir",14,"By the People: National",9312,TRUE,0.0583333321239637,TRUE,0.012499988079071
+"9313btp03.olt1envir",14,"By the People: National",9313,FALSE,-0.019841275754429,FALSE,-8.51494930120822e-09
+"9314btp03.olt1envir",14,"By the People: National",9314,FALSE,-0.0283333390951157,TRUE,0.0249999761581421
+"9315btp03.olt1envir",14,"By the People: National",9315,FALSE,-0.0470588207244873,FALSE,-0.012499988079071
+"9301btp03.olt1inter",14,"By the People: National",9301,TRUE,0.0892857142857143,TRUE,0.05
+"9302btp03.olt1inter",14,"By the People: National",9302,TRUE,0.075,FALSE,0
+"9303btp03.olt1inter",14,"By the People: National",9303,TRUE,0.161764705882353,TRUE,0.2
+"9304btp03.olt1inter",14,"By the People: National",9304,FALSE,-0.0909090909090909,FALSE,0
+"9305btp03.olt1inter",14,"By the People: National",9305,FALSE,-0.15719696969697,FALSE,-0.0625
+"9306btp03.olt1inter",14,"By the People: National",9306,FALSE,0,FALSE,0
+"9307btp03.olt1inter",14,"By the People: National",9307,FALSE,-0.0939542483660131,FALSE,-0.125
+"9308btp03.olt1inter",14,"By the People: National",9308,TRUE,0.0357142857142857,TRUE,0.125
+"9309btp03.olt1inter",14,"By the People: National",9309,FALSE,-0.160984848484848,FALSE,0
+"9310btp03.olt1inter",14,"By the People: National",9310,FALSE,-0.111111111111111,FALSE,-0.0416666666666667
+"9312btp03.olt1inter",14,"By the People: National",9312,FALSE,-0.0597826086956522,FALSE,-0.125
+"9313btp03.olt1inter",14,"By the People: National",9313,FALSE,-0.107738095238095,FALSE,-0.0714285714285714
+"9314btp03.olt1inter",14,"By the People: National",9314,FALSE,-0.0625,TRUE,0.25
+"9315btp03.olt1inter",14,"By the People: National",9315,TRUE,0.0294117647058824,FALSE,-0.125
+"9301btp03.olt1multi",14,"By the People: National",9301,TRUE,0.0245287588664462,TRUE,0.000208330154419012
+"9302btp03.olt1multi",14,"By the People: National",9302,FALSE,-0.0479166746139527,TRUE,0.0257812440395355
+"9303btp03.olt1multi",14,"By the People: National",9303,FALSE,-0.0318306491655461,FALSE,-0.00256945490837102
+"9304btp03.olt1multi",14,"By the People: National",9304,TRUE,0.0272321430119602,TRUE,0.02734375
+"9305btp03.olt1multi",14,"By the People: National",9305,TRUE,0.00187664975722635,TRUE,0.0472098290920261
+"9306btp03.olt1multi",14,"By the People: National",9306,TRUE,0.0702404230833052,TRUE,0.0539004604021708
+"9307btp03.olt1multi",14,"By the People: National",9307,FALSE,-0.00494572958525497,FALSE,-0.0186507999897003
+"9308btp03.olt1multi",14,"By the People: National",9308,FALSE,-0.0309700816869733,FALSE,-0.0788442194461819
+"9309btp03.olt1multi",14,"By the People: National",9309,TRUE,0.0498511865735054,TRUE,0.211458325386047
+"9310btp03.olt1multi",14,"By the People: National",9310,TRUE,0.0458746684922112,TRUE,0.110069453716278
+"9312btp03.olt1multi",14,"By the People: National",9312,TRUE,0.0383902723374575,TRUE,0.032291665673256
+"9313btp03.olt1multi",14,"By the People: National",9313,FALSE,-0.0284235633554912,TRUE,0.0193452409335547
+"9314btp03.olt1multi",14,"By the People: National",9314,FALSE,-0.0224057540297506,FALSE,-0.0145833194255824
+"9315btp03.olt1multi",14,"By the People: National",9315,FALSE,-0.0454423497704898,FALSE,-0.012499988079071
+"9301btp03.olt1demo",14,"By the People: National",9301,FALSE,-0.06269842173372,TRUE,0.00333333015441883
+"9302btp03.olt1demo",14,"By the People: National",9302,TRUE,0.00444444566965108,TRUE,0.124999988824129
+"9303btp03.olt1demo",14,"By the People: National",9303,FALSE,-0.0351307216812583,FALSE,-0.0133333414793014
+"9304btp03.olt1demo",14,"By the People: National",9304,FALSE,-0.027777767994187,FALSE,-0.0708333216607571
+"9305btp03.olt1demo",14,"By the People: National",9305,FALSE,-0.0467592601974805,TRUE,0.0444444492459298
+"9306btp03.olt1demo",14,"By the People: National",9306,TRUE,0.0519607864758548,TRUE,0.0490740761160852
+"9307btp03.olt1demo",14,"By the People: National",9307,TRUE,0.0159404468205239,TRUE,0.126851851741473
+"9308btp03.olt1demo",14,"By the People: National",9308,TRUE,0.0585317441395352,TRUE,0.133333332836628
+"9309btp03.olt1demo",14,"By the People: National",9309,FALSE,-0.0312962979078292,FALSE,0
+"9310btp03.olt1demo",14,"By the People: National",9310,TRUE,0.0486111119389534,FALSE,-0.00833333532015496
+"9312btp03.olt1demo",14,"By the People: National",9312,FALSE,-0.000845412197320261,FALSE,-0.0416666716337205
+"9313btp03.olt1demo",14,"By the People: National",9313,TRUE,0.0327513175351281,TRUE,0.063492055450167
+"9314btp03.olt1demo",14,"By the People: National",9314,FALSE,-0.0658333361148835,TRUE,0.0833333283662794
+"9315btp03.olt1demo",14,"By the People: National",9315,FALSE,-0.00424836838946607,TRUE,0.0111111104488375
+"9301btp03.olt1forai1",14,"By the People: National",9301,FALSE,-0.0741758241758241,FALSE,0
+"9302btp03.olt1forai1",14,"By the People: National",9302,TRUE,0.15,FALSE,0
+"9303btp03.olt1forai1",14,"By the People: National",9303,FALSE,-0.125,FALSE,-0.2
+"9304btp03.olt1forai1",14,"By the People: National",9304,FALSE,-0.0454545454545455,FALSE,-0.0416666666666666
+"9305btp03.olt1forai1",14,"By the People: National",9305,FALSE,-0.0083333333333333,FALSE,0
+"9306btp03.olt1forai1",14,"By the People: National",9306,FALSE,0,FALSE,0
+"9307btp03.olt1forai1",14,"By the People: National",9307,FALSE,-0.0214285714285715,TRUE,0.0416666666666667
+"9308btp03.olt1forai1",14,"By the People: National",9308,TRUE,0.032051282051282,TRUE,0.166666666666667
+"9309btp03.olt1forai1",14,"By the People: National",9309,FALSE,-0.222222222222222,FALSE,-0.166666666666667
+"9310btp03.olt1forai1",14,"By the People: National",9310,FALSE,-0.289583333333333,FALSE,-0.0833333333333334
+"9312btp03.olt1forai1",14,"By the People: National",9312,FALSE,-0.182539682539683,FALSE,-0.25
+"9313btp03.olt1forai1",14,"By the People: National",9313,FALSE,-0.0833333333333333,TRUE,0.0714285714285715
+"9314btp03.olt1forai1",14,"By the People: National",9314,TRUE,0.223684210526316,TRUE,0.25
+"9315btp03.olt1forai1",14,"By the People: National",9315,FALSE,-0.0666666666666667,FALSE,0
+"9301btp03.olt1global",14,"By the People: National",9301,FALSE,-0.0468253950987543,FALSE,-0.0405555605888368
+"9302btp03.olt1global",14,"By the People: National",9302,TRUE,0.0213888898491859,TRUE,0.126388888806104
+"9303btp03.olt1global",14,"By the People: National",9303,TRUE,0.0333333357292062,TRUE,0.069444450736046
+"9304btp03.olt1global",14,"By the People: National",9304,FALSE,-0.0249999978325582,FALSE,-0.0618055537343025
+"9305btp03.olt1global",14,"By the People: National",9305,FALSE,-0.0722222266097863,FALSE,-0.051388889551163
+"9306btp03.olt1global",14,"By the People: National",9306,FALSE,-0.0610457544817645,FALSE,-0.0611111174027127
+"9307btp03.olt1global",14,"By the People: National",9307,TRUE,0.035012703754154,TRUE,0.0717592462897303
+"9308btp03.olt1global",14,"By the People: National",9308,TRUE,0.0255952243294035,TRUE,0.021527759730816
+"9309btp03.olt1global",14,"By the People: National",9309,TRUE,0.0349537115544082,TRUE,0.00925928105910634
+"9310btp03.olt1global",14,"By the People: National",9310,TRUE,0.0597222199042638,TRUE,0.0273148169120154
+"9312btp03.olt1global",14,"By the People: National",9312,TRUE,0.0135748849614806,TRUE,0.16944444552064
+"9313btp03.olt1global",14,"By the People: National",9313,TRUE,0.000595231850942013,FALSE,-0.0039682643754142
+"9314btp03.olt1global",14,"By the People: National",9314,TRUE,0.0472916617989542,FALSE,-0.0638888925313945
+"9315btp03.olt1global",14,"By the People: National",9315,TRUE,0.0214052235378939,FALSE,-0.0208333432674405
+"9301btp03.olt1trade",14,"By the People: National",9301,FALSE,-0.192857142857143,FALSE,-0.1
+"9302btp03.olt1trade",14,"By the People: National",9302,TRUE,0.104166666666667,FALSE,0
+"9303btp03.olt1trade",14,"By the People: National",9303,TRUE,0.0297619047619048,FALSE,-0.1
+"9304btp03.olt1trade",14,"By the People: National",9304,FALSE,-0.05,FALSE,0
+"9305btp03.olt1trade",14,"By the People: National",9305,FALSE,-0.305555555555556,FALSE,0
+"9306btp03.olt1trade",14,"By the People: National",9306,TRUE,0.2,TRUE,0.375
+"9307btp03.olt1trade",14,"By the People: National",9307,NA,NA,TRUE,0.05
+"9308btp03.olt1trade",14,"By the People: National",9308,FALSE,0,FALSE,0
+"9309btp03.olt1trade",14,"By the People: National",9309,FALSE,-0.298611111111111,FALSE,-0.333333333333333
+"9310btp03.olt1trade",14,"By the People: National",9310,FALSE,-0.186813186813187,FALSE,-0.0666666666666667
+"9312btp03.olt1trade",14,"By the People: National",9312,FALSE,-0.0833333333333333,FALSE,0
+"9313btp03.olt1trade",14,"By the People: National",9313,TRUE,0.0686813186813187,TRUE,0.142857142857143
+"9314btp03.olt1trade",14,"By the People: National",9314,FALSE,-0.0730769230769231,FALSE,-0.25
+"9315btp03.olt1trade",14,"By the People: National",9315,TRUE,0.104166666666667,FALSE,0
+"9401btp04.w4b42",15,"By The People 2004 US General Election",9401,TRUE,0.0127184427098224,FALSE,-2.01463699345261e-06
+"9402btp04.w4b42",15,"By The People 2004 US General Election",9402,FALSE,-8.6945036192887e-07,TRUE,0.111108327905337
+"9403btp04.w4b42",15,"By The People 2004 US General Election",9403,FALSE,-0.066269330964202,FALSE,-0.083329975605011
+"9404btp04.w4b42",15,"By The People 2004 US General Election",9404,TRUE,0.0520825013518333,TRUE,0.11904570886067
+"9405btp04.w4b42",15,"By The People 2004 US General Election",9405,TRUE,0.0217386898787126,FALSE,-0.166669994592667
+"9406btp04.w4b42",15,"By The People 2004 US General Election",9406,FALSE,-0.00753935646443138,FALSE,-0.0416674986481668
+"9407btp04.w4b42",15,"By The People 2004 US General Election",9407,TRUE,0.0262250719480139,TRUE,0.0793649901946387
+"9408btp04.w4b42",15,"By The People 2004 US General Election",9408,FALSE,-0.166668009757996,FALSE,0
+"9409btp04.w4b42",15,"By The People 2004 US General Election",9409,FALSE,-0.0238099992275239,FALSE,-0.0555566648642223
+"9410btp04.w4b42",15,"By The People 2004 US General Election",9410,TRUE,0.0128192190940564,TRUE,0.083329975605011
+"9411btp04.w4b42",15,"By The People 2004 US General Election",9411,FALSE,-5.87281058894717e-07,TRUE,0.0416649878025055
+"9412btp04.w4b42",15,"By The People 2004 US General Election",9412,FALSE,-3.56031315706939e-07,TRUE,0.166665002703666
+"9413btp04.w4b42",15,"By The People 2004 US General Election",9413,TRUE,0.130953335336277,TRUE,0.166669994592667
+"9414btp04.w4b42",15,"By The People 2004 US General Election",9414,FALSE,-0.128206156767332,FALSE,-0.166669994592667
+"9415btp04.w4b42",15,"By The People 2004 US General Election",9415,TRUE,0.060606371272694,FALSE,0
+"9401btp04.w4b45",15,"By The People 2004 US General Election",9401,FALSE,-0.00833299458026893,TRUE,2.01463699334159e-06
+"9402btp04.w4b45",15,"By The People 2004 US General Election",9402,TRUE,0.00595238361330253,TRUE,0.0555566797653834
+"9403btp04.w4b45",15,"By The People 2004 US General Election",9403,TRUE,0.0350878928837023,TRUE,0.333335012197495
+"9404btp04.w4b45",15,"By The People 2004 US General Election",9404,FALSE,-0.0849204250744411,FALSE,-0.119050243071148
+"9405btp04.w4b45",15,"By The People 2004 US General Election",9405,TRUE,0.0310239377733948,FALSE,0
+"9406btp04.w4b45",15,"By The People 2004 US General Election",9406,FALSE,-0.0659097292206504,FALSE,-0.0416649729013445
+"9407btp04.w4b45",15,"By The People 2004 US General Election",9407,TRUE,0.00527051833307324,FALSE,-0.119047139372144
+"9408btp04.w4b45",15,"By The People 2004 US General Election",9408,FALSE,-0.0833324939012527,FALSE,0
+"9409btp04.w4b45",15,"By The People 2004 US General Election",9409,TRUE,0.0357135640723365,FALSE,-0.0277783373991648
+"9410btp04.w4b45",15,"By The People 2004 US General Election",9410,TRUE,0.035715000970023,TRUE,0.166664987802505
+"9411btp04.w4b45",15,"By The People 2004 US General Election",9411,FALSE,-0.0555553257465363,FALSE,-0.083329975605011
+"9412btp04.w4b45",15,"By The People 2004 US General Election",9412,FALSE,-0.0624999925494195,FALSE,0
+"9413btp04.w4b45",15,"By The People 2004 US General Election",9413,FALSE,-4.96705365726768e-09,TRUE,0.166669994592667
+"9414btp04.w4b45",15,"By The People 2004 US General Election",9414,FALSE,-0.0384614901555763,FALSE,0
+"9415btp04.w4b45",15,"By The People 2004 US General Election",9415,FALSE,-0.0666680037975312,TRUE,0.0833349972963335
+"9401btp04.w4b48",15,"By The People 2004 US General Election",9401,FALSE,-0.0425924465060233,TRUE,2.01463699345261e-06
+"9402btp04.w4b48",15,"By The People 2004 US General Election",9402,FALSE,-0.050504660290299,FALSE,-0.138886665304502
+"9403btp04.w4b48",15,"By The People 2004 US General Election",9403,TRUE,0.04051817038603,TRUE,0.166664987802505
+"9404btp04.w4b48",15,"By The People 2004 US General Election",9404,FALSE,-0.00833307765424252,FALSE,-0.0238099992275239
+"9405btp04.w4b48",15,"By The People 2004 US General Election",9405,TRUE,0.0876629468682525,FALSE,0
+"9406btp04.w4b48",15,"By The People 2004 US General Election",9406,FALSE,-0.0634914253439223,FALSE,-0.083329975605011
+"9407btp04.w4b48",15,"By The People 2004 US General Election",9407,FALSE,-0.101119720770908,FALSE,-0.210316905663127
+"9408btp04.w4b48",15,"By The People 2004 US General Election",9408,FALSE,-0.133336007595062,FALSE,-0.166669994592667
+"9409btp04.w4b48",15,"By The People 2004 US General Election",9409,TRUE,0.0833342905555453,TRUE,0.0277783373991649
+"9410btp04.w4b48",15,"By The People 2004 US General Election",9410,FALSE,-0.0448706971529202,TRUE,0.0833350121974945
+"9411btp04.w4b48",15,"By The People 2004 US General Election",9411,FALSE,-0.0490182649855521,FALSE,-0.208329997956752
+"9412btp04.w4b48",15,"By The People 2004 US General Election",9412,FALSE,-0.119048574673278,TRUE,0.083330005407333
+"9413btp04.w4b48",15,"By The People 2004 US General Election",9413,TRUE,0.0277783324321111,FALSE,0
+"9414btp04.w4b48",15,"By The People 2004 US General Election",9414,FALSE,-0.0238087878122434,FALSE,-0.166669994592667
+"9415btp04.w4b48",15,"By The People 2004 US General Election",9415,TRUE,0.10151353939013,FALSE,-5.00679016152139e-06
+"9401btp04.w4b51",15,"By The People 2004 US General Election",9401,FALSE,-0.0500000014901161,TRUE,0.066666007041931
+"9402btp04.w4b51",15,"By The People 2004 US General Election",9402,TRUE,0.0609361884504439,TRUE,0.138888344168663
+"9403btp04.w4b51",15,"By The People 2004 US General Election",9403,TRUE,0.0468253809071723,FALSE,0
+"9404btp04.w4b51",15,"By The People 2004 US General Election",9404,FALSE,-0.0548609629273414,FALSE,-4.25747448407066e-09
+"9405btp04.w4b51",15,"By The People 2004 US General Election",9405,TRUE,0.00559900848290662,TRUE,0.166659951210022
+"9406btp04.w4b51",15,"By The People 2004 US General Election",9406,FALSE,-0.0555566705408551,FALSE,-0.0416700169444085
+"9407btp04.w4b51",15,"By The People 2004 US General Election",9407,TRUE,0.00793666499001644,TRUE,0.0555549959341685
+"9408btp04.w4b51",15,"By The People 2004 US General Election",9408,TRUE,0.0333319902420044,FALSE,0
+"9409btp04.w4b51",15,"By The People 2004 US General Election",9409,TRUE,0.0833335710423333,TRUE,0.194445004065832
+"9410btp04.w4b51",15,"By The People 2004 US General Election",9410,FALSE,-0.115384613092129,TRUE,0.250000014901161
+"9411btp04.w4b51",15,"By The People 2004 US General Election",9411,TRUE,0.0661770632380949,TRUE,0.0416700020432475
+"9412btp04.w4b51",15,"By The People 2004 US General Election",9412,TRUE,0.145835540656533,TRUE,0.250005021691323
+"9413btp04.w4b51",15,"By The People 2004 US General Election",9413,FALSE,-0.250001019239426,FALSE,-0.166670024394989
+"9414btp04.w4b51",15,"By The People 2004 US General Election",9414,FALSE,-0.0347985076707799,FALSE,0
+"9415btp04.w4b51",15,"By The People 2004 US General Election",9415,TRUE,0.0272723639553243,FALSE,0
+"9401btp04.w4b54",15,"By The People 2004 US General Election",9401,FALSE,-0.149123157325544,FALSE,-5.9604644553346e-09
+"9402btp04.w4b54",15,"By The People 2004 US General Election",9402,TRUE,0.0374390563887098,TRUE,0.111113344629606
+"9403btp04.w4b54",15,"By The People 2004 US General Election",9403,TRUE,0.039682381209873,FALSE,0
+"9404btp04.w4b54",15,"By The People 2004 US General Election",9404,FALSE,-0.0104162525385618,TRUE,0.0238099992275239
+"9405btp04.w4b54",15,"By The People 2004 US General Election",9405,TRUE,0.116930473993418,FALSE,0
+"9406btp04.w4b54",15,"By The People 2004 US General Election",9406,TRUE,0.00984850295565337,FALSE,-0.0416649878025055
+"9407btp04.w4b54",15,"By The People 2004 US General Election",9407,FALSE,-0.0198417372646786,TRUE,0.0555549959341686
+"9408btp04.w4b54",15,"By The People 2004 US General Election",9408,FALSE,-0.0416649878025055,FALSE,-0.333329975605011
+"9409btp04.w4b54",15,"By The People 2004 US General Election",9409,FALSE,-0.107141424502645,FALSE,-0.0555549959341686
+"9410btp04.w4b54",15,"By The People 2004 US General Election",9410,TRUE,0.0256423147825095,TRUE,0.166665002703666
+"9411btp04.w4b54",15,"By The People 2004 US General Election",9411,TRUE,0.0784315455924062,TRUE,0.083335004746914
+"9412btp04.w4b54",15,"By The People 2004 US General Election",9412,TRUE,0.0625012554228306,TRUE,0.166670009493828
+"9413btp04.w4b54",15,"By The People 2004 US General Election",9413,FALSE,-0.0952385749135699,FALSE,0
+"9414btp04.w4b54",15,"By The People 2004 US General Election",9414,FALSE,-0.0128192282640016,TRUE,0.166670024394989
+"9415btp04.w4b54",15,"By The People 2004 US General Election",9415,FALSE,-0.0757563493468545,FALSE,-0.083329975605011
+"9401btp04.w4b57",15,"By The People 2004 US General Election",9401,TRUE,0.0350873658531591,TRUE,0.0333319962024688
+"9402btp04.w4b57",15,"By The People 2004 US General Election",9402,TRUE,0.105429013005712,TRUE,1.66893005387747e-06
+"9403btp04.w4b57",15,"By The People 2004 US General Election",9403,TRUE,0.00635019327913022,FALSE,0
+"9404btp04.w4b57",15,"By The People 2004 US General Election",9404,FALSE,-0.0222213288148244,FALSE,0
+"9405btp04.w4b57",15,"By The People 2004 US General Election",9405,TRUE,0.0566536202261099,FALSE,0
+"9406btp04.w4b57",15,"By The People 2004 US General Election",9406,TRUE,0.0269849344378427,TRUE,0.12500000745058
+"9407btp04.w4b57",15,"By The People 2004 US General Election",9407,TRUE,0.106059995564547,TRUE,0.0238085644585746
+"9408btp04.w4b57",15,"By The People 2004 US General Election",9408,FALSE,-0.0416675046086312,FALSE,0
+"9409btp04.w4b57",15,"By The People 2004 US General Election",9409,FALSE,-0.0302192819314999,FALSE,-0.0277766585350037
+"9410btp04.w4b57",15,"By The People 2004 US General Election",9410,TRUE,0.0256407742316905,TRUE,0.0833350121974946
+"9411btp04.w4b57",15,"By The People 2004 US General Election",9411,FALSE,-0.0741423543761758,FALSE,-0.0416650027036665
+"9412btp04.w4b57",15,"By The People 2004 US General Election",9412,TRUE,0.172619463609798,FALSE,0
+"9413btp04.w4b57",15,"By The People 2004 US General Election",9413,TRUE,0.0158730951093492,FALSE,0
+"9414btp04.w4b57",15,"By The People 2004 US General Election",9414,TRUE,0.0694433301687241,FALSE,0
+"9415btp04.w4b57",15,"By The People 2004 US General Election",9415,FALSE,-0.151513633402911,FALSE,-0.166665002703666
+"9501btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9501,TRUE,0.251988095187006,TRUE,0.444666663805644
+"9502btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9502,TRUE,0.0079809518087478,FALSE,0
+"9503btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9503,TRUE,0.0862999975681308,FALSE,0
+"9504btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9504,FALSE,-0.0214666653902105,TRUE,0.111000001430511
+"9505btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9505,TRUE,0.0745804197304732,TRUE,0.055333336194356
+"9506btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9506,TRUE,0.122266666094462,TRUE,0.0417499989271165
+"9507btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9507,TRUE,0.00427499860525149,TRUE,0.0556666652361553
+"9508btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9508,TRUE,0.145791667203108,TRUE,0.333000004291534
+"9509btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9509,TRUE,0.0585497066988583,TRUE,0.0556666652361553
+"9510btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9510,TRUE,0.117902779744731,TRUE,0.26350000500679
+"9511btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9511,TRUE,0.0746223772322382,TRUE,0.0556666652361553
+"9512btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9512,FALSE,-0.00694444444444442,FALSE,-0.125
+"9513btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9513,TRUE,0.0390817010714336,TRUE,0.166400003433227
+"9515btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9515,FALSE,-0.0502307690106906,FALSE,-0.177866665522258
+"9516btp04pr.t1trade",16,"By the People 2004 US Presidential Primaries",9516,FALSE,-0.182791667679946,FALSE,-0.083000004291534
+"9501btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9501,TRUE,0.0843809491821699,TRUE,0.101944446563721
+"9502btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9502,TRUE,0.0320937586948273,TRUE,0.222000017762184
+"9503btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9503,FALSE,-0.0849895789287983,TRUE,0.00933333237965905
+"9504btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9504,TRUE,0.0490777748326461,TRUE,0.0926666694382829
+"9505btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9505,FALSE,-0.0673333440835661,FALSE,-0.000111122926076623
+"9506btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9506,TRUE,0.095377779006958,TRUE,0.0486666634678842
+"9507btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9507,FALSE,-0.0126060599630531,FALSE,-0.0925555725892384
+"9508btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9508,TRUE,0.0486333280801772,TRUE,0.111000001430511
+"9509btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9509,FALSE,-0.0570526366171084,TRUE,0.074000005920728
+"9510btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9510,FALSE,-0.0194666706025601,FALSE,-1.3038516155639e-08
+"9511btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9511,FALSE,-0.0654999975647246,TRUE,0.0276666680971781
+"9512btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9512,FALSE,-0.0555925961169933,TRUE,0.00683332607150045
+"9513btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9513,FALSE,-0.0145555539500146,FALSE,-0.0666000008583068
+"9515btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9515,FALSE,-0.0171025641835653,FALSE,-0.0648888846238456
+"9516btp04pr.t1mindex",16,"By the People 2004 US Presidential Primaries",9516,TRUE,0.0391515114090659,FALSE,0
+"9501btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9501,FALSE,-7.14276518141155e-05,TRUE,0.055333336194356
+"9502btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9502,FALSE,-0.0333333333333333,FALSE,0
+"9503btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9503,FALSE,-0.0250416661302248,TRUE,0.0556666652361553
+"9504btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9504,TRUE,0.0222000002861023,FALSE,-0.000333329041799391
+"9505btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9505,FALSE,-0.013833334048589,FALSE,-0.055333336194356
+"9506btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9506,TRUE,0.0183523796853566,TRUE,0.000249996781349515
+"9507btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9507,FALSE,-0.0500999987125398,FALSE,-0.111000001430511
+"9508btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9508,TRUE,0.00925555560323921,FALSE,0
+"9509btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9509,TRUE,0.00928104547114161,TRUE,0.110666672388712
+"9510btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9510,TRUE,0.0333999991416932,TRUE,0.000249996781349515
+"9511btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9511,FALSE,-0.0204102549797451,TRUE,0.0556666652361553
+"9512btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9512,TRUE,0.0503015868247502,FALSE,0
+"9513btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9513,FALSE,-0.0713809529940286,TRUE,0.0666000008583068
+"9515btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9515,FALSE,-0.0211794896003524,FALSE,-0.166333337624867
+"9516btp04pr.t1services",16,"By the People 2004 US Presidential Primaries",9516,TRUE,0.0304545435038482,TRUE,0.083000004291534
+"9601sm.t1more",17,"San Mateo",9601,FALSE,-0.266666662693024,FALSE,0
+"9602sm.t1more",17,"San Mateo",9602,TRUE,2.98023217215615e-09,TRUE,0.300000002980232
+"9603sm.t1more",17,"San Mateo",9603,TRUE,0.400000011920929,TRUE,1
+"9605sm.t1more",17,"San Mateo",9605,FALSE,-3.72529018743961e-09,FALSE,0
+"9606sm.t1more",17,"San Mateo",9606,FALSE,-0.351851852196786,FALSE,-0.111111124356588
+"9607sm.t1more",17,"San Mateo",9607,FALSE,-0.280092579830024,FALSE,-0.333333313465118
+"9610sm.t1more",17,"San Mateo",9610,TRUE,0.0238095266478403,TRUE,0.166666656732559
+"9611sm.t1more",17,"San Mateo",9611,TRUE,0.0851851787832046,TRUE,0.333333313465118
+"9613sm.t1more",17,"San Mateo",9613,FALSE,-0.0333333358168601,FALSE,-0.083333313465118
+"9614sm.t1more",17,"San Mateo",9614,FALSE,-0.138888873159885,FALSE,-0.083333313465118
+"9615sm.t1more",17,"San Mateo",9615,TRUE,0.138888905445735,TRUE,0.166666686534882
+"9616sm.t1more",17,"San Mateo",9616,FALSE,-0.33333332836628,FALSE,-0.333333313465118
+"9617sm.t1more",17,"San Mateo",9617,FALSE,-0.0833333246409892,FALSE,0
+"9619sm.t1more",17,"San Mateo",9619,FALSE,-0.0238095074892041,TRUE,0.5
+"9620sm.t1more",17,"San Mateo",9620,FALSE,-0.333333337306976,FALSE,-0.333333313465118
+"9622sm.t1more",17,"San Mateo",9622,FALSE,-0.0952380895614623,TRUE,0.166666686534882
+"9623sm.t1more",17,"San Mateo",9623,TRUE,0.311111098031203,TRUE,0.333333313465118
+"9624sm.t1more",17,"San Mateo",9624,TRUE,0.205555562178294,TRUE,0.333333343267441
+"9625sm.t1more",17,"San Mateo",9625,NA,NA,TRUE,0.833333313465118
+"9601sm.t1belowmrkt",17,"San Mateo",9601,TRUE,0.1,FALSE,0
+"9602sm.t1belowmrkt",17,"San Mateo",9602,TRUE,0.199999992549419,TRUE,0.366666659712791
+"9603sm.t1belowmrkt",17,"San Mateo",9603,TRUE,0.166666662693024,FALSE,0
+"9605sm.t1belowmrkt",17,"San Mateo",9605,FALSE,-0.0416666734963655,FALSE,-0.0555555671453477
+"9606sm.t1belowmrkt",17,"San Mateo",9606,FALSE,-0.037037045798368,TRUE,0.222222204009692
+"9607sm.t1belowmrkt",17,"San Mateo",9607,FALSE,-0.129629631837209,FALSE,0
+"9610sm.t1belowmrkt",17,"San Mateo",9610,TRUE,0.0714285714285714,FALSE,0
+"9611sm.t1belowmrkt",17,"San Mateo",9611,FALSE,-0.0499999940395354,TRUE,0.333333313465118
+"9613sm.t1belowmrkt",17,"San Mateo",9613,FALSE,-0.21666666418314,FALSE,-0.083333313465118
+"9614sm.t1belowmrkt",17,"San Mateo",9614,TRUE,0.249999997516473,TRUE,0.25
+"9615sm.t1belowmrkt",17,"San Mateo",9615,TRUE,0.0388888855775197,FALSE,-0.666666686534882
+"9616sm.t1belowmrkt",17,"San Mateo",9616,TRUE,0.027777781089147,FALSE,0
+"9617sm.t1belowmrkt",17,"San Mateo",9617,TRUE,0.125,FALSE,0
+"9619sm.t1belowmrkt",17,"San Mateo",9619,FALSE,-0.0238095287765775,FALSE,-0.166666701436043
+"9620sm.t1belowmrkt",17,"San Mateo",9620,FALSE,-0.316666668653488,FALSE,-0.166666686534882
+"9622sm.t1belowmrkt",17,"San Mateo",9622,TRUE,0.142857134342193,TRUE,0.166666686534882
+"9623sm.t1belowmrkt",17,"San Mateo",9623,TRUE,0.0499999910593033,TRUE,0.499999985098839
+"9624sm.t1belowmrkt",17,"San Mateo",9624,TRUE,0.277777781089147,TRUE,0.333333343267441
+"9625sm.t1belowmrkt",17,"San Mateo",9625,TRUE,0.0912698354749452,FALSE,0
+"9601sm.t1openspace",17,"San Mateo",9601,TRUE,0.233333337306976,FALSE,0
+"9602sm.t1openspace",17,"San Mateo",9602,FALSE,-0.300000001490116,FALSE,-0.366666677594185
+"9603sm.t1openspace",17,"San Mateo",9603,TRUE,2.98023219991173e-09,FALSE,0
+"9605sm.t1openspace",17,"San Mateo",9605,FALSE,-0.184523801984531,FALSE,0
+"9606sm.t1openspace",17,"San Mateo",9606,FALSE,-1.158979212601e-08,TRUE,0.166666636864344
+"9607sm.t1openspace",17,"San Mateo",9607,FALSE,-0.166666662320495,TRUE,0.166666701436043
+"9610sm.t1openspace",17,"San Mateo",9610,TRUE,0.0238095181328909,TRUE,0.0833333060145375
+"9611sm.t1openspace",17,"San Mateo",9611,TRUE,0.122222220069832,FALSE,0
+"9613sm.t1openspace",17,"San Mateo",9613,FALSE,-0.133333338797093,FALSE,0
+"9614sm.t1openspace",17,"San Mateo",9614,FALSE,-0.0277777661879857,FALSE,-0.0833333507180215
+"9615sm.t1openspace",17,"San Mateo",9615,NA,NA,FALSE,0
+"9616sm.t1openspace",17,"San Mateo",9616,FALSE,-0.111111102004846,FALSE,0
+"9617sm.t1openspace",17,"San Mateo",9617,FALSE,-0.166666693985462,FALSE,0
+"9619sm.t1openspace",17,"San Mateo",9619,FALSE,-0.289682536252907,FALSE,-0.333333298563957
+"9620sm.t1openspace",17,"San Mateo",9620,TRUE,0.0666666552424429,FALSE,0
+"9622sm.t1openspace",17,"San Mateo",9622,TRUE,0.119047616209303,TRUE,0.333333313465118
+"9623sm.t1openspace",17,"San Mateo",9623,TRUE,0.127777764201164,FALSE,-0.166666701436043
+"9624sm.t1openspace",17,"San Mateo",9624,FALSE,-0.249999982615312,FALSE,-0.166666649281978
+"9625sm.t1openspace",17,"San Mateo",9625,TRUE,0.0952380895614623,FALSE,0
+"9601sm.t1countyl",17,"San Mateo",9601,TRUE,0.174999994039535,FALSE,0
+"9602sm.t1countyl",17,"San Mateo",9602,TRUE,0.116666661037339,TRUE,0.266666659712791
+"9603sm.t1countyl",17,"San Mateo",9603,TRUE,0.0999999850988386,TRUE,1
+"9605sm.t1countyl",17,"San Mateo",9605,FALSE,-0.169642859271595,FALSE,-0.0555555621782939
+"9606sm.t1countyl",17,"San Mateo",9606,TRUE,0.0717592404948338,TRUE,0.222222208976745
+"9607sm.t1countyl",17,"San Mateo",9607,FALSE,-0.055555545621448,FALSE,-0.166666612029075
+"9610sm.t1countyl",17,"San Mateo",9610,FALSE,-0.285714272941862,TRUE,0.083333343267441
+"9611sm.t1countyl",17,"San Mateo",9611,TRUE,0.129629631174935,TRUE,0.5
+"9613sm.t1countyl",17,"San Mateo",9613,TRUE,0.257407397031784,TRUE,0.333333306014537
+"9614sm.t1countyl",17,"San Mateo",9614,TRUE,0.0833333159486452,TRUE,0.416666641831398
+"9615sm.t1countyl",17,"San Mateo",9615,FALSE,0,FALSE,0
+"9616sm.t1countyl",17,"San Mateo",9616,TRUE,0.277777781089147,TRUE,0.166666686534882
+"9617sm.t1countyl",17,"San Mateo",9617,TRUE,0.125000018626452,TRUE,0.5
+"9619sm.t1countyl",17,"San Mateo",9619,TRUE,0.0714285735573087,TRUE,1
+"9620sm.t1countyl",17,"San Mateo",9620,FALSE,-0.233333331346512,FALSE,0
+"9622sm.t1countyl",17,"San Mateo",9622,TRUE,0.190476185509137,FALSE,0
+"9623sm.t1countyl",17,"San Mateo",9623,FALSE,-0.250000009934108,FALSE,-0.166666686534882
+"9624sm.t1countyl",17,"San Mateo",9624,FALSE,-0.283333337306976,FALSE,-0.25
+"9625sm.t1countyl",17,"San Mateo",9625,FALSE,-0.261904759066445,TRUE,0.333333373069764
