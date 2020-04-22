@@ -22,10 +22,10 @@ att_indices <- read.csv("data/poll_indices.csv")
  # Cols = Study, Before.Before, SD.Before, After.Mean, After.SD
 
 # Analyses
-t1mean <- sapply(dpdat[,as.character(att_indices$t1var)], mean, na.rm = T)
-t1sd   <- sapply(dpdat[,as.character(att_indices$t1var)], sd, na.rm = T)
-t2mean <- sapply(dpdat[,as.character(att_indices$t2_t3var)], mean, na.rm = T)
-t2sd   <- sapply(dpdat[,as.character(att_indices$t2_t3var)], sd, na.rm = T)
+t1mean <- sapply(dpdat[, as.character(att_indices$t1var)], mean, na.rm = T)
+t1sd   <- sapply(dpdat[, as.character(att_indices$t1var)], sd, na.rm = T)
+t2mean <- sapply(dpdat[, as.character(att_indices$t2_t3var)], mean, na.rm = T)
+t2sd   <- sapply(dpdat[, as.character(att_indices$t2_t3var)], sd, na.rm = T)
 	
 # Results
 res <- cbind(att_indices, t1mean, t1sd, t2mean, t2sd)
@@ -34,4 +34,4 @@ res <- cbind(att_indices, t1mean, t1sd, t2mean, t2sd)
 res <- res[order(res$dpnum), ]
 
 # Write Results
-write.csv(res, file="tabs/append_c.csv", row.names = F)
+write.csv(res, file = "tabs/att_change.csv", row.names = F)
