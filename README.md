@@ -1,6 +1,25 @@
 ## Replication Data and Scripts for Deliberative Distortions
 
-Paper: http://gsood.com/research/papers/DeliberativeDistortions.pdf
+Paper: https://doi.org/10.1017/S0007123421000168 (BJPS 52(3): 1205–1225); [preprint](http://gsood.com/research/papers/DeliberativeDistortions.pdf)
+
+### Correction note
+
+The domination numbers in Tables 2 and 3 were generated with the sign
+reference inverted relative to Eq. 3 as printed, along with a few smaller
+issues. [AUDIT.md](AUDIT.md) has the full accounting: corrected numbers, a
+cell-by-cell diff to the published version, and the separation of errors
+from analytic conventions. A revised pipeline in [clean/](clean/)
+regenerates corrected tables (`tabs_clean/`) and figures (`figs_clean/`);
+the original `scripts/`, `tabs/`, and `figs/` below are preserved
+unchanged so the provenance of the published numbers stays verifiable.
+
+### Reproducibility
+
+Package versions for the revised pipeline are pinned in
+[renv.lock](renv.lock) (R 4.6.0). To reproduce: open the project
+(`distortions.Rproj`), run `renv::restore()`, then the commands listed in
+[AUDIT.md](AUDIT.md). The SessionInfo at the bottom of this README is the
+environment of the original published run and is kept for the record.
 
 ### Data
 
