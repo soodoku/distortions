@@ -1,0 +1,30 @@
+Package: distortions
+Type: Project
+Title: Corrected Analysis for Deliberative Distortions
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Robert", "Luskin", role = "aut"),
+    person("Gaurav", "Sood", role = "aut"),
+    person("James", "Fishkin", role = "aut"),
+    person("Kyu", "Hahn", role = "aut")
+  )
+Description: Reproduces, audits, and corrects the empirical analysis for
+    Deliberative Distortions.
+Depends:
+    R (>= 4.6.0)
+Imports:
+    broom,
+    clubSandwich,
+    digest,
+    dplyr,
+    dqrng,
+    fixest,
+    fwildclusterboot,
+    ggplot2,
+    lintr,
+    purrr,
+    renv,
+    sandwich,
+    testthat,
+    tibble,
+    tidyr

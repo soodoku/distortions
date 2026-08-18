@@ -1,0 +1,29 @@
+"check","value","expected","passed"
+"raw participant rows","6084","6084",TRUE
+"exact duplicate rows","217","217",TRUE
+"analysis participants","5867","5867",TRUE
+"unique participant keys","0","0",TRUE
+"attitude indices","129","129",TRUE
+"canonical pair rows","2480","2480",TRUE
+"pair rows by poll","64,135,60,60,48,100,126,96,144,204,50,32,216,135,90,48,104,330,84,270,84","64,135,60,60,48,100,126,96,144,204,50,32,216,135,90,48,104,330,84,270,84",TRUE
+"valid H pairs","2480","2480",TRUE
+"valid P pairs","2431","2431",TRUE
+"deduplication preserves group means","0","<=1e-15",TRUE
+"educ domination accounting","2437,1,51,2385,72","2437,1,51,2385,72",TRUE
+"educ Db missingness and definition","52","52",TRUE
+"educ keys belong to canonical pairs","0","0",TRUE
+"gender domination accounting","2476,0,40,2436,73","2476,0,40,2436,73",TRUE
+"gender Db missingness and definition","40","40",TRUE
+"gender keys belong to canonical pairs","0","0",TRUE
+"income domination accounting","1162,1,17,1144,13","1162,1,17,1144,13",TRUE
+"income Db missingness and definition","18","18",TRUE
+"income keys belong to canonical pairs","0","0",TRUE
+"triple domination accounting","1000,6,11,983,11","1000,6,11,983,11",TRUE
+"triple Db missingness and definition","17","17",TRUE
+"triple keys belong to canonical pairs","0","0",TRUE
+"frozen headline estimates","4.73943483417227e-10","<=5e-10",TRUE
+"corrected Table 2 rows","12","12",TRUE
+"corrected Table 3 rows","24","24",TRUE
+"Table 2 primary inference is complete","12","12",TRUE
+"attitude-change estimates","0.089414382,0.202664408","0.089414382,0.202664408",TRUE
+"no analytical script reads stale numindices","0","0",TRUE

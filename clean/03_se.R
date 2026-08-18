@@ -1,85 +1,228 @@
 "
 Deliberative Distortions -- clean pipeline
-Standard errors for the hom/pol and domination tables
-
-Per poll: lmer(y ~ (1 | issue)) intercept SE over group-issue pairs, as in
-scripts/05a_hp_se.R and 05b_dom_se.R. Aggregate rows via fixed-effect
-meta-analysis (fe_meta in 00_functions.R, equivalent to rmeta::meta.summaries
-method = 'fixed').
-
-Differences from the originals (issue 9 in AUDIT.md): every row range is
-the actual number of polls in the dimension, and all dimensions share one
-row layout.
+Direct pair means with poll-clustered CR2 inference
 "
 
 source("clean/00_functions.R")
-suppressPackageStartupMessages(library(lme4))
-
-pair_col_of <- c(freqdis = "freqdis_grp", extdis = "extdis_grp",
-                 freqgrp = "freqgrp_grp", extgrp = "extgrp_grp",
-                 polarfreq = "polarfreq", homofreq = "homofreq",
-                 polarex = "polarex", homoex = "homoex")
-
-lmer_se <- function(y, issue) {
-    if (n_distinct(issue[!is.na(y)]) < 2) {
-        return(sd(y, na.rm = TRUE) / sqrt(sum(!is.na(y))))
-    }
-    fit <- suppressWarnings(suppressMessages(lmer(y ~ (1 | issue))))
-    broom.mixed::tidy(fit, effects = "fixed")$std.error[1]
-}
-
-se_table <- function(pairs_file, table_file, out_file) {
-    pairs <- read.csv(pairs_file) |>
-        mutate(issue = gsub("^[0-9]*", "", unique_id))
-    tab <- read.csv(table_file)
-
-    polls <- tab |>
-        filter(!pollname %in% c("Mean", "Weighted Mean (By Indices and Groups)")) |>
-        mutate(across(-pollname, as.numeric))
-    val_cols <- intersect(names(pair_col_of), names(polls))
-
-    ses <- polls$pollnum |>
-        map(\(p) {
-            d <- pairs |> filter(poll_id == p)
-            map_dbl(set_names(val_cols, paste0(val_cols, "_se")),
-                    \(v) lmer_se(as.numeric(d[[pair_col_of[v]]]), d$issue))
-        }) |>
-        map(as_tibble_row) |>
-        list_rbind()
-    out <- bind_cols(polls, ses)
-
-    w <- polls$ngroups * polls$nindices
-    aggregate_rows <- val_cols |>
-        map(\(v) {
-            x <- polls[[v]]
-            se <- ses[[paste0(v, "_se")]]
-            null_val <- if (grepl("freq", v)) .5 else 0
-            m_pr <- fe_meta(x, se)
-            m_wt <- fe_meta(x, se, w = w)
-            # Mean row: arithmetic mean (as in the main tables) with the
-            # unweighted fixed-effect SE, matching the original 05a/05b pairing
-            tibble("{v}" := c(mean(x), m_wt$est, NA, m_pr$est),
-                   "{v}_se" := c(m_pr$se, m_wt$se,
-                                 fe_meta(x - null_val, se, w = w)$p, m_pr$se))
-        }) |>
-        list_cbind() |>
-        mutate(pollname = c("Mean", "Weighted Mean (By Indices and Groups)",
-                            "p-value of Weighted Mean", "Precision Wtd Mean"))
-
-    bind_rows(out, aggregate_rows) |>
-        write.csv(out_file, row.names = FALSE)
-}
-
-se_table("tabs_clean/03_hom_pol_by_group_issue.csv",
-         "tabs_clean/02_table_2_hom_pol.csv",
-         "tabs_clean/02_table_2_hom_pol_se.csv")
-
-dom_tables <- c(educ = "04_table_4b_toward_highed",
-                gender = "04_table_4a_toward_male",
-                income = "04_table_4c_toward_highinc",
-                triple = "04_table_4d_toward_triple")
-iwalk(dom_tables, \(table, d) {
-    se_table(sprintf("tabs_clean/03_dom_%s_by_group_issue.csv", d),
-             sprintf("tabs_clean/%s.csv", table),
-             sprintf("tabs_clean/%s_se.csv", table))
+suppressPackageStartupMessages({
+  library(sandwich)
+  library(clubSandwich)
 })
+
+if (Sys.getenv("R_USER_CONFIG_DIR") == "") {
+  Sys.setenv(R_USER_CONFIG_DIR = file.path(tempdir(), "r-config"))
+}
+
+infer_mean <- function(data, outcome, null = 0) {
+  d <- data |>
+    transmute(
+      y = as.numeric(.data[[outcome]]) - null,
+      group_key, issue_id, poll_id
+    ) |>
+    filter(complete.cases(y, group_key, issue_id, poll_id))
+
+  stopifnot(
+    nrow(d) > 1,
+    n_distinct(d$group_key) > 1,
+    n_distinct(d$issue_id) > 1,
+    n_distinct(d$poll_id) > 1
+  )
+
+  fit <- lm(y ~ 1, data = d)
+  vcov_two_way <- vcovCL(
+    fit,
+    cluster = d[c("group_key", "issue_id")],
+    type = "HC1",
+    cadjust = TRUE,
+    multi0 = TRUE,
+    fix = FALSE
+  )
+  two_way_variance <- vcov_two_way[1, 1]
+  se_two_way <- if (two_way_variance >= 0) sqrt(two_way_variance) else NA_real_
+  df_two_way <- min(n_distinct(d$group_key), n_distinct(d$issue_id)) - 1
+  estimate <- unname(coef(fit)[1]) + null
+  statistic_two_way <- (estimate - null) / se_two_way
+  p_two_way <- 2 * pt(abs(statistic_two_way),
+    df = df_two_way, lower.tail = FALSE
+  )
+
+  poll_fit <- lm(y ~ 1, data = d)
+  poll_test <- coef_test(
+    poll_fit,
+    vcov = "CR2",
+    cluster = d$poll_id,
+    test = "Satterthwaite"
+  )
+  critical <- qt(.975, df = poll_test$df_Satt)
+
+  loo <- unique(d$poll_id) |>
+    map_dbl(\(p) mean(d$y[d$poll_id != p]) + null)
+
+  tibble(
+    estimate = estimate,
+    null = null,
+    se = poll_test$SE,
+    df = poll_test$df_Satt,
+    p = poll_test$p_Satt,
+    conf_low = estimate - critical * poll_test$SE,
+    conf_high = estimate + critical * poll_test$SE,
+    se_two_way = se_two_way,
+    df_two_way = df_two_way,
+    p_two_way = p_two_way,
+    two_way_variance_nonnegative = two_way_variance >= 0,
+    n_pairs = nrow(d),
+    n_groups = n_distinct(d$group_key),
+    n_issues = n_distinct(d$issue_id),
+    n_polls = n_distinct(d$poll_id),
+    mean_absolute = if (null == 0) mean(abs(d$y)) else NA_real_,
+    proportion_abs_gt_10 = if (null == 0) mean(abs(d$y) > .1) else NA_real_,
+    proportion_abs_gt_20 = if (null == 0) mean(abs(d$y) > .2) else NA_real_,
+    leave_one_poll_min = min(loo),
+    leave_one_poll_max = max(loo)
+  )
+}
+
+wild_cluster_p <- function(data, outcome, null = 0, seed = 20260818) {
+  d <- data |>
+    transmute(y = as.numeric(.data[[outcome]]) - null, poll_id) |>
+    filter(complete.cases(y, poll_id))
+
+  set.seed(seed)
+  dqrng::dqset.seed(seed)
+  fit <- fixest::feols(y ~ 1, data = d)
+  bootstrap <- suppressMessages(suppressWarnings(
+    fwildclusterboot::boottest(
+      fit,
+      param = "(Intercept)",
+      B = 99999,
+      clustid = "poll_id",
+      type = if (n_distinct(d$poll_id) < 12) "webb" else "rademacher",
+      bootstrap_type = "fnw11",
+      impose_null = TRUE,
+      p_val_type = "two-tailed",
+      engine = "R",
+      nthreads = 1,
+      conf_int = FALSE
+    )
+  ))
+  bootstrap$p_val
+}
+
+hp <- read.csv("tabs_clean/03_hom_pol_by_group_issue.csv")
+
+hp_specs <- tribble(
+  ~construct, ~measure, ~outcome, ~null,
+  "Homogenization", "H", "homoex", 0,
+  "Homogenization", "Hb", "homofreq", .5,
+  "Directional polarization", "P", "polarex", 0,
+  "Directional polarization", "Pb", "polarfreq", .5
+)
+
+table2_hp <- hp_specs |>
+  pmap(\(construct, measure, outcome, null) {
+    infer_mean(hp, outcome, null) |>
+      mutate(
+        construct = construct,
+        dimension = NA_character_,
+        measure = measure,
+        outcome = outcome,
+        .before = 1
+      )
+  }) |>
+  list_rbind()
+
+dimensions <- c("gender", "educ", "income", "triple")
+dimension_labels <- c(
+  gender = "Gender",
+  educ = "Education",
+  income = "Income",
+  triple = "Gender, education, and income"
+)
+
+dom_pairs <- dimensions |>
+  set_names() |>
+  map(\(d) read.csv(sprintf("tabs_clean/03_dom_%s_by_group_issue.csv", d)))
+
+table2_dom <- dimensions |>
+  map(\(dimension) {
+    map2(c("D", "Db"), c("ext_grp", "freqgrp_grp"), \(measure, outcome) {
+      infer_mean(
+        dom_pairs[[dimension]], outcome,
+        if (measure == "Db") .5 else 0
+      ) |>
+        mutate(
+          construct = "Domination",
+          dimension = dimension_labels[[dimension]],
+          measure = measure,
+          outcome = outcome,
+          .before = 1
+        )
+    }) |>
+      list_rbind()
+  }) |>
+  list_rbind()
+
+table2 <- bind_rows(table2_hp, table2_dom) |>
+  mutate(
+    p_wild_cluster = c(
+      pmap_dbl(hp_specs, \(construct, measure, outcome, null) {
+        wild_cluster_p(
+          hp, outcome, null,
+          20260818 + match(measure, hp_specs$measure)
+        )
+      }),
+      dimensions |>
+        imap(\(dimension, i) {
+          map2_dbl(
+            c("ext_grp", "freqgrp_grp"), c(0, .5),
+            \(outcome, null) {
+              wild_cluster_p(
+                dom_pairs[[dimension]], outcome, null,
+                20260818 + 2 * i + (null > 0)
+              )
+            }
+          )
+        }) |>
+        unlist(use.names = FALSE)
+    ),
+    p_holm_12 = p.adjust(p, method = "holm"),
+    p_bh_12 = p.adjust(p, method = "BH"),
+    p_bonferroni_12 = p.adjust(p, method = "bonferroni"),
+    p_wild_holm_12 = p.adjust(p_wild_cluster, method = "holm"),
+    p_wild_bh_12 = p.adjust(p_wild_cluster, method = "BH")
+  )
+
+table3_specs <- tribble(
+  ~measure, ~outcome, ~null,
+  "D", "ext_grp", 0,
+  "dM", "ext_dis", 0,
+  "aM", "ext_adv", 0,
+  "Db", "freqgrp_grp", .5,
+  "dMb", "freqdis_grp", .5,
+  "aMb", "freqadv_grp", .5
+)
+
+table3 <- dimensions |>
+  map(\(dimension) {
+    table3_specs |>
+      pmap(\(measure, outcome, null) {
+        infer_mean(dom_pairs[[dimension]], outcome, null) |>
+          mutate(
+            dimension = dimension_labels[[dimension]],
+            measure = measure,
+            outcome = outcome,
+            .before = 1
+          )
+      }) |>
+      list_rbind()
+  }) |>
+  list_rbind() |>
+  mutate(
+    p_holm_24 = p.adjust(p, method = "holm"),
+    p_bh_24 = p.adjust(p, method = "BH"),
+    p_bonferroni_24 = p.adjust(p, method = "bonferroni")
+  )
+
+dir.create("tabs_clean", showWarnings = FALSE)
+write.csv(table2, "tabs_clean/02_table_2_corrected.csv", row.names = FALSE)
+write.csv(table3, "tabs_clean/03_table_3_corrected.csv", row.names = FALSE)

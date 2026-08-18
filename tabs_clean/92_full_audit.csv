@@ -1,93 +1,14 @@
-"file","what","quantity","committed","clean","change","flips_sign","crosses_.5","section","committed_wtd_se","clean_wtd_se","committed_p","clean_p","sig_change_at_05","dimension","correlation","outcome","committed_slope","clean_slope"
-"02_table_2_hom_pol.csv","Table 2 H/P","homofreq",0.595039879583837,0.596127557776923,0.00108767819308597,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"02_table_2_hom_pol.csv","Table 2 H/P","homoex",0.0133476273460029,0.0134665618309829,0.00011893448498,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"02_table_2_hom_pol.csv","Table 2 H/P","polarfreq",0.453935286250016,0.45333577248218,-0.000599513767836013,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"02_table_2_hom_pol.csv","Table 2 H/P","polarex",-0.0220946828923819,-0.0220568092476903,3.78736446915995e-05,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4a_toward_male.csv","D toward men","freqdis",0.494622128035213,0.561730530992353,0.06710840295714,FALSE,TRUE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4a_toward_male.csv","D toward men","extdis",0.0274890048771107,0.0393129770615965,0.0118239721844858,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4a_toward_male.csv","D toward men","freqgrp",0.464029423823433,0.467138280148661,0.003108856325228,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4a_toward_male.csv","D toward men","extgrp",0.00812813140055893,0.00372779439944977,-0.00440033700110916,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4a_toward_female.csv","D toward women (mirror)","freqdis",0.559923656656612,0.560357981972746,0.000434325316133966,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4a_toward_female.csv","D toward women (mirror)","extdis",0.0326154572536651,0.0340381812997344,0.00142272404606929,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4a_toward_female.csv","D toward women (mirror)","freqgrp",0.504340098815579,0.489838523644752,-0.014501575170827,FALSE,TRUE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4a_toward_female.csv","D toward women (mirror)","extgrp",-0.00373463361584318,-0.00372779439944977,6.83921639340994e-06,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4b_toward_highed.csv","D toward better educated","freqdis",0.523492966688196,0.589123274137455,0.065630307449259,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4b_toward_highed.csv","D toward better educated","extdis",0.0234563360177736,0.0581577085620904,0.0347013725443168,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4b_toward_highed.csv","D toward better educated","freqgrp",0.447316817958437,0.517592105323888,0.070275287365451,FALSE,TRUE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4b_toward_highed.csv","D toward better educated","extgrp",-0.0132877737876087,0.0128842848546848,0.0261720586422935,TRUE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4b_toward_lowed.csv","D toward less educated (mirror)","freqdis",0.588455519418749,0.520292971893188,-0.068162547525561,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4b_toward_lowed.csv","D toward less educated (mirror)","extdis",0.0574720590478529,0.0241519127960982,-0.0333201462517547,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4b_toward_lowed.csv","D toward less educated (mirror)","freqgrp",0.534774708582811,0.434560958373234,-0.100213750209577,FALSE,TRUE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4b_toward_lowed.csv","D toward less educated (mirror)","extgrp",0.0129936841081457,-0.0129009416909834,-0.0258946257991291,TRUE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4c_toward_highinc.csv","D toward higher income","freqdis",0.521260679416263,0.541752577319588,0.0204918979033251,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4c_toward_highinc.csv","D toward higher income","extdis",0.0358102223026536,0.0428925421600276,0.007082319857374,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4c_toward_highinc.csv","D toward higher income","freqgrp",0.485242721250672,0.492648531308325,0.00740581005765295,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4c_toward_highinc.csv","D toward higher income","extgrp",2.64509664119749e-05,-0.000554521495760114,-0.000580972462172089,TRUE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4c_toward_lowinc.csv","D toward lower income (mirror)","freqdis",0.534800193428344,0.527013192992574,-0.00778700043576996,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4c_toward_lowinc.csv","D toward lower income (mirror)","extdis",0.0425251699405157,0.0371173966674425,-0.0054077732730732,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4c_toward_lowinc.csv","D toward lower income (mirror)","freqgrp",0.498751914559766,0.47869856375011,-0.020053350809656,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4c_toward_lowinc.csv","D toward lower income (mirror)","extgrp",-0.000472415125476647,0.000496739345209554,0.000969154470686201,TRUE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple.csv","D toward triple advantaged","freqdis",0.49518819234807,0.551629514479158,0.056441322131088,FALSE,TRUE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple.csv","D toward triple advantaged","extdis",0.0655008786732558,0.0333394329051446,-0.0321614457681112,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple.csv","D toward triple advantaged","freqgrp",0.466494157579423,0.51054772326361,0.044053565684187,FALSE,TRUE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple.csv","D toward triple advantaged","extgrp",-0.0151775315430035,0.0149081899602998,0.0300857215033033,TRUE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple_disadv.csv","D toward triple disadvantaged (mirror)","freqdis",0.54538898923632,0.496498164945095,-0.0488908242912249,FALSE,TRUE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple_disadv.csv","D toward triple disadvantaged (mirror)","extdis",0.0307966741806296,0.0622525380786133,0.0314558638979837,FALSE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple_disadv.csv","D toward triple disadvantaged (mirror)","freqgrp",0.517071192513862,0.459691496311846,-0.057379696202016,FALSE,TRUE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple_disadv.csv","D toward triple disadvantaged (mirror)","extgrp",0.0145170866484605,-0.0148308075057105,-0.029347894154171,TRUE,FALSE,"main",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"02_table_2_hom_pol_se.csv","H/P","polarfreq",NA,NA,NA,NA,NA,"se",0.0273271553843788,0.0273271554073845,0.0877080269567093,0.0877080272236289,FALSE,NA,NA,NA,NA,NA
-"02_table_2_hom_pol_se.csv","H/P","polarex",NA,NA,NA,NA,NA,"se",0.0103001694802217,0.0103001694795805,0.0322415890369436,0.0322415890262041,FALSE,NA,NA,NA,NA,NA
-"02_table_2_hom_pol_se.csv","H/P","homofreq",NA,NA,NA,NA,NA,"se",0.0165705094044409,0.0165135242118426,8.009735874559e-09,5.84471301872327e-09,FALSE,NA,NA,NA,NA,NA
-"02_table_2_hom_pol_se.csv","H/P","homoex",NA,NA,NA,NA,NA,"se",0.0025686627617037,0.00256866276037021,1.58299312769117e-07,1.58299310402389e-07,FALSE,NA,NA,NA,NA,NA
-"04_table_4a_toward_male_se.csv","toward men","freqdis",NA,NA,NA,NA,NA,"se",0.00876649206008852,0.0143209818864029,0.559818738520962,1.62888988725e-05,TRUE,NA,NA,NA,NA,NA
-"04_table_4a_toward_male_se.csv","toward men","extdis",NA,NA,NA,NA,NA,"se",0.00264493052275057,0.00573850476367713,0,7.34713625342564e-12,FALSE,NA,NA,NA,NA,NA
-"04_table_4a_toward_male_se.csv","toward men","freqgrp",NA,NA,NA,NA,NA,"se",0.0112892307371862,0.0147635838462417,0.0015421438866734,0.0260233374919562,FALSE,NA,NA,NA,NA,NA
-"04_table_4a_toward_male_se.csv","toward men","extgrp",NA,NA,NA,NA,NA,"se",0.00371207970581687,0.00543749914828209,0.0306329421554109,0.492983364196642,TRUE,NA,NA,NA,NA,NA
-"04_table_4b_toward_highed_se.csv","toward better educated","freqdis",NA,NA,NA,NA,NA,"se",0.0145679260642653,0.012216183081392,0.108088103586889,2.9753199015719e-13,TRUE,NA,NA,NA,NA,NA
-"04_table_4b_toward_highed_se.csv","toward better educated","extdis",NA,NA,NA,NA,NA,"se",0.00529416280886381,0.00570958597623726,9.35276682545449e-06,2.29048613344197e-24,FALSE,NA,NA,NA,NA,NA
-"04_table_4b_toward_highed_se.csv","toward better educated","freqgrp",NA,NA,NA,NA,NA,"se",0.0121524370709943,0.0123086659634792,1.61744898523608e-05,0.152933686976692,TRUE,NA,NA,NA,NA,NA
-"04_table_4b_toward_highed_se.csv","toward better educated","extgrp",NA,NA,NA,NA,NA,"se",0.00503564897990953,0.00501513171404676,0.00827284178944454,0.0101968311636365,FALSE,NA,NA,NA,NA,NA
-"04_table_4c_toward_highinc_se.csv","toward higher income","freqdis",NA,NA,NA,NA,NA,"se",0.0172011238789987,0.0160467393285164,0.203102087536444,0.0092699342075045,TRUE,NA,NA,NA,NA,NA
-"04_table_4c_toward_highinc_se.csv","toward higher income","extdis",NA,NA,NA,NA,NA,"se",0.00703241389314266,0.00584581168344602,2.18742806312733e-07,2.17926763765494e-13,FALSE,NA,NA,NA,NA,NA
-"04_table_4c_toward_highinc_se.csv","toward higher income","freqgrp",NA,NA,NA,NA,NA,"se",0.0171033313643713,0.0168066427625716,0.42486069243271,0.661810793952715,FALSE,NA,NA,NA,NA,NA
-"04_table_4c_toward_highinc_se.csv","toward higher income","extgrp",NA,NA,NA,NA,NA,"se",0.00505070071925905,0.00496485416778174,0.95069210183182,0.911069698261217,FALSE,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple_se.csv","toward triple advantaged","freqdis",NA,NA,NA,NA,NA,"se",0.0217274639177169,0.0200123675989269,0.823888527401992,0.00988345446469426,TRUE,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple_se.csv","toward triple advantaged","extdis",NA,NA,NA,NA,NA,"se",0.0111885455140207,0.00734263023134261,4.7048404061556e-09,5.61129913190497e-06,FALSE,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple_se.csv","toward triple advantaged","freqgrp",NA,NA,NA,NA,NA,"se",0.0199892041622164,0.0197724599880756,0.102430486336759,0.593718456761435,FALSE,NA,NA,NA,NA,NA
-"04_table_4d_toward_triple_se.csv","toward triple advantaged","extgrp",NA,NA,NA,NA,NA,"se",0.00691037459847782,0.00693387234387052,0.0286114341660711,0.031551057783076,FALSE,NA,NA,NA,NA,NA
-NA,"H/P normed","homofreq",0.595582895467555,0.596127557776923,0.000544662309367783,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"H/P normed","homoex",0.0156057646492715,0.0296402559149277,0.0140344912656562,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"H/P normed","polarfreq",0.45333577248218,0.45333577248218,5.55111512312578e-17,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"H/P normed","polarex",0.0148933009835403,0.0193533816179637,0.00446008063442343,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"gender normed","extgrp",0.00802480535887935,0.00372779439944977,-0.00429701095942958,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"gender normed","extdis",0.0273780041881581,0.0393129770615965,0.0119349728734384,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"gender normed","extgrp_normed",-0.0022659259868865,-0.00210590607767536,0.000160019909211145,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"gender normed","extdis_normed",0.0379671090531712,0.0401155040732304,0.00214839502005919,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"education normed","extgrp",-0.0132977728524246,0.0128842848546848,0.0261820577071094,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"education normed","extdis",0.0234617186434057,0.0581577085620904,0.0346959899186847,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"education normed","extgrp_normed",-0.0252728466717036,0.0246667623995975,0.0499396090713011,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"education normed","extdis_normed",0.0197608902629314,0.0767055959946741,0.0569447057317427,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"income normed","extgrp",0.0003123235816121,-0.000554521495760114,-0.000866845077372214,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"income normed","extdis",0.0364466148026204,0.0428925421600276,0.00644592735740716,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"income normed","extgrp_normed",-0.000480837515822069,7.53777836870894e-05,0.000556215299509158,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"income normed","extdis_normed",0.0374092868686642,0.0536206571554734,0.0162113702868092,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"triple normed","extgrp",-0.0151254227489468,0.0149081899602998,0.0300336127092466,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"triple normed","extdis",0.0655345443903937,0.0333394329051446,-0.0321951114852491,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"triple normed","extgrp_normed",-0.0334021960307717,0.0334021960307717,0.0668043920615434,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,"triple normed","extdis_normed",0.0426737790338099,0.0587225693726277,0.0160487903388178,NA,NA,"normed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,NA,NA,0.0184879937892299,-0.0191026396264357,NA,NA,NA,"correlation",NA,NA,NA,NA,NA,"educ","cor(D, polarex)",NA,NA,NA
-NA,NA,NA,-0.0391895227369537,0.0394282625479523,NA,NA,NA,"correlation",NA,NA,NA,NA,NA,"educ","cor(D, homoex)",NA,NA,NA
-NA,NA,NA,0.00859339882618168,-0.141731820014577,NA,NA,NA,"correlation",NA,NA,NA,NA,NA,"gender","cor(D, polarex)",NA,NA,NA
-NA,NA,NA,-0.00866943690240312,-0.0614638775229138,NA,NA,NA,"correlation",NA,NA,NA,NA,NA,"gender","cor(D, homoex)",NA,NA,NA
-NA,NA,NA,0.0205457792471904,-0.0187137497669885,NA,NA,NA,"correlation",NA,NA,NA,NA,NA,"income","cor(D, polarex)",NA,NA,NA
-NA,NA,NA,0.0358228519389748,-0.0366576242293939,NA,NA,NA,"correlation",NA,NA,NA,NA,NA,"income","cor(D, homoex)",NA,NA,NA
-NA,NA,NA,0.0533823204095261,-0.053307640229677,NA,NA,NA,"correlation",NA,NA,NA,NA,NA,"triple","cor(D, polarex)",NA,NA,NA
-NA,NA,NA,-0.106029500972334,0.106186607377829,NA,NA,NA,"correlation",NA,NA,NA,NA,NA,"triple","cor(D, homoex)",NA,NA,NA
-NA,NA,NA,NA,NA,NA,NA,NA,"parsing",NA,NA,1.59258421634794e-15,8.97540734898859e-13,NA,"educ",NA,"extdis_grp",0.120024686442767,-0.108218625015317
-NA,NA,NA,NA,NA,NA,NA,NA,"parsing",NA,NA,0.240531578120491,0.265660649683073,NA,"educ",NA,"extgrp_grp",0.013900634371079,-0.012888317726639
-NA,NA,NA,NA,NA,NA,NA,NA,"parsing",NA,NA,0.0389265641371058,3.25120671458294e-05,NA,"gender",NA,"extdis_grp",-0.0301409747538747,-0.0937622276974324
-NA,NA,NA,NA,NA,NA,NA,NA,"parsing",NA,NA,0.211314395982045,0.221603520187752,NA,"gender",NA,"extgrp_grp",-0.0162541351125884,-0.022080981626485
-NA,NA,NA,NA,NA,NA,NA,NA,"parsing",NA,NA,0.11373943561683,3.19281991916717e-11,NA,"income",NA,"extdis_grp",0.0472347953004698,-0.196007283023865
-NA,NA,NA,NA,NA,NA,NA,NA,"parsing",NA,NA,0.486846375793549,0.599183818275799,NA,"income",NA,"extgrp_grp",0.0165461612687852,-0.0123426853714713
-NA,NA,NA,NA,NA,NA,NA,NA,"parsing",NA,NA,0.114667741105457,0.253641277196046,NA,"triple",NA,"extdis_grp",-0.0927884607133376,-0.0517591800876521
-NA,NA,NA,NA,NA,NA,NA,NA,"parsing",NA,NA,0.370376422175322,0.727124503460001,NA,"triple",NA,"extgrp_grp",0.0286426659785467,-0.014982522996458
+"claim_id","location","claim","status","artifact","value_rows","versions","artifact_exists"
+"C001","Abstract; pp. 1205-1206; p. 1222","The analysis contains 2,601 group-issue pairs.","corrected","tabs_clean/00_analysis_inventory.csv",1,"fully_corrected",TRUE
+"C002","Abstract; pp. 1216-1218; pp. 1222-1223","The data show faint opposition to domination.","rewrite","tabs_clean/02_table_2_corrected.csv",8,"fully_corrected",TRUE
+"C003","Table 1 and p. 1215","Participant, group, and policy-index inventory.","corrected","tabs_clean/00_poll_inventory.csv",7,"fully_corrected",TRUE
+"C004","Footnote 12, p. 1210","Correlations among homogenization, polarization, and domination.","corrected","tabs_clean/05_corr_hpd.csv",9,"fully_corrected",TRUE
+"C005","p. 1216","Six of ten Table 2 estimates are statistically significant.","corrected","tabs_clean/02_table_2_corrected.csv",1,"fully_corrected",TRUE
+"C006","p. 1216","Two of twenty participants moving .1 changes the mean by .10.","corrected","direct arithmetic",1,"fully_corrected",TRUE
+"C007","Table 2, p. 1218","Main homogenization, polarization, and domination estimates.","corrected","tabs_clean/02_table_2_corrected.csv",24,"fully_corrected,published",TRUE
+"C008","Figure 3, p. 1217; Appendix B","Distributions and subgroup comparisons use common constructs.","corrected","figs_clean/figure_manifest.csv",0,"none",TRUE
+"C009","Table 3, p. 1220","Group and subgroup movement estimates.","corrected","tabs_clean/03_table_3_corrected.csv",24,"fully_corrected",TRUE
+"C010","pp. 1219-1220 and footnote 22","Domination varies with the disadvantaged share of the group.","corrected","tabs_clean/07_parsing_domination.csv",8,"fully_corrected",TRUE
+"C011","pp. 1220-1221","Net and gross attitude change are .092 and .203.","corrected","tabs_clean/05_attitude_change.csv",2,"fully_corrected",TRUE
+"C012","Footnote 20, p. 1216","Huber-White standard errors are clustered by policy index.","corrected","clean/03_se.R",12,"fully_corrected",TRUE
+"C013","Conclusion, pp. 1222-1223","The design identifies deliberative or working-memory corrections.","rewrite","No untreated comparison or measured mechanism",0,"none",TRUE

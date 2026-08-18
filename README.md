@@ -1,25 +1,39 @@
 ## Replication Data and Scripts for Deliberative Distortions
 
-Paper: https://doi.org/10.1017/S0007123421000168 (BJPS 52(3): 1205–1225); [preprint](http://gsood.com/research/papers/DeliberativeDistortions.pdf)
+Paper: https://doi.org/10.1017/S0007123421000168 (BJPS 52(3): 1205-1225); [preprint](http://gsood.com/research/papers/DeliberativeDistortions.pdf)
 
 ### Correction note
 
-The domination numbers in Tables 2 and 3 were generated with the sign
-reference inverted relative to Eq. 3 as printed, along with a few smaller
-issues. [AUDIT.md](AUDIT.md) has the full accounting: corrected numbers, a
-cell-by-cell diff to the published version, and the separation of errors
-from analytic conventions. A revised pipeline in [clean/](clean/)
-regenerates corrected tables (`tabs_clean/`) and figures (`figs_clean/`);
-the original `scripts/`, `tabs/`, and `figs/` below are preserved
-unchanged so the provenance of the published numbers stays verifiable.
+The published domination results do not implement Equation 3 consistently.
+The analysis also uses stale policy-index counts as weights, conflates an
+undefined domination direction with zero movement, duplicates 217 participant
+records, and reports an uncertainty procedure that the code does not run.
+
+The revised pipeline in [clean/](clean/) fixes these defects at their shared
+sources. It analyzes 5,867 distinct participants, 397 groups, 129 policy
+indices, and 2,480 group-index pairs. [AUDIT.md](AUDIT.md) states the corrected
+conclusion and lists every affected claim. Machine-readable claim, value, and
+artifact ledgers are in [provenance/](provenance/).
+
+The original `scripts/`, `tabs/`, and `figs/` remain unchanged. They preserve
+the provenance of the journal results and are not the source for corrected
+estimates.
 
 ### Reproducibility
 
-Package versions for the revised pipeline are pinned in
-[renv.lock](renv.lock) (R 4.6.0). To reproduce: open the project
-(`distortions.Rproj`), run `renv::restore()`, then the commands listed in
-[AUDIT.md](AUDIT.md). The SessionInfo at the bottom of this README is the
-environment of the original published run and is kept for the record.
+Direct dependencies are declared in [DESCRIPTION](DESCRIPTION), and resolved
+versions are pinned in [renv.lock](renv.lock) for R 4.6.0. From the repository
+root:
+
+```sh
+make ci
+```
+
+`make analysis` regenerates the corrected tables, figures, validation results,
+and provenance ledgers. `make test` runs the analysis and test suite.
+
+The SessionInfo below records the original published run and is retained only
+for historical reproduction.
 
 ### Data
 
@@ -60,11 +74,11 @@ environment of the original published run and is kept for the record.
 
 6. [Parsing Domination](scripts/07_parsing_domination.R) produces in-text numbers for the section on parsing domination.
 
-7. [Description of Groups](scripts/08_appendix_sample_description.R)---Not in the Paper---produces figures that show the distribution of proportion male, better educated, higher income across groups.
+7. [Description of Groups](scripts/08_appendix_sample_description.R) produces exploratory figures that are not in the paper.
 
-8. [Attitude Change](scripts/09_attitude_change.R)---Not in Paper---Poll level pre post attitude mean and s.d. Produces [tabs/att_change.csv](tabs/att_change.csv)
+8. [Attitude Change](scripts/09_attitude_change.R) produces poll-level pre and post attitude means and standard deviations. The corrected producer for the net and gross change discussed on pp. 1220-1221 is [clean/05_attitude_change.R](clean/05_attitude_change.R).
 
-9. [Rull All Scripts](scripts/10_run_all.R)
+9. [Run All Original Scripts](scripts/10_run_all.R)
 
 ### SessionInfo
 
