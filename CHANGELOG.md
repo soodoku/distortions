@@ -16,6 +16,8 @@
 - Restore and load the pinned R environment for local validation. Update renv
   from 1.2.3 to 1.2.4 to resolve its dependency-installation failure; statistical
   package versions stay fixed.
+- Pin the existing ragg PNG renderer so the restored environment preserves the
+  committed figures' appearance.
 
 ## v1.0.0 - 2026-08-18
 

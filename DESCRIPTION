@@ -23,6 +23,7 @@ Imports:
     ggplot2,
     lintr,
     purrr,
+    ragg,
     renv,
     sandwich,
     testthat,
