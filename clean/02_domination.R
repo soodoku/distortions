@@ -90,10 +90,20 @@ for (dim_name in names(dims)) {
       if (is.null(pair_data)) {
         return(NULL)
       }
+      paired_data <- smdata[complete.cases(smdata[c(t1var, t2_t3var)]), ]
+      paired_means <- dom_pairs_index(paired_data, t1var, t2_t3var, cfg$adv(paired_data))
+      if (!is.null(paired_means)) {
+        paired_means <- paired_means |>
+          rename_with(\(name) paste0(name, "_paired"), -group_id)
+      } else {
+        paired_means <- pair_data[FALSE, ] |>
+          rename_with(\(name) paste0(name, "_paired"), -group_id)
+      }
       pair_data |>
+        left_join(paired_means, by = "group_id", relationship = "one-to-one") |>
         mutate(
           poll_id = dpnum,
-          source_poll_id = poll_id,
+          source_poll_id = .env$poll_id,
           poll_name = poll_name,
           issue_id = issue_id,
           group_key = paste(dpnum, group_id, sep = ":"),
@@ -122,52 +132,12 @@ for (dim_name in names(dims)) {
   res_adv <- poll_table(pairs, poll_info, "ext_dis", "ext_grp")
   res_dis <- poll_table(pairs, poll_info, "ext_adv_mir", "ext_grp_mir")
 
-  res_normed <- pairs |>
-    summarise(
-      n_pairs = n(),
-      extgrp = mean(ext_grp, na.rm = TRUE),
-      extdis = mean(ext_dis, na.rm = TRUE),
-      extgrp_normed = mean(ext_grp_normed, na.rm = TRUE),
-      extdis_normed = mean(ext_dis_normed, na.rm = TRUE),
-      .by = poll_id
-    ) |>
-    left_join(poll_info, by = "poll_id") |>
-    mutate(pollnum = poll_id) |>
-    select(
-      pollname, pollnum, ngroups, nindices, n_pairs,
-      extgrp, extdis, extgrp_normed, extdis_normed
-    ) |>
-    arrange(pollnum)
-
-  res_normed <- bind_rows(
-    res_normed,
-    pairs |>
-      summarise(
-        n_pairs = n(),
-        extgrp = mean(ext_grp, na.rm = TRUE),
-        extdis = mean(ext_dis, na.rm = TRUE),
-        extgrp_normed = mean(ext_grp_normed, na.rm = TRUE),
-        extdis_normed = mean(ext_dis_normed, na.rm = TRUE)
-      ) |>
-      mutate(
-        pollname = "Pair Mean (Actual Pairs)",
-        pollnum = NA_integer_,
-        ngroups = n_distinct(pairs$group_key),
-        nindices = n_distinct(pairs$issue_id)
-      ) |>
-      select(names(res_normed))
-  )
-
   write.csv(res_adv,
     sprintf("tabs_clean/%s_toward_%s.csv", cfg$table, cfg$adv_label),
     row.names = FALSE
   )
   write.csv(res_dis,
     sprintf("tabs_clean/%s_toward_%s.csv", cfg$table, cfg$dis_label),
-    row.names = FALSE
-  )
-  write.csv(res_normed,
-    sprintf("tabs_clean/%s_toward_%s_normed.csv", cfg$table, cfg$adv_label),
     row.names = FALSE
   )
 

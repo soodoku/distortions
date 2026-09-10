@@ -10,10 +10,17 @@ undefined domination direction with zero movement, duplicates 217 participant
 records, and reports an uncertainty procedure that the code does not run.
 
 The revised pipeline in [clean/](clean/) fixes these defects at their shared
-sources. It analyzes 5,867 distinct participants, 397 groups, 129 policy
-indices, and 2,480 group-index pairs. [AUDIT.md](AUDIT.md) states the corrected
-conclusion and lists every affected claim. Machine-readable claim, value, and
+sources. It analyzes 5,867 retained participant records, 397 groups, 129 policy
+indices, and 2,480 group-index pairs. [AUDIT.md](AUDIT.md) explains numerical
+corrections, interpretation, and alternative sample and weighting choices. Claim, value, and
 artifact ledgers are in [provenance/](provenance/).
+
+Poll-clustered CR2 with Satterthwaite inference is primary; the wild cluster
+bootstrap is a sensitivity analysis. Available responses at each wave remain
+the primary sample. The [paired-response comparison](tabs_clean/09_paired_response_sensitivity.csv),
+[frequency comparisons](tabs_clean/09_frequency_comparison.csv), and
+[attitude-change weights](tabs_clean/05_attitude_change_weighting.csv) show the
+effects of alternative choices without replacing the primary results.
 
 The original `scripts/`, `tabs/`, and `figs/` remain unchanged. They preserve
 the provenance of the journal results and are not the source for corrected
@@ -26,11 +33,18 @@ versions are pinned in [renv.lock](renv.lock) for R 4.6.0. From the repository
 root:
 
 ```sh
+make restore
 make ci
 ```
 
+Run `make restore` once to install the locked dependencies. The R commands load
+the project library through `.Rprofile`; running them with `--vanilla` would
+bypass it. `make ci` is a local validation command, not a hosted CI requirement.
+
 `make analysis` regenerates the corrected tables, figures, validation results,
-and provenance ledgers. `make test` runs the analysis and test suite.
+and provenance ledgers. `make test` runs the analysis and test suite. Unused
+normalized H/P/D outputs are no longer produced; the paper's original scales
+are retained.
 
 The SessionInfo below records the original published run and is retained only
 for historical reproduction.

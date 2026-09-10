@@ -19,7 +19,7 @@ claims <- tribble(
   "Participant, group, and policy-index inventory.", "corrected",
   "tabs_clean/00_poll_inventory.csv",
   "C004", "Footnote 12, p. 1210",
-  "Correlations among homogenization, polarization, and domination.", "corrected",
+  "Correlations among homogenization, polarization, and domination.", "sample_choice",
   "tabs_clean/05_corr_hpd.csv",
   "C005", "p. 1216",
   "Six of ten Table 2 estimates are statistically significant.", "corrected",
@@ -40,14 +40,14 @@ claims <- tribble(
   "Domination varies with the disadvantaged share of the group.", "corrected",
   "tabs_clean/07_parsing_domination.csv",
   "C011", "pp. 1220-1221",
-  "Net and gross attitude change are .092 and .203.", "corrected",
-  "tabs_clean/05_attitude_change.csv",
+  "Net and gross attitude change are .092 and .203.", "weighting_choice",
+  "tabs_clean/05_attitude_change_weighting.csv",
   "C012", "Footnote 20, p. 1216",
   "Huber-White standard errors are clustered by policy index.", "corrected",
   "clean/03_se.R",
   "C013", "Conclusion, pp. 1222-1223",
-  "The design identifies deliberative or working-memory corrections.", "rewrite",
-  "No untreated comparison or measured mechanism"
+  "The paper interprets the pattern as compatible with weighing the merits.",
+  "interpretation_review", "AUDIT.md"
 )
 write.csv(claims, "provenance/claims.csv", row.names = FALSE)
 
@@ -119,7 +119,7 @@ pair_count_value <- inventory_values |>
 
 correlation_values <- read.csv("tabs_clean/05_corr_hpd.csv") |>
   transmute(
-    claim_id = "C004", version = "fully_corrected",
+    claim_id = "C004", version = "pairwise_sample",
     construct = "Pairwise correlation", dimension = x,
     measure = y, estimate = correlation, n_pairs = n,
     estimand = "Pairwise-complete correlation over common group-index pairs",
@@ -161,16 +161,17 @@ parsing_values <- read.csv("tabs_clean/07_parsing_domination.csv") |>
     n_pairs,
     estimand = "Linear association with the group disadvantaged share",
     weighting = "One unit per valid group-index pair",
-    sample_rule = "Combined disadvantage is female OR lower education OR lower income"
+    sample_rule = "Predictor share and outcome use the same eligible participants"
   )
 
-attitude_change_values <- read.csv("tabs_clean/05_attitude_change.csv") |>
+attitude_change_values <- read.csv("tabs_clean/05_attitude_change_weighting.csv") |>
+  pivot_longer(c(net_change, gross_change), names_to = "measure", values_to = "estimate") |>
   transmute(
-    claim_id = "C011", version = "fully_corrected",
-    construct = "Attitude change", dimension = NA_character_,
-    measure, estimate, n_pairs,
-    estimand = "Mean over actual group-index pairs",
-    weighting = "One unit per group-index pair",
+    claim_id = "C011", version = "weighting_comparison",
+    construct = "Attitude change", dimension = weighting,
+    measure, estimate,
+    estimand = "Average net or gross within-person change under the stated weighting",
+    weighting,
     sample_rule = "Within-person complete pre-post responses"
   )
 
@@ -217,6 +218,9 @@ artifact_spec <- tribble(
   "tabs_clean/05_corr_hpd.csv", "clean/04_corr_parsing.R",
   "tabs_clean/07_parsing_domination.csv", "clean/04_corr_parsing.R",
   "tabs_clean/05_attitude_change.csv", "clean/05_attitude_change.R",
+  "tabs_clean/05_attitude_change_weighting.csv", "clean/05_attitude_change.R",
+  "tabs_clean/09_paired_response_sensitivity.csv", "clean/09_sensitivity.R",
+  "tabs_clean/09_frequency_comparison.csv", "clean/09_sensitivity.R",
   "figs_clean/figure_manifest.csv", "clean/06_figs.R",
   "tabs_clean/99_validation.csv", "clean/07_validate.R"
 )

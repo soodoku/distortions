@@ -56,25 +56,9 @@ for (dimension in dimensions) {
 correlations <- list_rbind(correlations)
 write.csv(correlations, "tabs_clean/05_corr_hpd.csv", row.names = FALSE)
 
-dat <- load_dp_data()
-p_dis <- dat$dpdat |>
-  mutate(triple_disadvantaged = female == 1 | bettered == 0 | highinc == 0) |>
-  summarise(
-    educ = mean(bettered == 0, na.rm = TRUE),
-    gender = mean(female == 1, na.rm = TRUE),
-    income = mean(highinc == 0, na.rm = TRUE),
-    triple = mean(triple_disadvantaged, na.rm = TRUE),
-    .by = c(dpnum, group_key)
-  ) |>
-  rename(poll_id = dpnum)
-
 fit_parsing <- function(dimension, outcome) {
   dom <- dom_pairs[[dimension]] |>
-    left_join(
-      p_dis |>
-        select(all_of(key[1:2]), p_dis = all_of(dimension)),
-      by = key[1:2]
-    ) |>
+    rename(p_dis = disadvantaged_share) |>
     filter(complete.cases(.data[[outcome]], p_dis, poll_id))
   fit <- lm(reformulate("p_dis", outcome), data = dom)
   test <- coef_test(fit,
