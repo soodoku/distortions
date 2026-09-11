@@ -222,8 +222,7 @@ The working directories contain the current analysis and outputs.
 `make audit` runs `scripts/run_all.R` and the single audit entry point,
 `scripts/checks.R`. `Rscript scripts/checks.R` runs the focused
 comparisons against those saved outputs without regenerating the analysis.
-The audit script is also sourced by `correction/corrigendum.Rmd`; historical
-poll summaries are read from the `paper-2022` tag.
+Historical poll summaries are read from the `paper-2022` tag.
 
 These comparisons hold other revised calculations fixed; they do not uniquely
 decompose the difference between the published and revised results. They cover

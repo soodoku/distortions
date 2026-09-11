@@ -52,8 +52,7 @@ This single audit script verifies the main published-versus-current comparison
 and provenance coverage, then computes the missing-mean, reference-tie,
 duplicate-record, aggregation, and combined-predictor comparisons. It reuses the
 analysis definitions and reads historical poll summaries from `paper-2022` using
-Git. Run `git fetch --tags` first if that tag is missing from your clone. The
-corrigendum sources this script rather than maintaining separate calculations.
+Git. Run `git fetch --tags` first if that tag is missing from your clone.
 
 The R commands use the project library through `.Rprofile`. Run `make restore`
 once to install the locked dependencies; `--vanilla` bypasses that library.
