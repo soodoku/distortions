@@ -1,6 +1,6 @@
 # Changelog
 
-## Research revision (unreleased)
+## v1.1.0 - 2026-09-10
 
 - Preserve raw source-poll IDs alongside analysis IDs.
 - Compute disadvantaged shares from the same eligible respondents as domination,
