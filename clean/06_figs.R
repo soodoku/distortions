@@ -55,7 +55,7 @@ density_fig <- function(d, lab, file) {
     geom_vline(xintercept = 0, linewidth = .35) +
     labs(x = lab, y = "Density") +
     fig_theme
-  ggsave(file, p, width = 3.3, height = 3)
+  ggsave(file, p, width = 3.3, height = 3, device = ragg::agg_png)
 }
 
 poll_boxplot_fig <- function(d, file) {
@@ -65,7 +65,7 @@ poll_boxplot_fig <- function(d, file) {
     coord_flip() +
     labs(x = NULL, y = NULL) +
     fig_theme
-  ggsave(file, p, width = size, height = size)
+  ggsave(file, p, width = size, height = size, device = ragg::agg_png)
 }
 
 split_density_fig <- function(d, split, lab, file) {
@@ -79,7 +79,7 @@ split_density_fig <- function(d, split, lab, file) {
     geom_vline(xintercept = 0, linewidth = .35) +
     labs(x = lab, y = "Scaled density") +
     fig_theme
-  ggsave(file, p, width = 5, height = 5)
+  ggsave(file, p, width = 5, height = 5, device = ragg::agg_png)
 }
 
 split_boxplot_fig <- function(d, split, lab, file) {
@@ -88,7 +88,7 @@ split_boxplot_fig <- function(d, split, lab, file) {
     coord_flip() +
     labs(x = NULL, y = lab) +
     fig_theme
-  ggsave(file, p, width = 5, height = 5)
+  ggsave(file, p, width = 5, height = 5, device = ragg::agg_png)
 }
 
 hp <- read.csv("tabs_clean/03_hom_pol_by_group_issue.csv")

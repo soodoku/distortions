@@ -1,7 +1,7 @@
 Package: distortions
 Type: Project
 Title: Corrected Analysis for Deliberative Distortions
-Version: 0.0.0.9000
+Version: 1.1.0
 Authors@R: c(
     person("Robert", "Luskin", role = "aut"),
     person("Gaurav", "Sood", role = "aut"),
@@ -23,6 +23,7 @@ Imports:
     ggplot2,
     lintr,
     purrr,
+    ragg,
     renv,
     sandwich,
     testthat,

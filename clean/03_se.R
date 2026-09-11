@@ -46,14 +46,13 @@ infer_mean <- function(data, outcome, null = 0) {
     df = df_two_way, lower.tail = FALSE
   )
 
-  poll_fit <- lm(y ~ 1, data = d)
-  poll_test <- coef_test(
-    poll_fit,
+  poll_test <- conf_int(
+    fit,
     vcov = "CR2",
     cluster = d$poll_id,
-    test = "Satterthwaite"
+    test = "Satterthwaite",
+    p_values = TRUE
   )
-  critical <- qt(.975, df = poll_test$df_Satt)
 
   loo <- unique(d$poll_id) |>
     map_dbl(\(p) mean(d$y[d$poll_id != p]) + null)
@@ -62,10 +61,10 @@ infer_mean <- function(data, outcome, null = 0) {
     estimate = estimate,
     null = null,
     se = poll_test$SE,
-    df = poll_test$df_Satt,
-    p = poll_test$p_Satt,
-    conf_low = estimate - critical * poll_test$SE,
-    conf_high = estimate + critical * poll_test$SE,
+    df = poll_test$df,
+    p = poll_test$p_val,
+    conf_low = poll_test$CI_L + null,
+    conf_high = poll_test$CI_U + null,
     se_two_way = se_two_way,
     df_two_way = df_two_way,
     p_two_way = p_two_way,
