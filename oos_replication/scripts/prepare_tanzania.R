@@ -10,7 +10,10 @@ tz_items <- readr::read_csv("oos_replication/items.csv", show_col_types = FALSE)
   filter(event_id == "tanzania_2015")
 delegates_tz <- assignments |>
   left_join(panel, by = "HHID", relationship = "one-to-one")
-stopifnot(all(delegates_tz$zdelib == 1), nrow(delegates_tz) == 371L)
+stopifnot(
+  all(is.na(delegates_tz$zdelib) | delegates_tz$zdelib == 1),
+  sum(is.na(delegates_tz$zdelib)) == 1L, nrow(delegates_tz) == 371L
+)
 
 tanzania <- delegates_tz |>
   transmute(
@@ -45,7 +48,8 @@ source_flow <- bind_rows(source_flow, tibble(
   event_id = "tanzania_2015", released_rows = nrow(panel),
   eligible_participants = nrow(delegates_tz), groups = 50L, items = nrow(tz_items),
   note = paste(
-    "401 deliberation-assigned citizens; 371 have released group assignments.",
+    "371 released group assignments: 370 flagged zdelib=1; one flag missing.",
+    "31 further zdelib=1 citizens lack group assignments and cannot enter.",
     "25 groups per round, same people reassigned; 50 group-episodes, one family.",
     "H26 omitted: appendix says seven categories, released labels specify five."
   )
