@@ -264,7 +264,8 @@ record as possible overlap. These targeted rounds do not complete the broader
 search stopping rule.
 These are documented access or measurement gaps, not evidence about H/P/D.
 
-The September 12 expansion adds 23 source records, bringing the register to 100,
+The September 12 expansion added 23 source records. A subsequent check of
+Humphreys, Masters, and Sandbu's São Tomé study brings the register to 101,
 without adding an eligible study. The priority follow-ups are:
 
 - **AMR across six countries:** the current open release contains 1,280 treatment
@@ -287,6 +288,13 @@ without adding an eligible study. The priority follow-ups are:
   including online DP, and a reading-only control: 961 discussants in 76 groups
   plus 377 controls. Its conditional assignment and documented late nonrandom
   control assignments require care; no public microdata release was verified.
+- **São Tomé National Forum (2004):** the authors' public
+  [replication archive](https://macartan.github.io/code/wp2007/HMS_REP.zip)
+  contains 148 group records and a survey file with 76 rows containing some
+  responses at both waves (23–74 paired responses per item). The survey file
+  lacks participant IDs, group IDs, and demographics. These files support study
+  of facilitator influence on reported collective decisions; the current
+  within-group H/P/D comparison requires additional survey-to-group linkage.
 
 The added records include event leads and secondary analyses, not 23 independent
 new studies. No requests have been sent. The search remains open.
