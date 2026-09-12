@@ -132,6 +132,27 @@ P applied to a feeling scale measures affective extremity relative to neutral;
 it is not the usual in-party minus out-party measure of affective polarization.
 These extensions remain separate from policy results and from larger groups.
 
+The next source pass, also specified before calculating its outcomes, adds:
+
+- **Refugee-policy consensus studies:** 116 pupils in 28 groups and 136 university
+  students in 41 groups, with two private repeated policy ratings per study.
+  The first study's unique `id` avoids a duplicated `ppnr` assigned to different
+  people. Its released sample already excludes four groups containing non-native
+  Dutch speakers. Seven-point fractional responses remain unchanged; the midpoint
+  label is unverified, so this study supplies H/D but no P. The second study uses
+  the documented five-point agreement scale and first post-discussion wave.
+  Countries and designs are separate; the shared paper defines one study family.
+  Fieldwork dates remain unavailable.
+- **Diplomacy experiment, Study 3 (February 2020):** 105 people in 35 triads discuss
+  two different topics under opposite structured/unstructured condition orders.
+  Keep the original group IDs, topic IDs and rounds. The same 35 groups contribute
+  both conditions; they are not 70 independent groups. Use private agreement before
+  and after each round on the documented five-point scale with a neutral category.
+  Topics about social media and homework are social judgments, reported separately
+  from policy items. Topics were selected for initial disagreement; this selection
+  limits comparisons with representative Deliberative Polls. Studies 1–2 lack
+  verified released before-and-after substantive ratings and are excluded.
+
 ## Discovery
 
 `search_log.csv` records reproducible archive queries. To refresh them explicitly:

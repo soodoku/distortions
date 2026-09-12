@@ -185,3 +185,27 @@ cross_party_2021,ft_d_mod_notact,ft_d_mod_notact_pre,ft_d_mod_notact_post,0,100,
 cross_party_2021,ft_trump,ft_trump_pre,ft_trump_post,0,100,NA,0.5,affect,Feeling thermometer: Donald Trump,https://doi.org/10.7910/DVN/EVRMBG,main
 cross_party_2021,ft_biden,ft_biden_pre,ft_biden_post,0,100,NA,0.5,affect,Feeling thermometer: Joe Biden,https://doi.org/10.7910/DVN/EVRMBG,main
 cross_party_2021,ft_fec,ft_fec_pre,ft_fec_post,0,100,NA,0.5,affect,Feeling thermometer: Federal Election Commission,https://doi.org/10.7910/DVN/EVRMBG,main
+consensus_1,general,Att_1_pre,Att_1_post,1,7,NA,NA,policy,Refugees should attend Dutch schools rather than separate refugee schools to encourage integration,https://doi.org/10.34894/6IOPCF,main
+consensus_1,specific,Att_2_pre,Att_2_post,1,7,NA,NA,policy,Refugee students in the top 25 percent of their home-country class should directly enter pre-university education,https://doi.org/10.34894/6IOPCF,main
+consensus_2,general,generalattitude_time1,generalattitude_time2,1,5,NA,0.5,policy,Refugees meeting admission requirements may enroll at University Osnabruck,https://doi.org/10.34894/6IOPCF,main
+consensus_2,affirmative_action,affirmativeaction_time1,affirmativeaction_time2,1,5,NA,0.5,policy,Programs with restricted admissions should reserve about 10 percent of places for refugees,https://doi.org/10.34894/6IOPCF,main
+diplomacy,topic_1,Q5.1_1,Q6.2_1,1,5,NA,0.5,policy,Companies should hire 50 percent male and 50 percent female employees,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_1,Q9.1_1,Q10.2_1,1,5,NA,0.5,policy,Companies should hire 50 percent male and 50 percent female employees,https://doi.org/10.34894/SAZIAE,second
+diplomacy,topic_2,Q5.1_1,Q6.2_1,1,5,NA,0.5,policy,Meat should be more expensive,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_2,Q9.1_1,Q10.2_1,1,5,NA,0.5,policy,Meat should be more expensive,https://doi.org/10.34894/SAZIAE,second
+diplomacy,topic_3,Q5.1_1,Q6.2_1,1,5,NA,0.5,social_judgment,Social media benefits social lives,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_3,Q9.1_1,Q10.2_1,1,5,NA,0.5,social_judgment,Social media benefits social lives,https://doi.org/10.34894/SAZIAE,second
+diplomacy,topic_4,Q5.1_1,Q6.2_1,1,5,NA,0.5,policy,Voting should be mandatory,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_4,Q9.1_1,Q10.2_1,1,5,NA,0.5,policy,Voting should be mandatory,https://doi.org/10.34894/SAZIAE,second
+diplomacy,topic_5,Q5.1_1,Q6.2_1,1,5,NA,0.5,policy,Drug use should be treated as a mental-health issue rather than a criminal offense,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_5,Q9.1_1,Q10.2_1,1,5,NA,0.5,policy,Drug use should be treated as a mental-health issue rather than a criminal offense,https://doi.org/10.34894/SAZIAE,second
+diplomacy,topic_6,Q5.1_1,Q6.2_1,1,5,NA,0.5,policy,Student loans are exploitative,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_6,Q9.1_1,Q10.2_1,1,5,NA,0.5,policy,Student loans are exploitative,https://doi.org/10.34894/SAZIAE,second
+diplomacy,topic_7,Q5.1_1,Q6.2_1,1,5,NA,0.5,policy,All paedophiles should be locked up,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_7,Q9.1_1,Q10.2_1,1,5,NA,0.5,policy,All paedophiles should be locked up,https://doi.org/10.34894/SAZIAE,second
+diplomacy,topic_8,Q5.1_1,Q6.2_1,1,5,NA,0.5,policy,Filming street harassment and sharing it on social media should be allowed,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_8,Q9.1_1,Q10.2_1,1,5,NA,0.5,policy,Filming street harassment and sharing it on social media should be allowed,https://doi.org/10.34894/SAZIAE,second
+diplomacy,topic_9,Q5.1_1,Q6.2_1,1,5,NA,0.5,policy,Privacy is less important than safety,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_9,Q9.1_1,Q10.2_1,1,5,NA,0.5,policy,Privacy is less important than safety,https://doi.org/10.34894/SAZIAE,second
+diplomacy,topic_10,Q5.1_1,Q6.2_1,1,5,NA,0.5,social_judgment,Homework is necessary for learning,https://doi.org/10.34894/SAZIAE,first
+diplomacy,topic_10,Q9.1_1,Q10.2_1,1,5,NA,0.5,social_judgment,Homework is necessary for learning,https://doi.org/10.34894/SAZIAE,second

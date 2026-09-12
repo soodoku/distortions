@@ -38,3 +38,7 @@ whatsapp_gen_HM,whatsapp,dyadic_online_gen_HM,India,NA,NA,unknown,s9 after five-
 whatsapp_igr_HH,whatsapp,dyadic_online_igr_HH,India,NA,NA,unknown,s9 after five-day conversation; Month=2..7; fieldwork year not verified,https://doi.org/10.7910/DVN/WYXEXN,immediate
 whatsapp_igr_HM,whatsapp,dyadic_online_igr_HM,India,NA,NA,unknown,s9 after five-day conversation; Month=2..7; fieldwork year not verified,https://doi.org/10.7910/DVN/WYXEXN,immediate
 cross_party_2021,cross_party_2021,dyadic_cross_party,United States,2021-02-01,2021-02-25,day,after eight-minute chat; baseline about one hour earlier,https://doi.org/10.7910/DVN/EVRMBG,immediate
+consensus_1,consensus,classroom_discussion,Netherlands,NA,NA,unknown,first post-discussion wave; fieldwork dates not released,https://doi.org/10.34894/6IOPCF,immediate
+consensus_2,consensus,laboratory_discussion,Germany,NA,NA,unknown,first post-discussion wave; fieldwork dates not released,https://doi.org/10.34894/6IOPCF,immediate
+diplomacy_experimental,diplomacy_2020,triadic_structured_discussion,Netherlands,2020-02-04,2020-02-21,day,private ratings immediately before/after each of two different topics; up to five minutes discussion each,https://doi.org/10.34894/SAZIAE,immediate
+diplomacy_control,diplomacy_2020,triadic_unstructured_discussion,Netherlands,2020-02-04,2020-02-21,day,private ratings immediately before/after each of two different topics; up to five minutes discussion each,https://doi.org/10.34894/SAZIAE,immediate
