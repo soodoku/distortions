@@ -46,7 +46,7 @@ a1r <- a1r |>
   mutate(episode_id = "main")
 
 source_flow <- tibble(
-  event_id = "a1r_2019", released_rows = nrow(raw),
+  event_id = "a1r_2019", starting_rows = nrow(raw),
   eligible_participants = nrow(delegates), groups = n_distinct(delegates$GROUP),
   items = nrow(a1r_items), note = paste(
     "523 delegates with POST=1 and GROUP observed; 3 other GROUP-assigned rows",

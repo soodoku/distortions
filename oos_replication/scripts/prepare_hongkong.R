@@ -13,6 +13,6 @@ hongkong <- raw_hongkong |>
   )
 source_flow <- bind_rows(source_flow, hongkong |>
   summarise(
-    released_rows = n(), eligible_participants = n(), groups = 1L, items = 1L,
+    starting_rows = n(), eligible_participants = n(), groups = 1L, items = 1L,
     note = "Study 1 actual discussion groups; study 2 video viewers excluded.", .by = event_id
   ))

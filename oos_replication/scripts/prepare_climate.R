@@ -41,7 +41,7 @@ climate <- climate |>
   ) |>
   pivot_wider(names_from = wave, values_from = rating)
 source_flow <- bind_rows(source_flow, tibble(
-  event_id = "a1r_climate_2021", released_rows = nrow(raw_climate),
+  event_id = "a1r_climate_2021", starting_rows = nrow(raw_climate),
   eligible_participants = nrow(climate_delegates), groups = 105L, items = 72L,
   note = paste(
     "ROOM crossed with schedule option; 139 attendees also participated in A1R2019.",

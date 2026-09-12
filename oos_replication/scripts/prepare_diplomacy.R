@@ -45,7 +45,7 @@ diplomacy <- diplomacy |>
   )
 source_flow <- bind_rows(source_flow, diplomacy |>
   summarise(
-    released_rows = n_distinct(participant_id), eligible_participants = released_rows,
+    starting_rows = n_distinct(participant_id), eligible_participants = starting_rows,
     groups = n_distinct(group_id), items = n_distinct(item_id),
     note = paste(
       "The same 105 people in 35 triads discuss two selected topics under opposite",

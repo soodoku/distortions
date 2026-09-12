@@ -16,6 +16,9 @@ test_that("hand-calculated movement and sample SD agree", {
   spread <- score_groups(mutate(example_ratings, t1 = c(0, 1), t2 = c(0.4, 0.6)))
   expect_equal(spread$estimate[spread$metric == "h"], sqrt(0.5) - sqrt(0.02))
   expect_true(is.na(spread$estimate[spread$metric == "p"]))
+  no_midpoint <- score_groups(mutate(example_ratings, midpoint = NA_real_))
+  expect_true(is.na(no_midpoint$estimate[no_midpoint$metric == "p"]))
+  expect_equal(no_midpoint$estimate[no_midpoint$metric == "d_gender"], 0.1)
 })
 
 test_that("midpoint crossings, ties and zero movement remain distinct", {
@@ -36,6 +39,10 @@ test_that("pairing and empty subgroup means do not manufacture zero", {
   expect_equal(paired$estimate[paired$metric == "p"], -0.1)
   expect_equal(available$estimate[available$metric == "p"], 0.1)
   expect_equal(available$estimate[available$metric == "d_gender"], -0.1)
+  missing_reference <- score_groups(
+    mutate(example_ratings, t1 = c(0.2, NA_real_)), "available"
+  )
+  expect_true(is.na(missing_reference$estimate[missing_reference$metric == "d_gender"]))
   no_gender <- score_groups(mutate(example_ratings, gender = NA))
   expect_true(is.na(no_gender$estimate[no_gender$metric == "d_gender"]))
 })

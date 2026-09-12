@@ -31,7 +31,7 @@ tanzania <- delegates_tz |>
 stopifnot(
   !anyNA(tanzania$item_id),
   all(is.na(tanzania$rating) | tanzania$rating %in% c(-99, -97, 98, 99) |
-    between(tanzania$rating, tanzania$lower, tanzania$upper))
+        between(tanzania$rating, tanzania$lower, tanzania$upper))
 )
 tanzania <- tanzania |>
   mutate(
@@ -45,7 +45,7 @@ tanzania <- tanzania |>
   ) |>
   pivot_wider(names_from = wave, values_from = rating)
 source_flow <- bind_rows(source_flow, tibble(
-  event_id = "tanzania_2015", released_rows = nrow(panel),
+  event_id = "tanzania_2015", starting_rows = nrow(panel),
   eligible_participants = nrow(delegates_tz), groups = 50L, items = nrow(tz_items),
   note = paste(
     "371 released group assignments: 370 flagged zdelib=1; one flag missing.",

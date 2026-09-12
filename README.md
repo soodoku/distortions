@@ -59,6 +59,14 @@ once to install the locked dependencies; `--vanilla` bypasses that library.
 
 ### Files
 
+The [out-of-sample replication and extension](oos_replication/README.md) studies
+previously unused Deliberative Polls and other discussion formats. Its
+[results](oos_replication/tabs/results.md) are separate from the article's tables.
+Run `make oos-check` after `make restore` to download the public sources and
+reproduce and validate those estimates. The
+[source register](oos_replication/source_register.csv) records included studies,
+exclusions, access gaps, and candidates still being screened.
+
 - [scripts/run_all.R](scripts/run_all.R): analysis entry point.
 - [scripts/checks.R](scripts/checks.R): audit entry point.
 - [tabs/02_table_2.csv](tabs/02_table_2.csv) and

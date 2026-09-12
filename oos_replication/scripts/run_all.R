@@ -17,7 +17,15 @@ source("oos_replication/scripts/prepare_oboe.R")
 source("oos_replication/scripts/prepare_hongkong.R")
 source("oos_replication/scripts/prepare_tanzania.R")
 source("oos_replication/scripts/prepare_climate.R")
-ratings <- bind_rows(a1r, oboe, hongkong, tanzania, climate)
+source("oos_replication/scripts/prepare_celaya.R")
+source("oos_replication/scripts/prepare_echo.R")
+source("oos_replication/scripts/prepare_whatsapp.R")
+source("oos_replication/scripts/prepare_cross_party.R")
+source("oos_replication/scripts/prepare_consensus.R")
+source("oos_replication/scripts/prepare_diplomacy.R")
+ratings <- bind_rows(
+  a1r, oboe, hongkong, tanzania, climate, celaya, echo, whatsapp, cross_party, consensus, diplomacy
+)
 events <- readr::read_csv("oos_replication/events.csv", show_col_types = FALSE,
   col_types = readr::cols(.default = readr::col_character())
 )
@@ -37,7 +45,10 @@ event_results <- scores |>
     .by = c(event_id, family_id, format, construct, membership, metric)
   )
 minimum_five <- scores |>
-  filter(n_pre >= 5, n_post >= 5) |>
+  mutate(
+    estimate = if_else(n_pre >= 5 & n_post >= 5, estimate, NA_real_),
+    positive = if_else(n_pre >= 5 & n_post >= 5, positive, NA)
+  ) |>
   summarise(
     pairs = sum(!is.na(estimate)),
     mean = na_if(mean(estimate, na.rm = TRUE), NaN),
@@ -46,9 +57,10 @@ minimum_five <- scores |>
   )
 
 readr::write_csv(source_flow, "oos_replication/tabs/sample_flow.csv")
-readr::write_csv(scores, "oos_replication/tabs/group_results.csv")
+saveRDS(scores, "oos_replication/data/group_results.rds")
 readr::write_csv(event_results, "oos_replication/tabs/event_results.csv")
 readr::write_csv(minimum_five, "oos_replication/tabs/minimum_five.csv")
+source("oos_replication/scripts/demographics.R")
 source("oos_replication/scripts/summarize.R")
 saveRDS(ratings, "oos_replication/data/ratings.rds")
 capture.output(sessionInfo(), file = "oos_replication/tabs/session_info.txt")

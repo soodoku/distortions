@@ -47,7 +47,7 @@ consensus <- consensus |>
   pivot_wider(names_from = wave, values_from = rating)
 source_flow <- bind_rows(source_flow, consensus |>
   summarise(
-    released_rows = n_distinct(participant_id), eligible_participants = released_rows,
+    starting_rows = n_distinct(participant_id), eligible_participants = starting_rows,
     groups = n_distinct(group_id), items = n_distinct(item_id),
     note = paste(
       "Study1 uses unique id rather than nonunique ppnr; released sample already excludes",

@@ -34,7 +34,7 @@ cross_party <- cross_party |>
   ) |>
   pivot_wider(names_from = wave, values_from = rating)
 source_flow <- bind_rows(source_flow, tibble(
-  event_id = "cross_party_2021", released_rows = nrow(raw_cross_party),
+  event_id = "cross_party_2021", starting_rows = nrow(raw_cross_party),
   eligible_participants = 294L, groups = 147L, items = 9L,
   note = paste(
     "516 discussion-assigned; 294 participants in 147 partnerships where both completed",

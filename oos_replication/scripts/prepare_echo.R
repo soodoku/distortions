@@ -12,7 +12,7 @@ echo_participants <- raw_echo |>
 stopifnot(nrow(echo_participants) == 658L, sum(echo_participants$eligible) == 653L)
 echo_flow <- echo_participants |>
   summarise(
-    released_rows = n(), eligible_participants = sum(eligible),
+    starting_rows = n(), eligible_participants = sum(eligible),
     groups = n_distinct(session_code[eligible]), items = 4L,
     note = paste(
       "Exclude 3 missing keys, 1 inconsistent key/date and 1 contradictory control-size flag",

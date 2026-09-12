@@ -57,7 +57,7 @@ whatsapp <- whatsapp |>
   pivot_wider(names_from = wave, values_from = rating)
 source_flow <- bind_rows(source_flow, whatsapp_participants |>
   summarise(
-    released_rows = n(), eligible_participants = n(), groups = n_distinct(idthread),
+    starting_rows = n(), eligible_participants = n(), groups = n_distinct(idthread),
     items = nrow(whatsapp_items),
     note = paste(
       "Political/intergroup prompts: 712 of 1070 conversation completers;",

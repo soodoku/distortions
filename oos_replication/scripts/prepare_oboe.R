@@ -12,12 +12,12 @@ oboe_participants <- raw_oboe |>
 stopifnot(
   !anyNA(oboe_participants$pre_table), !anyNA(oboe_participants$post_table),
   all(oboe_participants$sitetable ==
-    100 * oboe_participants$oboe_pr_event + oboe_participants$pre_table),
+        100 * oboe_participants$oboe_pr_event + oboe_participants$pre_table),
   sum(oboe_participants$pre_table != oboe_participants$post_table) == 42L
 )
 oboe_flow <- oboe_participants |>
   summarise(
-    released_rows = n(), eligible_participants = sum(pre_table == post_table),
+    starting_rows = n(), eligible_participants = sum(pre_table == post_table),
     groups = n_distinct(sitetable[pre_table == post_table]), items = nrow(oboe_items),
     note = "Exclude conflicting pre/post table assignments; retain documented pre-table key.",
     .by = event_id

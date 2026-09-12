@@ -48,7 +48,7 @@ celaya <- celaya |>
   pivot_wider(names_from = wave, values_from = rating)
 source_flow <- bind_rows(source_flow, celaya |>
   summarise(
-    released_rows = n_distinct(participant_id), eligible_participants = released_rows,
+    starting_rows = n_distinct(participant_id), eligible_participants = starting_rows,
     groups = 1L, items = 8L,
     note = "104 deliberators of 207 released rows; exclude 103 Q&A respondents; source row IDs.",
     .by = event_id

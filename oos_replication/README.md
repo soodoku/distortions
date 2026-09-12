@@ -46,9 +46,12 @@ versioned. Reruns overwrite `tabs/`; Git preserves earlier versions.
 - `family_results.csv` and `leave_family_out.csv`: dependence-aware summaries
   and the consequences of omitting each study family.
 - `sample_flow.csv` and `demographics.csv`: source-specific eligibility,
-  classifications, missingness and median ties. Released-row denominators refer
-  to the source or event indicated in each note; they cannot be summed across
+  classifications, missingness and median ties. `starting_rows` refers to the
+  source or event sample at the stage indicated in each note; it is not a uniform
+  count of all recruited people or all deposited records. Counts cannot be summed across
   repeated sites or overlapping studies to obtain independent participants.
+- `whatsapp_identity_sensitivity.csv`: primary results alongside the source-supported
+  exclusion of respondents flagged as potential duplicates or associates.
 - `original_comparison.csv`: H, P and D from the corrected original's existing
   paired-response comparison. It compares indices with the new studies' individual
   items; this measurement difference limits substantive comparisons.
@@ -128,6 +131,8 @@ Before calculating dyadic results, the following additional mappings were fixed:
   recorded as missing. These dyads are outside the original poll inventory.
 
 Dyadic H measures agreement between two participants about the same target.
+Across all constructs, group-mean P differs from the distance between political
+parties: a common shift can increase group-mean extremity while party means converge.
 P applied to a feeling scale measures affective extremity relative to neutral;
 it is not the usual in-party minus out-party measure of affective polarization.
 These extensions remain separate from policy results and from larger groups.
@@ -179,6 +184,12 @@ requirements for deferred candidates. The Stanford catalogue and the
 discovery leads, not respondent datasets. National archive and author-site
 screening is represented by the linked source records; this log does not claim a
 complete search of every archive. No requests to authors have been sent.
+
+Independent review compared the included source events with the original data's
+21 poll identifiers, names and index mappings and found no event overlap.
+Universal respondent identifiers are unavailable, so person-level non-overlap
+with the original archive cannot be proved mechanically. Known overlap within
+the new corpus is retained in the dependence-family definitions.
 
 ## Protocol recorded before new outcome calculations
 
