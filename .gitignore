@@ -7,3 +7,4 @@ renv/library/
 renv/staging/
 renv/local/
 renv/lock/
+oos_replication/data/
