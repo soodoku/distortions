@@ -291,12 +291,6 @@ without adding an eligible study. The priority follow-ups are:
 The added records include event leads and secondary analyses, not 23 independent
 new studies. No requests have been sent. The search remains open.
 
-The selected acquisition priorities are AMR and the AHRQ comparative trial.
-[One email to coauthor Jim Fishkin](data_requests.md) requests the missing files
-for both projects. AMR needs discussion-room linkage to its public survey release;
-AHRQ needs the participant files and assignment documentation. Drafting a request
-does not change either study's eligibility or indicate that access was granted.
-
 Independent review compared the included source events with the original data's
 21 poll identifiers, names and index mappings and found no event overlap.
 Universal respondent identifiers are unavailable, so person-level non-overlap
