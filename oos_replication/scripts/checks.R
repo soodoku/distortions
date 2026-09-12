@@ -26,3 +26,26 @@ stopifnot(
   all(matched_flow$participants == matched_flow$eligible_participants)
 )
 message("Source counts, normalized bounds, unique keys, and full paired row-order check passed.")
+
+components <- readRDS("oos_replication/data/domination_components.rds")
+decomposed <- with(components,
+  disadvantaged_share * ext_dis + (1 - disadvantaged_share) * ext_adv
+)
+stopifnot(all(abs(components$ext_grp - decomposed) < 1e-12, na.rm = TRUE))
+paper <- readr::read_csv("oos_replication/tabs/paper_estimates.csv", show_col_types = FALSE)
+original <- readr::read_csv(
+  "oos_replication/tabs/original_comparison.csv", show_col_types = FALSE
+) |>
+  mutate(metric = recode(measure,
+    H = "h", P = "p", D_gender = "d_gender", D_educ = "d_education",
+    D_income = "d_income", D_triple = "d_combined"
+  )) |>
+  select(membership, metric, mean, pairs)
+benchmark <- paper |>
+  filter(study_id == "original", metric != "p_absolute") |>
+  left_join(original, by = c("membership", "metric"), relationship = "one-to-one")
+stopifnot(
+  nrow(benchmark) == nrow(original), all(benchmark$pairs.x == benchmark$pairs.y),
+  all(abs(benchmark$mean.x - benchmark$mean.y) < 1e-12)
+)
+message("Paper benchmark and within-cell subgroup decomposition verified.")

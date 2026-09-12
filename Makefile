@@ -1,4 +1,4 @@
-.PHONY: restore analysis audit test lint ci oos oos-check
+.PHONY: restore analysis audit test lint ci oos oos-check oos-paper
 
 restore:
 	Rscript -e 'renv::restore(prompt = FALSE)'
@@ -20,6 +20,11 @@ ci: lint test
 oos:
 	Rscript oos_replication/scripts/run_all.R
 
-oos-check: oos
+oos-check: oos-paper
 	Rscript oos_replication/scripts/checks.R
 	Rscript -e 'lints <- lintr::lint_dir("oos_replication"); print(lints); quit(status = length(lints))'
+
+oos-paper: oos
+	Rscript oos_replication/scripts/paper_tables.R
+	Rscript oos_replication/scripts/paper_figures.R
+	cd oos_replication && latexmk -pdf -interaction=nonstopmode -halt-on-error paper.tex

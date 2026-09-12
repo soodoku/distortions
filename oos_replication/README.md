@@ -12,6 +12,14 @@ versioned public-data analysis, **not a completed systematic census**. New
 eligible-looking sources are still emerging; the search stopping rule below
 has not been met. Access gaps and unresolved instruments are not null findings.
 
+The separate [replication and extension study](paper.pdf) uses generated tables,
+figures and inline values. Its [LaTeX source](paper.tex) follows the original
+paper's empirical organization: study inventory, magnitudes and occurrence,
+subgroup movement, and net/gross attitude change. Deliberative Polls use
+available-wave responses for the primary replication; other designs use paired
+responses. The subgroup decomposition uses paired responses throughout so its
+weighted identity is exact. Interpretation remains an author-review draft.
+
 From the repository root:
 
 ```sh
@@ -20,8 +28,10 @@ make oos-check
 ```
 
 This downloads the files in [files.csv](files.csv), checks their SHA-256 hashes,
-and runs the R analysis, numerical checks and linting. `make oos` regenerates
-only the results. A changed source file stops the run; inspect and document the
+and runs the R analysis, manuscript build, numerical checks and linting. The
+manuscript requires `latexmk` and a LaTeX installation. `make oos` regenerates
+only the existing numerical results; `make oos-paper` also builds the parallel
+artifacts and PDF. A changed source file stops the run; inspect and document the
 new source version before updating its checksum. The shared R library is pinned
 in the repository's `renv.lock`.
 
@@ -31,6 +41,42 @@ analysis's movement definitions. `summarize.R` produces CSVs and a `knitr::kable
 report. Downloads and respondent/group-level intermediate RDS files stay in the
 ignored `data/` cache. Only metadata, code and compact aggregate outputs are
 versioned. Reruns overwrite `tabs/`; Git preserves earlier versions.
+
+`paper_tables.R` adds the subgroup components by calling the original shared
+movement function, verifies every whole-group D against the existing OOS output,
+and generates the manuscript tables and inline values. `paper_figures.R` renders
+the corresponding grayscale histograms, boxplots and study means in `figs/`.
+The original paper and its outputs remain separate.
+
+The main comparison in `paper_overall.csv` combines original DPs, new DPs, and
+other group discussions using paired policy ratings on a common scale. It shows
+both equal-family/study and equal-group-item weighting; `paper_overall_families.csv`
+and `paper_overall_omissions.csv` expose the contributing families and the result
+of leaving each out. All conditions contribute to their study mean. Original polls
+are separate families; A1R studies and consensus studies retain their known shared
+families. Affective conversations remain separate from policy outcomes. With only
+two new DP families, this comparison cannot establish a causal ranking of formats.
+
+`paper_design_comparison.csv` and an appendix table retain the UK same-/mixed-party
+and Diplomacy structured/unstructured contrasts as exploratory secondary results.
+They do not yet exploit random assignment or the Diplomacy within-triad crossover.
+
+| Original artifact | OOS counterpart |
+|---|---|
+| Table 1: poll inventory | `paper_inventory.csv` and manuscript Table 1 |
+| Table 2: magnitude and occurrence | `paper_estimates.csv`; separate DP and extension panels |
+| Table 3: parsing domination | `paper_components.csv`; paired whole-group and subgroup means/frequencies |
+| Figure 3: H/P/D distributions | `figs/dp_distributions.pdf`; extension distributions by condition |
+| Supplement: country/mode comparisons | Descriptive `figs/distributions_region.pdf` and `distributions_mode.pdf` |
+| Text analyses: correlations and composition | `paper_correlations.csv` and `paper_composition.csv` |
+| Text analysis: net/gross change | `paper_attitude_change.csv`, with both weighting conventions |
+
+`paper_domination_sample.csv` reports contributing participants and group episodes
+by study, construct and demographic dimension. `paper_frequency_inference.csv`
+applies the existing family/df rule to positive frequencies. Composition predictions
+are descriptive and limited to observed disadvantaged-share support. The item-level
+appendix is `items.csv`, with instrument links; the paper explains source-specific
+measurement limits. Figure inputs and cell counts are in `figs/figure_manifest.csv`.
 
 ## Reading the outputs
 
@@ -217,6 +263,33 @@ The Bloomfield Track jury used rankings and is linked to the existing Niemeyer
 record as possible overlap. These targeted rounds do not complete the broader
 search stopping rule.
 These are documented access or measurement gaps, not evidence about H/P/D.
+
+The September 12 expansion adds 23 source records, bringing the register to 100,
+without adding an eligible study. The priority follow-ups are:
+
+- **AMR across six countries:** the current open release contains 1,280 treatment
+  respondents and 1,139 controls at two waves. Actual room assignments are absent;
+  2,419 is not the number of deliberators. Room and attendance linkage could make
+  this a substantial addition.
+- **Malawi 2017:** the flood-policy DP reports 480 baseline respondents, 468 post
+  responses, 24 groups and 32 attitude items. Its paper explicitly offers microdata
+  on author request. Related publications describe the same event.
+- **A1R Democratic Reform, Meta forums, and further African/Mongolian DPs:**
+  official reports establish additional events, but participant files with rooms
+  have not been verified. DeliberationBench's public code references unreleased
+  local input files and does not independently supply those data.
+- **National archives:** Danish DP deposits and Korean KBS pre/post survey records
+  are concrete archive leads. Access and group linkage still need resolution.
+  Finland FSD2975 was successfully downloaded without registration, correcting
+  our earlier access classification; its 101-row release lacks verified matched
+  policy waves and actual group IDs, so it remains outside the analysis.
+- **Comparative designs:** AHRQ's 2012 trial includes four deliberative methods,
+  including online DP, and a reading-only control: 961 discussants in 76 groups
+  plus 377 controls. Its conditional assignment and documented late nonrandom
+  control assignments require care; no public microdata release was verified.
+
+The added records include event leads and secondary analyses, not 23 independent
+new studies. No requests have been sent. The search remains open.
 
 Independent review compared the included source events with the original data's
 21 poll identifiers, names and index mappings and found no event overlap.

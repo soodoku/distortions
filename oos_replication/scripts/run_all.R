@@ -65,5 +65,7 @@ readr::write_csv(minimum_five, "oos_replication/tabs/minimum_five.csv")
 source("oos_replication/scripts/demographics.R")
 source("oos_replication/scripts/summarize.R")
 saveRDS(ratings, "oos_replication/data/ratings.rds")
-capture.output(sessionInfo(), file = "oos_replication/tabs/session_info.txt")
+writeLines(trimws(capture.output(sessionInfo()), which = "right"),
+  "oos_replication/tabs/session_info.txt"
+)
 print(event_results, n = 12)

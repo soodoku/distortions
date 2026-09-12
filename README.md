@@ -62,6 +62,9 @@ once to install the locked dependencies; `--vanilla` bypasses that library.
 The [out-of-sample replication and extension](oos_replication/README.md) studies
 previously unused Deliberative Polls and other discussion formats. Its
 [results](oos_replication/tabs/results.md) are separate from the article's tables.
+The [standalone OOS study](oos_replication/paper.pdf) provides parallel tables and
+figures and a separate write-up comparing Deliberative Polls with other discussion
+designs. Run `make oos-paper` to build it; this also requires `latexmk` and LaTeX.
 Run `make oos-check` after `make restore` to download the public sources and
 reproduce and validate those estimates. The
 [source register](oos_replication/source_register.csv) records included studies,
