@@ -154,3 +154,7 @@ celaya,increased,INITIAL_INCREASED,FINAL_INCREASED,-2,2,blank,0.5,policy,Increas
 celaya,gov,INITIAL_GOV,FINAL_GOV,-2,2,blank,0.5,policy,Government determines and enforces living wage,https://doi.org/10.7910/DVN/OOMED8,main
 celaya,need,INITIAL_NEED,FINAL_NEED,-2,2,blank,0.5,policy,Wages based on individual needs,https://doi.org/10.7910/DVN/OOMED8,main
 celaya,collective,INITIAL_COLLECTIVE,FINAL_COLLECTIVE,-2,2,blank,0.5,policy,Workers collectively bargain for minimum wage,https://doi.org/10.7910/DVN/OOMED8,main
+echo_2021,np1,NP1,NP1W2,0,10,97;99,0.5,policy,Different treatment and removal of asylum seekers arriving irregularly through safe countries,https://doi.org/10.7910/DVN/BM2A1Q,main
+echo_2021,np2,NP2,NP2W2,0,10,97;99,0.5,policy,Restrict asylum-seeker benefits and family reunification,https://doi.org/10.7910/DVN/BM2A1Q,main
+echo_2021,np3,NP3,NP3W2,0,10,97;99,0.5,policy,Restrict appeals to expedite removals,https://doi.org/10.7910/DVN/BM2A1Q,main
+echo_2021,npself,NPSelf,NPSelfW2,0,10,97;99,0.5,policy,Support New Plan for Immigration overall,https://doi.org/10.7910/DVN/BM2A1Q,main

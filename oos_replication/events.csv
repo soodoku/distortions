@@ -30,3 +30,6 @@ celaya_7,celaya_2018,facilitated_discussion,United States,2018,2018,year,after i
 celaya_10,celaya_2018,facilitated_discussion,United States,2018,2018,year,after information packet and 90-minute session,https://doi.org/10.7910/DVN/OOMED8,immediate
 celaya_12,celaya_2018,facilitated_discussion,United States,2018,2018,year,after information packet and 90-minute session,https://doi.org/10.7910/DVN/OOMED8,immediate
 celaya_13,celaya_2018,facilitated_discussion,United States,2018,2018,year,after information packet and 90-minute session,https://doi.org/10.7910/DVN/OOMED8,immediate
+echo_con,echo_2021,partisan_discussion,United Kingdom,2021-09-15,2021-12-10,day,after 30-minute discussion; timestamps checked,https://doi.org/10.7910/DVN/BM2A1Q,immediate
+echo_lab,echo_2021,partisan_discussion,United Kingdom,2021-09-15,2021-12-10,day,after 30-minute discussion; timestamps checked,https://doi.org/10.7910/DVN/BM2A1Q,immediate
+echo_mixed,echo_2021,mixed_partisan_discussion,United Kingdom,2021-09-15,2021-12-10,day,after 30-minute discussion; timestamps checked,https://doi.org/10.7910/DVN/BM2A1Q,immediate
