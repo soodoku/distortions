@@ -132,6 +132,16 @@ P applied to a feeling scale measures affective extremity relative to neutral;
 it is not the usual in-party minus out-party measure of affective polarization.
 These extensions remain separate from policy results and from larger groups.
 
+WhatsApp also flags *potential duplicates or associates*, based on surveys,
+messages or profiles. The author retains them in the main analysis and excludes
+them in a [sensitivity analysis](https://dataverse.harvard.edu/api/access/datafile/13295178).
+There are 52 flagged respondents across 49 included dyads. We retain them in the
+primary results and record this sensitivity before calculating it: remove flagged
+respondents, then apply the same paired/available rules and metric eligibility.
+H consequently loses affected dyads; P can remain defined for an observed partner.
+This is not a finding of confirmed duplication. Shared-family inference does not
+eliminate possible changes in means or weights if records represent the same person.
+
 The next source pass, also specified before calculating its outcomes, adds:
 
 - **Refugee-policy consensus studies:** 116 pupils in 28 groups and 136 university
