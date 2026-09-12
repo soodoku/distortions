@@ -209,3 +209,14 @@ diplomacy,topic_9,Q5.1_1,Q6.2_1,1,5,NA,0.5,policy,Privacy is less important than
 diplomacy,topic_9,Q9.1_1,Q10.2_1,1,5,NA,0.5,policy,Privacy is less important than safety,https://doi.org/10.34894/SAZIAE,second
 diplomacy,topic_10,Q5.1_1,Q6.2_1,1,5,NA,0.5,social_judgment,Homework is necessary for learning,https://doi.org/10.34894/SAZIAE,first
 diplomacy,topic_10,Q9.1_1,Q10.2_1,1,5,NA,0.5,social_judgment,Homework is necessary for learning,https://doi.org/10.34894/SAZIAE,second
+shizuoka_2019,s1,T2_S1,T3_S1,1,5,blank,0.5,policy,Respect directly affected areas,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s2,T2_S2,T3_S2,1,5,blank,0.5,policy,Respect areas facing reputational damage,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s3,T2_S3,T3_S3,1,5,blank,0.5,policy,Respect areas facing losses if restart is rejected,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s4,T2_S4,T3_S4,1,5,blank,0.5,policy,Respect the host city,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s5,T2_S5,T3_S5,1,5,blank,0.5,policy,Electricity-consuming cities should help decide,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s6,T2_S6,T3_S6,1,5,blank,0.5,policy,Allow restart without local agreement after safety approval,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s7,T2_S7,T3_S7,1,5,blank,0.5,policy,National government should decide,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s8,T2_S8,T3_S8,1,5,blank,0.5,policy,Elected local officials should decide,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s9,T2_S9,T3_S9,1,5,blank,0.5,policy,Experts should decide,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s10,T2_S10,T3_S10,1,5,blank,0.5,policy,Ordinary citizens should decide,https://doi.org/10.6084/m9.figshare.22229794,main
+shizuoka_2019,s11,T2_S11,T3_S11,1,5,blank,0.5,belief,Restart proponents provide accurate information,https://doi.org/10.6084/m9.figshare.22229794,main

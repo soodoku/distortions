@@ -168,6 +168,21 @@ The next source pass, also specified before calculating its outcomes, adds:
   limits comparisons with representative Deliberative Polls. Studies 1–2 lack
   verified released before-and-after substantive ratings and are excluded.
 
+The Shizuoka addition is specified before calculating its H/P/D outcomes:
+65 face-to-face participants in eight facilitated groups, using private T2 ratings
+immediately before discussion and T3 ratings after two 90-minute discussions and
+an expert panel. All eleven released items use the documented five-point agreement
+scale, normalized as `(rating - 1) / 4`, with neutral midpoint 0.5. S1–10 concern
+nuclear-restart decision procedures (policy); S11 concerns the accuracy of information
+from restart proponents (belief), reported separately. These are not eleven measures
+of support for restarting nuclear power. Source rows identify participants within
+the wide file; no cross-wave identity matching is needed. Gender uses the labelled
+male indicator; education uses the documented ordered categories and the event
+median before item missingness. Income and combined advantage are unavailable.
+The release contains the 65 face-to-face participants, not the 51 online participants
+reported in the paper. Eight groups share one event/family; the exact 2019 date is
+unverified. Existing paired/available, weighting and minimum-five rules apply.
+
 ## Discovery
 
 `search_log.csv` records reproducible archive queries. To refresh them explicitly:
