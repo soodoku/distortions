@@ -23,8 +23,10 @@ source("oos_replication/scripts/prepare_whatsapp.R")
 source("oos_replication/scripts/prepare_cross_party.R")
 source("oos_replication/scripts/prepare_consensus.R")
 source("oos_replication/scripts/prepare_diplomacy.R")
+source("oos_replication/scripts/prepare_shizuoka.R")
 ratings <- bind_rows(
-  a1r, oboe, hongkong, tanzania, climate, celaya, echo, whatsapp, cross_party, consensus, diplomacy
+  a1r, oboe, hongkong, tanzania, climate, celaya, echo, whatsapp, cross_party, consensus,
+  diplomacy, shizuoka
 )
 events <- readr::read_csv("oos_replication/events.csv", show_col_types = FALSE,
   col_types = readr::cols(.default = readr::col_character())

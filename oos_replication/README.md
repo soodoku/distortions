@@ -185,7 +185,8 @@ unverified. Existing paired/available, weighting and minimum-five rules apply.
 
 ## Discovery
 
-`search_log.csv` records reproducible archive queries. To refresh them explicitly:
+`search_log.csv` records reproducible archive queries, web discovery queries and
+bounded citation rounds. To refresh the archive queries explicitly:
 
 ```sh
 Rscript oos_replication/scripts/search.R
@@ -193,12 +194,22 @@ Rscript oos_replication/scripts/search.R
 
 The queries include harvested records and overlap; returned counts are not counts
 of unique eligible studies. Raw search responses are cached in `data/`.
+Refreshing appends distinct search records and preserves the manually recorded
+web and citation searches; unrecorded web result totals remain missing.
 The source register is the curated screening record, with specific missing
 requirements for deferred candidates. The Stanford catalogue and the
 [multidisciplinary review](https://doi.org/10.3389/fpos.2023.1127372) provide
 discovery leads, not respondent datasets. National archive and author-site
 screening is represented by the linked source records; this log does not claim a
 complete search of every archive. No requests to authors have been sent.
+
+The latest follow-up verifies public Shin-Kori 2017 respondent files, but no
+discussion-group key. Denmark's breast-screening DP also releases repeated
+attitudes in a companion archive; group linkage is its remaining obstacle.
+Japan's national 2012 DP, Tamale 2015 and Iceland 2019 have public reports, but
+no participant download was verified. The Caluwaerts-review citation round
+screened eight priority references and added no analysis-ready public dataset.
+These are documented access or measurement gaps, not evidence about H/P/D.
 
 Independent review compared the included source events with the original data's
 21 poll identifiers, names and index mappings and found no event overlap.

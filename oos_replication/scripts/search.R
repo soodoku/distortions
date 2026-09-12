@@ -16,6 +16,7 @@ search_log <- map_dfr(seq_along(queries), \(i) {
     path <- sprintf("oos_replication/data/search_%s_%s.json", i, start)
     download.file(url, path, mode = "wb", quiet = TRUE)
     page <- jsonlite::fromJSON(path)$data
+    if (page$total_count == 0L) break
     stopifnot(page$count_in_response > 0L)
     hits[[length(hits) + 1L]] <- tibble(
       doi = page$items$global_id, title = page$items$name, url = page$items$url
@@ -23,7 +24,8 @@ search_log <- map_dfr(seq_along(queries), \(i) {
     start <- start + page$count_in_response
     if (start >= page$total_count) break
   }
-  records <- bind_rows(hits) |> distinct(doi, .keep_all = TRUE)
+  records <- bind_rows(tibble(doi = character(), title = character(), url = character()), hits) |>
+    distinct(doi, .keep_all = TRUE)
   readr::write_csv(records, sprintf("oos_replication/data/search_%s.csv", i))
   tibble(
     searched = as.character(Sys.Date()),
@@ -32,5 +34,8 @@ search_log <- map_dfr(seq_along(queries), \(i) {
     status = "retrieved; eligibility requires source-register screening"
   )
 })
-readr::write_csv(search_log, "oos_replication/search_log.csv")
+previous <- readr::read_csv("oos_replication/search_log.csv", show_col_types = FALSE,
+  col_types = readr::cols(.default = readr::col_character(), records = readr::col_double())
+)
+readr::write_csv(bind_rows(previous, search_log) |> distinct(), "oos_replication/search_log.csv")
 print(search_log)

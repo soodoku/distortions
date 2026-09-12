@@ -14,7 +14,9 @@ thresholds <- bind_rows(
       education = as.numeric(EDUCATION), income = as.numeric(HH_INCOME)
     ),
   whatsapp_participants |>
-    transmute(event_id, education = education_score, income = incomeamnt)
+    transmute(event_id, education = education_score, income = incomeamnt),
+  raw_shizuoka |>
+    transmute(event_id = "shizuoka_2019", education, income = NA_real_)
 ) |>
   pivot_longer(c(education, income), names_to = "dimension", values_to = "score") |>
   summarise(

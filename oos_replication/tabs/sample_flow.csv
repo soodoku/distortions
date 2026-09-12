@@ -42,3 +42,4 @@ consensus_1,116,116,28,2,Study1 uses unique id rather than nonunique ppnr; relea
 consensus_2,136,136,41,2,Study1 uses unique id rather than nonunique ppnr; released sample already excludes four non-native-Dutch-containing groups. Study2 uses group crossed with ppnr.
 diplomacy_control,105,105,35,10,The same 105 people in 35 triads discuss two selected topics under opposite condition orders. Policy and social judgments are separate constructs.
 diplomacy_experimental,105,105,35,10,The same 105 people in 35 triads discuss two selected topics under opposite condition orders. Policy and social judgments are separate constructs.
+shizuoka_2019,65,65,8,11,Released face-to-face sample; source-row IDs; T2 before and T3 after discussion.
