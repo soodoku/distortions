@@ -1,23 +1,24 @@
-"event_id","family_id","format","country","fieldwork_start","fieldwork_end","date_precision","post_timing","source"
-"a1r_2019","a1r","deliberative_poll","United States","2019-09-19","2019-09-22","day","end of event","https://doi.org/10.7910/DVN/KJ8IH2"
-"oboe_1","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_5","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_6","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_7","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_8","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_10","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_11","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_13","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_14","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_15","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_16","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_17","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_18","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_19","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_20","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_21","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_22","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_24","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"oboe_27","oboe_2010","town_meeting","United States","2010","2010","year","end of meeting","https://doi.org/10.7910/DVN/XDDN2Y"
-"hongkong_deliberation","hongkong_2020","facilitated_discussion","Hong Kong","2020-08-08","2020-08-08","day","immediately after 90-minute session","https://doi.org/10.7910/DVN/W9DAQM"
-"hongkong_discussion","hongkong_2020","casual_discussion","Hong Kong","2020-08-08","2020-08-08","day","immediately after 90-minute session","https://doi.org/10.7910/DVN/W9DAQM"
+event_id,family_id,format,country,fieldwork_start,fieldwork_end,date_precision,post_timing,source,timing_class
+a1r_2019,a1r,deliberative_poll,United States,2019-09-19,2019-09-22,day,end of event,https://doi.org/10.7910/DVN/KJ8IH2,immediate
+oboe_1,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_5,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_6,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_7,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_8,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_10,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_11,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_13,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_14,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_15,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_16,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_17,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_18,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_19,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_20,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_21,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_22,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_24,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+oboe_27,oboe_2010,town_meeting,United States,2010-06-26,2010-06-26,day,end of meeting,https://doi.org/10.7910/DVN/XDDN2Y,immediate
+hongkong_deliberation,hongkong_2020,facilitated_discussion,Hong Kong,2020-08-08,2020-08-08,day,immediately after 90-minute session,https://doi.org/10.7910/DVN/W9DAQM,immediate
+hongkong_discussion,hongkong_2020,casual_discussion,Hong Kong,2020-08-08,2020-08-08,day,immediately after 90-minute session,https://doi.org/10.7910/DVN/W9DAQM,immediate
+tanzania_2015,tanzania_2015,deliberative_poll,Tanzania,2015-04,2015-04,month,May 2015; baseline February; information March; deliberation April,https://doi.org/10.7910/DVN/S3NRQL,delayed

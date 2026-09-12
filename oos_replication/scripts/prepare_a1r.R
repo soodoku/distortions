@@ -33,11 +33,11 @@ a1r <- delegates |>
 
 stopifnot(
   !anyNA(a1r$item_id),
-  all(is.na(a1r$rating) | a1r$rating %in% c(0:10, 77, 98, 99))
+  all(is.na(a1r$rating) | a1r$rating %in% c(0:10, -8, 77, 98, 99))
 )
 
 a1r <- a1r |>
-  mutate(rating = if_else(rating %in% c(77, 98, 99), NA_real_, rating / 10)) |>
+  mutate(rating = if_else(rating %in% c(-8, 77, 98, 99), NA_real_, rating / 10)) |>
   select(
     event_id, participant_id, group_id, item_id, construct, midpoint,
     gender, education, income, combined, wave, rating

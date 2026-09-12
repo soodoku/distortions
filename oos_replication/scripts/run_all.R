@@ -15,7 +15,8 @@ for (i in seq_len(nrow(files))) {
 source("oos_replication/scripts/prepare_a1r.R")
 source("oos_replication/scripts/prepare_oboe.R")
 source("oos_replication/scripts/prepare_hongkong.R")
-ratings <- bind_rows(a1r, oboe, hongkong)
+source("oos_replication/scripts/prepare_tanzania.R")
+ratings <- bind_rows(a1r, oboe, hongkong, tanzania)
 events <- readr::read_csv("oos_replication/events.csv", show_col_types = FALSE)
 stopifnot(
   !anyDuplicated(events$event_id),
@@ -47,4 +48,4 @@ readr::write_csv(event_results, "oos_replication/tabs/event_results.csv")
 readr::write_csv(minimum_five, "oos_replication/tabs/minimum_five.csv")
 saveRDS(ratings, "oos_replication/data/ratings.rds")
 capture.output(sessionInfo(), file = "oos_replication/tabs/session_info.txt")
-print(event_results, n = Inf)
+print(event_results, n = 12)
