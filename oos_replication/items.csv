@@ -146,3 +146,11 @@ a1r_climate_2021,q11a,Q11A,T2Q11A,0,10,77;88;98;99,0.5,policy,I would be willing
 a1r_climate_2021,q11b,Q11B,T2Q11B,0,10,77;88;98;99,0.5,policy,I would be willing to use less electricity.] To what extent would you be willing…,https://deliberation.stanford.edu/news/america-one-room-climate-and-energy,main
 a1r_climate_2021,q12a,Q12A,T2Q12A,0,10,77;88;98;99,0.5,policy,The science is still unsettled and the costs of trying to transition to Net Zero are too great.,https://deliberation.stanford.edu/news/america-one-room-climate-and-energy,main
 a1r_climate_2021,q12b,Q12B,T2Q12B,0,10,77;88;98;99,0.5,policy,We should take serious action to reduce greenhouse gases in our atmosphere because waiting to do so is taking an irresponsible risk with our kids’ future.,https://deliberation.stanford.edu/news/america-one-room-climate-and-energy,main
+celaya,merit,INITIAL_MERIT,FINAL_MERIT,-2,2,blank,0.5,policy,Wages based on individual merit,https://doi.org/10.7910/DVN/OOMED8,main
+celaya,bargaining,INITIAL_BARGAINING,FINAL_BARGAINING,-2,2,blank,0.5,policy,Individuals responsible for bargaining for wages,https://doi.org/10.7910/DVN/OOMED8,main
+celaya,taxes,INITIAL_TAXES,FINAL_TAXES,-2,2,blank,0.5,policy,Lower taxes and regulation to raise wages,https://doi.org/10.7910/DVN/OOMED8,main
+celaya,market,INITIAL_MARKET,FINAL_MARKET,-2,2,blank,0.5,policy,Labor market determines wages,https://doi.org/10.7910/DVN/OOMED8,main
+celaya,increased,INITIAL_INCREASED,FINAL_INCREASED,-2,2,blank,0.5,policy,Increase minimum wage,https://doi.org/10.7910/DVN/OOMED8,main
+celaya,gov,INITIAL_GOV,FINAL_GOV,-2,2,blank,0.5,policy,Government determines and enforces living wage,https://doi.org/10.7910/DVN/OOMED8,main
+celaya,need,INITIAL_NEED,FINAL_NEED,-2,2,blank,0.5,policy,Wages based on individual needs,https://doi.org/10.7910/DVN/OOMED8,main
+celaya,collective,INITIAL_COLLECTIVE,FINAL_COLLECTIVE,-2,2,blank,0.5,policy,Workers collectively bargain for minimum wage,https://doi.org/10.7910/DVN/OOMED8,main
