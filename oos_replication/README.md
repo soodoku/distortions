@@ -5,6 +5,150 @@ domination patterns recur in previously unused Deliberative Polls, and whether
 comparable changes occur in other deliberative formats. The original analysis is
 fixed at commit `0e8f3867288acfe95285bff21a6bb8949d1ec9f5`.
 
+[Current results](tabs/results.md) report each verified study, format and
+outcome construct. [source_register.csv](source_register.csv) records the
+included and deferred studies and the evidence behind exclusions. This is a
+versioned public-data analysis, **not a completed systematic census**. New
+eligible-looking sources are still emerging; the search stopping rule below
+has not been met. Access gaps and unresolved instruments are not null findings.
+
+From the repository root:
+
+```sh
+make restore
+make oos-check
+```
+
+This downloads the files in [files.csv](files.csv), checks their SHA-256 hashes,
+and runs the R analysis, numerical checks and linting. `make oos` regenerates
+only the results. A changed source file stops the run; inspect and document the
+new source version before updating its checksum. The shared R library is pinned
+in the repository's `renv.lock`.
+
+`scripts/run_all.R` is the entry point. Small `prepare_*.R` files contain the
+explicit source mappings; `metrics.R` aggregates them using the original
+analysis's movement definitions. `summarize.R` produces CSVs and a `knitr::kable`
+report. Downloads and respondent/group-level intermediate RDS files stay in the
+ignored `data/` cache. Only metadata, code and compact aggregate outputs are
+versioned. Reruns overwrite `tabs/`; Git preserves earlier versions.
+
+## Reading the outputs
+
+- `study_results.csv` and `event_results.csv`: estimates, valid group-item-episode
+  counts, and fractions positive. Study results combine sites within a study;
+  event results retain them. A1R2019 and A1R Climate remain separate studies.
+- `minimum_five.csv`: the same event calculations requiring at least five
+  observed respondents at each wave. Zero eligible pairs are shown explicitly.
+- `pooled_results.csv`: estimates within format, construct and timing strata,
+  under pair weighting and equal-family/equal-event weighting. `families`,
+  `largest_family_share`, `df` and `inference` show the support for uncertainty
+  estimates. Unavailable intervals are not evidence of no effect.
+- `family_results.csv` and `leave_family_out.csv`: dependence-aware summaries
+  and the consequences of omitting each study family.
+- `sample_flow.csv` and `demographics.csv`: source-specific eligibility,
+  classifications, missingness and median ties. Released-row denominators refer
+  to the source or event indicated in each note; they cannot be summed across
+  repeated sites or overlapping studies to obtain independent participants.
+- `original_comparison.csv`: H, P and D from the corrected original's existing
+  paired-response comparison. It compares indices with the new studies' individual
+  items; this measurement difference limits substantive comparisons.
+
+`items.csv` specifies raw wave columns, instrument endpoints, documented missing
+codes, normalized midpoint, construct and topic-to-episode mapping. Its `event_id`
+is the source mapping key; sources with multiple sites/arms receive separate event
+IDs during preparation. `events.csv` describes those actual analysis events,
+their shared dependence families and fieldwork/post timing. Partial dates remain
+partial. `source_register.csv` separates archive publication dates from fieldwork
+dates; unverified publication metadata remain missing.
+
+The analysis cache `data/ratings.rds` has one row per participant, event, episode,
+group and item: `t1`/`t2` are normalized private ratings; `gender`, `education`,
+`income` and `combined` indicate the documented advantaged category, or missing.
+`data/group_results.rds` retains all group-level scores and sample sizes for
+inspection. `pairs` in tables counts nonmissing scores, not respondents. Positive
+frequencies use the original numerical tolerance and retain genuine zeros in the
+denominator. Missing reference directions are excluded metric by metric.
+
+## Source decisions that matter
+
+- **A1R2019:** the released four-category education variable has median 4 among
+  included delegates. Strictly above-median education therefore identifies no
+  advantaged subgroup; education D is unavailable. Income is absent. Five raw
+  post cells coded `-8` follow the author's missing-value recode.
+- **A1R Climate:** use the full documented 72-item instrument, with 65 policy
+  items, three environmental-concern items and four climate-belief items in
+  separate strata. ROOM crossed with schedule yields 105 observed groups,
+  including a valid two-person group. The reported group count does not justify
+  silently discarding it. The 139 returning A1R2019 attendees link the two studies
+  into one dependence family.
+- **Our Budget Our Economy:** 42 participants have conflicting pre/post table
+  assignments and are excluded without inventing assignments. The 19 sites share
+  a synchronous national event and count as one dependence family. Gender is
+  frequently missing; H/P retain these respondents and D uses known categories.
+- **Tanzania:** use the released household-to-group join and topic-specific round
+  assignments. One assigned participant lacks the deliberation flag; assignment
+  documentation supports retaining that record. Exclude two items with conflicting
+  five-/seven-point documentation. Education coding is not sufficiently defined
+  for a median split, and consumption is not silently substituted for income.
+- **Hong Kong:** Study 1 has two groups of six. The casual-discussion group's
+  initial mean is at the midpoint, so directional P is undefined; absolute P is
+  still available. Study 2's video viewers are not discussion participants.
+- **Celaya:** the 104 deliberators form seven sessions; Q&A respondents are outside
+  this analysis. Baseline precedes the common information packet, so pre/post
+  change spans both information and discussion. Multiple archive extracts reuse
+  the same respondents.
+- **UK echo chambers:** exclude three absent group keys, one key/date conflict
+  and one contradictory control-size flag. Retain the valid two-person group;
+  minimum-five results show the sensitivity. Baseline precedes discussion by
+  1–82 days, although the post-survey is mostly same-day. Education categories do
+  not define an unambiguous ordered scale; income is absent.
+
+These are declared measurement and sample decisions, not proposed corrections
+to the source papers. Any interpretation for the original manuscript remains
+subject to discussion with the author.
+
+Before calculating dyadic results, the following additional mappings were fixed:
+
+- **US cross-party chats (February 2021):** include the 294 people in 147
+  partnerships where both completed the chat, using the author's `full_cluster`
+  flag. Of 516 conversation-assigned people, 222 are outside that documented
+  completed-chat sample. Use nine repeated 0–100 feeling thermometers, with 50
+  explicitly neutral. The post-wave follows the eight-minute chat; baseline is
+  about an hour earlier. Other contact-preference and election-emotion scales
+  are outside the selected thermometer family. Education codes need clarification;
+  only gender D is used. Missing transcripts alone do not exclude participants.
+- **India WhatsApp conversations:** the release contains 1,070 people completing
+  the conversation period. Include the 712 people in 356 dyads assigned general
+  political or intergroup prompts; exclude nonpolitical prompts. Keep topic and
+  Hindu–Hindu/Hindu–Muslim composition separate. Use ten 1–5 affect ratings and
+  eight repeated stereotype judgments in separate strata; stereotype P is left
+  unavailable because a neutral midpoint is not documented. Use the first post-wave
+  `s9`, retaining missing responses, and documented education/income classifications.
+  Month codes span February–July, but the fieldwork year remains unverified and is
+  recorded as missing. These dyads are outside the original poll inventory.
+
+Dyadic H measures agreement between two participants about the same target.
+P applied to a feeling scale measures affective extremity relative to neutral;
+it is not the usual in-party minus out-party measure of affective polarization.
+These extensions remain separate from policy results and from larger groups.
+
+## Discovery
+
+`search_log.csv` records reproducible archive queries. To refresh them explicitly:
+
+```sh
+Rscript oos_replication/scripts/search.R
+```
+
+The queries include harvested records and overlap; returned counts are not counts
+of unique eligible studies. Raw search responses are cached in `data/`.
+The source register is the curated screening record, with specific missing
+requirements for deferred candidates. The Stanford catalogue and the
+[multidisciplinary review](https://doi.org/10.3389/fpos.2023.1127372) provide
+discovery leads, not respondent datasets. National archive and author-site
+screening is represented by the linked source records; this log does not claim a
+complete search of every archive. No requests to authors have been sent.
+
 ## Protocol recorded before new outcome calculations
 
 Recorded September 11, 2026. Public papers and source documentation have already
@@ -44,13 +188,15 @@ change in absolute distance from the midpoint. Primary P requires a defensible
 midpoint. D is movement of the whole-group mean toward the initial advantaged
 subgroup mean. Reuse the corrected paper's movement function: reference ties are
 undefined, genuine zero movement remains zero. Require two observed respondents
-per wave for H and both demographic categories for D. Report a minimum-five
+per wave for H and both demographic categories for D. Whole-group D requires
+the initial advantaged mean and the whole-group means at both waves; an
+unavailable post-discussion subgroup mean alone does not invalidate it. Report a minimum-five
 respondent sensitivity. Recompute D's means and reference on the eligible sample.
 
 Gender, education, income, and combined advantage follow the paper where source
 definitions permit: male, above-median education, above-median income, and the
 intersection of those three. Calculate socioeconomic thresholds among participating
-delegates before outcome-specific filtering; report ties and missing categories.
+delegates within each event before outcome-specific filtering; report ties and missing categories.
 Context and measurement must support each classification. Proxy socioeconomic
 measures and additional dimensions remain separate exploratory outcomes.
 
@@ -74,8 +220,8 @@ the author before revising manuscript claims.
 
 ## Validation and delivery
 
-One R entry point will obtain version-checked sources, prepare eligible data,
-calculate outcomes, and write tables. Source-specific transformations remain
+One R entry point obtains version-checked sources, prepares eligible data,
+calculates outcomes, and writes tables. Source-specific transformations remain
 small, explicit R scripts; shared metric definitions stay in the original helper
 file. The source register and item dictionary document joins, codes, exclusions,
 and unresolved definitions. Downloaded files are cached, not duplicated in Git.

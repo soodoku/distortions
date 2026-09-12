@@ -158,3 +158,30 @@ echo_2021,np1,NP1,NP1W2,0,10,97;99,0.5,policy,Different treatment and removal of
 echo_2021,np2,NP2,NP2W2,0,10,97;99,0.5,policy,Restrict asylum-seeker benefits and family reunification,https://doi.org/10.7910/DVN/BM2A1Q,main
 echo_2021,np3,NP3,NP3W2,0,10,97;99,0.5,policy,Restrict appeals to expedite removals,https://doi.org/10.7910/DVN/BM2A1Q,main
 echo_2021,npself,NPSelf,NPSelfW2,0,10,97;99,0.5,policy,Support New Plan for Immigration overall,https://doi.org/10.7910/DVN/BM2A1Q,main
+whatsapp,feelth_muslim,feelth_muslim,post.feelth_muslim,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [Muslims]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,feelth_hindu,feelth_hindu,post.feelth_hindu,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [Hindus]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,feelth_christian,feelth_christian,post.feelth_christian,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [Christians]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,feelth_brahmin,feelth_brahmin,post.feelth_brahmin,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [Brahmins]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,feelth_dalit,feelth_dalit,post.feelth_dalit,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [Dalits]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,feelth_bjpvoter,feelth_bjpvoter,post.feelth_bjpvoter,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [BJP voters]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,feelth_incvoter,feelth_incvoter,post.feelth_incvoter,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [Congress voters]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,feelth_lgbtq,feelth_lgbtq,post.feelth_lgbtq,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [LGBTQ people]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,feelth_studentactiv,feelth_studentactiv,post.feelth_studentactiv,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [Student activists]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,feelth_police,feelth_police,post.feelth_police,1,5,NA,0.5,affect,"""Overall, what is your feeling about the following groups?"" [Police officers]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,gr_patriot_hindu,gr_patriot_hindu,post.gr_patriot_hindu,1,5,NA,NA,stereotype_judgment,"""Generally, how patriotic do you think members of the following groups are?"" [Hindus]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,gr_peace_hindu,gr_peace_hindu,post.gr_peace_hindu,1,5,NA,NA,stereotype_judgment,"""Generally, how peaceful do you think members of the following groups are?"" [Hindus]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,gr_hardwork_hindu,gr_hardwork_hindu,post.gr_hardwork_hindu,1,5,NA,NA,stereotype_judgment,"""Generally, how hard-working do you think members of the following groups are?"" [Hindus]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,gr_honest_hindu,gr_honest_hindu,post.gr_honest_hindu,1,5,NA,NA,stereotype_judgment,"""Generally, how honest do you think members of the following groups are?"" [Hindus]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,gr_patriot_muslim,gr_patriot_muslim,post.gr_patriot_muslim,1,5,NA,NA,stereotype_judgment,"""Generally, how patriotic do you think members of the following groups are?"" [Muslims]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,gr_peace_muslim,gr_peace_muslim,post.gr_peace_muslim,1,5,NA,NA,stereotype_judgment,"""Generally, how peaceful do you think members of the following groups are?"" [Muslims]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,gr_hardwork_muslim,gr_hardwork_muslim,post.gr_hardwork_muslim,1,5,NA,NA,stereotype_judgment,"""Generally, how hard-working do you think members of the following groups are?"" [Muslims]",https://doi.org/10.7910/DVN/WYXEXN,main
+whatsapp,gr_honest_muslim,gr_honest_muslim,post.gr_honest_muslim,1,5,NA,NA,stereotype_judgment,"""Generally, how honest do you think members of the following groups are?"" [Muslims]",https://doi.org/10.7910/DVN/WYXEXN,main
+cross_party_2021,ft_r,ft_r_pre,ft_r_post,0,100,NA,0.5,affect,Feeling thermometer: Republicans,https://doi.org/10.7910/DVN/EVRMBG,main
+cross_party_2021,ft_d,ft_d_pre,ft_d_post,0,100,NA,0.5,affect,Feeling thermometer: Democrats,https://doi.org/10.7910/DVN/EVRMBG,main
+cross_party_2021,ft_r_cons_act,ft_r_cons_act_pre,ft_r_cons_act_post,0,100,NA,0.5,affect,Feeling thermometer: Conservative active Republicans,https://doi.org/10.7910/DVN/EVRMBG,main
+cross_party_2021,ft_d_lib_act,ft_d_lib_act_pre,ft_d_lib_act_post,0,100,NA,0.5,affect,Feeling thermometer: Liberal active Democrats,https://doi.org/10.7910/DVN/EVRMBG,main
+cross_party_2021,ft_r_mod_notact,ft_r_mod_notact_pre,ft_r_mod_notact_post,0,100,NA,0.5,affect,Feeling thermometer: Moderate inactive Republicans,https://doi.org/10.7910/DVN/EVRMBG,main
+cross_party_2021,ft_d_mod_notact,ft_d_mod_notact_pre,ft_d_mod_notact_post,0,100,NA,0.5,affect,Feeling thermometer: Moderate inactive Democrats,https://doi.org/10.7910/DVN/EVRMBG,main
+cross_party_2021,ft_trump,ft_trump_pre,ft_trump_post,0,100,NA,0.5,affect,Feeling thermometer: Donald Trump,https://doi.org/10.7910/DVN/EVRMBG,main
+cross_party_2021,ft_biden,ft_biden_pre,ft_biden_post,0,100,NA,0.5,affect,Feeling thermometer: Joe Biden,https://doi.org/10.7910/DVN/EVRMBG,main
+cross_party_2021,ft_fec,ft_fec_pre,ft_fec_post,0,100,NA,0.5,affect,Feeling thermometer: Federal Election Commission,https://doi.org/10.7910/DVN/EVRMBG,main

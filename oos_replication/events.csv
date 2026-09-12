@@ -33,3 +33,8 @@ celaya_13,celaya_2018,facilitated_discussion,United States,2018,2018,year,after 
 echo_con,echo_2021,partisan_discussion,United Kingdom,2021-09-15,2021-12-10,day,after 30-minute discussion; timestamps checked,https://doi.org/10.7910/DVN/BM2A1Q,immediate
 echo_lab,echo_2021,partisan_discussion,United Kingdom,2021-09-15,2021-12-10,day,after 30-minute discussion; timestamps checked,https://doi.org/10.7910/DVN/BM2A1Q,immediate
 echo_mixed,echo_2021,mixed_partisan_discussion,United Kingdom,2021-09-15,2021-12-10,day,after 30-minute discussion; timestamps checked,https://doi.org/10.7910/DVN/BM2A1Q,immediate
+whatsapp_gen_HH,whatsapp,dyadic_online_gen_HH,India,NA,NA,unknown,s9 after five-day conversation; Month=2..7; fieldwork year not verified,https://doi.org/10.7910/DVN/WYXEXN,immediate
+whatsapp_gen_HM,whatsapp,dyadic_online_gen_HM,India,NA,NA,unknown,s9 after five-day conversation; Month=2..7; fieldwork year not verified,https://doi.org/10.7910/DVN/WYXEXN,immediate
+whatsapp_igr_HH,whatsapp,dyadic_online_igr_HH,India,NA,NA,unknown,s9 after five-day conversation; Month=2..7; fieldwork year not verified,https://doi.org/10.7910/DVN/WYXEXN,immediate
+whatsapp_igr_HM,whatsapp,dyadic_online_igr_HM,India,NA,NA,unknown,s9 after five-day conversation; Month=2..7; fieldwork year not verified,https://doi.org/10.7910/DVN/WYXEXN,immediate
+cross_party_2021,cross_party_2021,dyadic_cross_party,United States,2021-02-01,2021-02-25,day,after eight-minute chat; baseline about one hour earlier,https://doi.org/10.7910/DVN/EVRMBG,immediate
