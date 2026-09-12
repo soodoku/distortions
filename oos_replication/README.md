@@ -209,6 +209,13 @@ attitudes in a companion archive; group linkage is its remaining obstacle.
 Japan's national 2012 DP, Tamale 2015 and Iceland 2019 have public reports, but
 no participant download was verified. The Caluwaerts-review citation round
 screened eight priority references and added no analysis-ready public dataset.
+Following three empirical references from the Shizuoka paper added no further
+verified dataset: most Citizen Initiative Review baselines were recalled at the
+end, its prospective 2014 panelist files remain unavailable, and the linked public
+archive surveys voters. Ireland's 2011 assembly remains a public-data lead.
+The Bloomfield Track jury used rankings and is linked to the existing Niemeyer
+record as possible overlap. These targeted rounds do not complete the broader
+search stopping rule.
 These are documented access or measurement gaps, not evidence about H/P/D.
 
 Independent review compared the included source events with the original data's
